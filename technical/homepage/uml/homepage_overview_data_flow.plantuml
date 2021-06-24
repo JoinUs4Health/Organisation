@@ -1,0 +1,84 @@
+@startuml
+
+skinparam shadowing false
+scale 2
+
+title: Overview Homepage\njoinus4health.eu
+header version: %date("dd.MM.yyyy")
+
+skinparam actorStyle awesome
+skinparam rectangleBackgroundColor<<Partner>> #cccccc
+skinparam componentBackgroundColor #fefece
+
+legend
+**Legend**
+- DPA "Data Processing Agreement" - Auftragsverarbeitungsvertrag (AVV)
+end legend
+
+actor "User" as user
+
+rectangle "UMG\ncoordinator" as umg #ffcccc {
+    rectangle "ICM SHIP-KEF" {
+        actor "SHIP-IT" as ship
+        actor "JoinUs4Health\nProject Manage-\nment Team" as umg_team
+    }
+}
+
+rectangle "science4people.eu" <<Partner>> as s4p {
+    actor "science4people\nPartner" as s4p_partner
+}
+
+rectangle "Medical University\nof Bialystok" <<Partner>> as bi {
+    actor "Bialystok\nPartner" as bi_partner
+}
+
+rectangle "Medical Center of the\nErasmus University Rotterdamm" <<Partner>> as erasmus {
+    actor "Erasmus\nPartner" as erasmus_partner
+}
+
+cloud "Internet" {
+    node "netcup.de" <<Provider>> as netcup #ddbbaa {
+        rectangle "Domain joinus4health.eu" as webspace #ffccaa {
+            component "WordPress" <<Web-Framework>> as wp
+            database "MySQL" <<database>> as my
+            file "log files" as log
+            component "Webalizer" <<statistic-tool>> as stats
+            component "E-Mail" as email {
+                rectangle "de/en" <<inbox>> as e_de
+                rectangle "pl/en" <<inbox>> as e_pl
+                rectangle "nl/en" <<inbox>> as e_nl
+            }
+            wp --> my
+            stats --> log
+        }
+        interface "Homepage" as i_web
+        interface "E-Mail" as i_mail
+        i_web .u. wp
+        i_mail .u. email
+    }
+}
+
+note "DPA" as a_us #aaaaff
+umg .. a_us
+a_us ..> s4p
+note "DPA" as a_ub #aaaaff
+umg .. a_ub
+a_ub ..> bi
+note "DPA" as a_ue #aaaaff
+umg .. a_ue
+a_ue ..> erasmus
+note "DPA" as a_un #aaaaff
+umg .. a_un
+a_un ..> netcup
+
+ship        -->     webspace    : Adminis-\ntration
+s4p_partner -->     wp          : Adminis-\ntration
+
+umg_team        --> e_de
+bi_partner      --> e_pl
+erasmus_partner --> e_nl
+
+user    -u-> i_web
+user    -u-> i_mail
+
+@enduml

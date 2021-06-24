@@ -1,0 +1,28 @@
+@startuml
+
+skinparam shadowing false
+scale 2
+
+title: Overview Platform (WIP)\njoinus4health.eu
+header version: %date("dd.MM.yyyy")
+
+skinparam actorStyle awesome
+skinparam nodeBackgroundColor<<Server>> #ffccaa
+
+actor "User" as user
+
+cloud "Internet" {
+    rectangle "???" <<Provider>> #ddbbaa {
+        node "Web-Server" <<Server>> {
+            component "WordPress" <<Web-Framework>> as wp
+            database "MySQL" <<database>> as my
+            wp --> my
+        }
+        interface "Homepage" as i_web
+        i_web .u. wp
+    }
+}
+
+user    -u-> i_web
+
+@enduml

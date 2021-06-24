@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1154px" preserveAspectRatio="none" style="width:890px;height:1154px;" version="1.1" viewBox="0 0 890 1154" width="890px" zoomAndPan="magnify"><defs/><g><text fill="#888888" font-family="sans-serif" font-size="20" lengthAdjust="spacingAndGlyphs" textLength="190" x="664.582" y="18.5645">version: 24.06.2021</text><text fill="#000000" font-family="sans-serif" font-size="36" lengthAdjust="spacingAndGlyphs" textLength="448" x="203.291" y="56.6973">Overview Platform (WIP)</text><text fill="#000000" font-family="sans-serif" font-size="36" lengthAdjust="spacingAndGlyphs" textLength="290" x="282.291" y="98.6035">joinus4health.eu</text><!--MD5=[07074073229a58b98d86dbf75a12e332]
+cluster Internet--><path d="M64.8785,154.4378 C82.2911,131.3452 99.9282,131.9471 117.629,154.1019 C129.5813,129.1151 150.2664,127.0338 166.4794,149.7375 C182.9194,122.3357 202.3141,128.7143 217.3454,151.1746 C234.501,126.1121 253.1129,125.6434 270.7202,150.6934 C286.8708,122.4705 310.7275,123.7048 324.571,152.8586 C340.1262,121.7732 368.6294,123.7917 382.9928,153.9946 C394.308,128.4211 419.7691,130.0967 433.8964,150.9086 C450.7649,125.0163 471.7481,130.7309 486.2089,153.497 C501.591,131.2141 518.7265,130.6955 534.2286,153.3687 C551.6617,126.4932 571.8234,131.5703 588.3123,154.3961 C601.5985,120.9245 622.9517,124.2316 644.9108,145.4149 C663.2508,119.0937 684.9609,121.3484 696.7986,151.3998 C713.7861,129.1809 731.8133,127.411 746.1211,154.102 C769.0677,128.9169 794.2886,124.7861 811.9018,159.9184 C815.2351,162.1008 815.9268,164.8849 812.0477,167.2116 C841.0482,179.4229 844.606,203.6178 820.7015,223.9046 C844.566,239.1938 843.4858,255.6548 819.9572,270.1817 C847.2109,284.2498 848.7521,301.0002 827.9386,322.4134 C856.7522,341.6437 858.4246,363.2621 826.6681,381.1831 C849.1337,394.1448 850.8541,419.8384 827.5903,433.6046 C855.3913,445.2969 855.0658,465.2952 836.0296,484.7204 C866.582,502.3488 863.7992,527.0514 835.0832,543.7293 C864.2707,557.5484 860.0804,582.0533 838.559,599.058 C866.1687,613.5878 859.3102,639.5302 836.5973,652.2025 C854.8019,670.8602 856.1116,688.6959 829.242,700.4873 C855.0636,719.8766 851.3853,744.0379 821.7927,755.9897 C844.4929,774.3079 844.2081,792.4538 817.9221,807.0593 C841.6833,820.1766 849.7019,841.4783 823.8832,860.1613 C849.3764,891.2434 836.6665,921.4759 797.9018,927.9184 C798.4415,927.893 798.6835,928.3116 798.4429,928.7776 C781.3874,956.8403 763.1574,953.8752 745.4388,929.4472 C733.4411,959.0695 716.6384,962.0104 695.4859,937.969 C680.8092,959.6568 664.2418,959.518 647.6754,940.1708 C629.9354,969.418 606.4061,964.9401 588.6251,940.2157 C569.8356,966.6425 552.7513,964.2038 537.3727,936.9587 C524.0321,965.2861 499.0328,960.0654 484.1674,938.5875 C473.7878,966.4836 447.5287,972.8764 429.2328,946.6178 C410.7696,969.4231 390.7978,967.9613 378.5678,940.3535 C367.1377,967.1507 343.5438,963.1705 328.918,943.7893 C312.4148,969.4282 288.7789,965.1064 273.6881,942.183 C254.6142,966.0954 231.2895,963.7806 218.9216,935.1882 C203.0528,962.6864 182.8235,957.948 166.0345,936.1759 C152.0005,962.9905 128.6505,964.8004 112.6802,938.1066 C85.5516,959.9087 49.402,953.6161 43.9018,913.9184 C49.1511,914.2674 50.6838,917.6431 48.8559,922.217 C24.2849,910.5472 22.2222,884.6102 44.7001,869.249 C20.488,853.0875 20.1241,826.5902 45.3732,811.0002 C19.5344,793.8234 18.0227,769.8324 48.3174,755.641 C20.3685,739.3026 21.7259,718.0323 46.389,699.8746 C22.0392,689.5221 17.8209,672.3539 38.4733,654.2019 C13.337,637.7419 12,608.1086 41.3347,594.2484 C16.5953,579.633 14.9412,560.0428 35.8001,540.7134 C14.9644,521.5183 17.9887,503.2587 44.8687,493.1638 C17.0761,474.1312 14.7831,453.1496 43.1245,432.5029 C20.7296,417.8464 15.634,401.4446 40.1071,383.8797 C16.0506,366.0758 12.1225,335.997 45.7803,323.6273 C25.1335,309.8375 24.8763,287.6451 48.9307,276.8669 C22.8851,256.3963 18.5023,233.5351 51.1474,215.1733 C20.7764,188.1082 24.6523,166.7786 57.9018,145.9184 C64.438,145.4054 65.9654,148.7082 64.8785,154.4378 " fill="#FFFFFF" style="stroke: #000000; stroke-width: 3.0;"/><text fill="#000000" font-family="sans-serif" font-size="28" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="126" x="364.9018" y="181.9086">Internet</text><!--MD5=[b096110c50ac24e42b11da8f612dac3d]
+cluster ???--><rect fill="#DDBBAA" height="680" style="stroke: #000000; stroke-width: 3.0;" width="704" x="75.9018" y="215.9184"/><text fill="#000000" font-family="sans-serif" font-size="28" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="148" x="353.9018" y="245.9086">«Provider»</text><text fill="#000000" font-family="sans-serif" font-size="28" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="48" x="403.9018" y="278.5024">???</text><!--MD5=[34913ffcb3053ed9a56a135089e63dff]
+cluster Web-Server--><polygon fill="#FFCCAA" points="123.9018,353.9184,143.9018,333.9184,531.9018,333.9184,531.9018,827.9184,511.9018,847.9184,123.9018,847.9184,123.9018,353.9184" style="stroke: #000000; stroke-width: 3.0;"/><line style="stroke: #000000; stroke-width: 3.0;" x1="511.9018" x2="531.9018" y1="353.9184" y2="333.9184"/><line style="stroke: #000000; stroke-width: 3.0;" x1="123.9018" x2="511.9018" y1="353.9184" y2="353.9184"/><line style="stroke: #000000; stroke-width: 3.0;" x1="511.9018" x2="511.9018" y1="353.9184" y2="847.9184"/><text fill="#000000" font-family="sans-serif" font-size="28" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="126" x="256.9018" y="385.9086">«Server»</text><text fill="#000000" font-family="sans-serif" font-size="28" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="188" x="225.9018" y="418.5024">Web-Server</text><!--MD5=[51764780891d56c625808fe39e0f2680]
+entity i_web--><ellipse cx="655.9018" cy="753.9184" fill="#FEFECE" rx="16" ry="16" style="stroke: #A80036; stroke-width: 4.0;"/><text fill="#000000" font-family="sans-serif" font-size="28" lengthAdjust="spacingAndGlyphs" textLength="152" x="579.9018" y="813.9086">Homepage</text><!--MD5=[4660e0abdb7fa9e4244c49bb3714a7b9]
+entity wp--><rect fill="#FEFECE" height="125.1875" style="stroke: #A80036; stroke-width: 3.0;" width="342" x="156.9018" y="445.9184"/><rect fill="#FEFECE" height="20" style="stroke: #A80036; stroke-width: 3.0;" width="30" x="458.9018" y="455.9184"/><rect fill="#FEFECE" height="4" style="stroke: #A80036; stroke-width: 3.0;" width="8" x="454.9018" y="459.9184"/><rect fill="#FEFECE" height="4" style="stroke: #A80036; stroke-width: 3.0;" width="8" x="454.9018" y="467.9184"/><text fill="#000000" font-family="sans-serif" font-size="28" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="262" x="186.9018" y="511.9086">«Web-Framework»</text><text fill="#000000" font-family="sans-serif" font-size="28" lengthAdjust="spacingAndGlyphs" textLength="150" x="242.9018" y="544.5024">WordPress</text><!--MD5=[51425f20b61c3ae958e00a58355c3be3]
+entity my--><path d="M226.9018,711.9184 C226.9018,691.9184 327.9018,691.9184 327.9018,691.9184 C327.9018,691.9184 428.9018,691.9184 428.9018,711.9184 L428.9018,795.1059 C428.9018,815.1059 327.9018,815.1059 327.9018,815.1059 C327.9018,815.1059 226.9018,815.1059 226.9018,795.1059 L226.9018,711.9184 " fill="#FEFECE" style="stroke: #000000; stroke-width: 3.0;"/><path d="M226.9018,711.9184 C226.9018,731.9184 327.9018,731.9184 327.9018,731.9184 C327.9018,731.9184 428.9018,731.9184 428.9018,711.9184 " fill="none" style="stroke: #000000; stroke-width: 3.0;"/><text fill="#000000" font-family="sans-serif" font-size="28" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="162" x="246.9018" y="765.9086">«database»</text><text fill="#000000" font-family="sans-serif" font-size="28" lengthAdjust="spacingAndGlyphs" textLength="92" x="281.9018" y="798.5024">MySQL</text><!--MD5=[8fc3522a43f8c7199df5e09e5bb0188e]
+entity user--><ellipse cx="655.9018" cy="1010.9184" fill="#FEFECE" rx="32" ry="32" style="stroke: #A80036; stroke-width: 3.0;"/><path d="M655.9018,1050.9184 C663.9018,1050.9184 669.9018,1050.9184 677.9018,1042.9184 C693.9018,1042.9184 709.9018,1058.9184 709.9018,1074.9184 L709.9018,1082.9184 C709.9018,1090.9184 701.9018,1098.9184 693.9018,1098.9184 L617.9018,1098.9184 C609.9018,1098.9184 601.9018,1090.9184 601.9018,1082.9184 L601.9018,1074.9184 C601.9018,1058.9184 617.9018,1042.9184 633.9018,1042.9184 C641.9018,1050.9184 647.9018,1050.9184 655.9018,1050.9184 " fill="#FEFECE" style="stroke: #A80036; stroke-width: 3.0;"/><text fill="#000000" font-family="sans-serif" font-size="28" lengthAdjust="spacingAndGlyphs" textLength="64" x="623.9018" y="1127.9086">User</text><!--MD5=[0a867cd1b41760edf017e7717d6853dc]
+link wp to my--><path d="M327.9018,572.3584 C327.9018,605.4784 327.9018,646.4784 327.9018,680.9584 " fill="none" id="wp-to-my" style="stroke: #A80036; stroke-width: 2.0;"/><polygon fill="#A80036" points="327.9018,691.4184,335.9018,673.4184,327.9018,681.4184,319.9018,673.4184,327.9018,691.4184" style="stroke: #A80036; stroke-width: 2.0;"/><!--MD5=[43fef3d11c192aa0a88d628b3eebaa00]
+link wp to i_web--><path d="M411.5218,572.3584 C487.8218,628.4184 594.9618,707.1384 637.4818,738.3784 " fill="none" id="wp-i_web" style="stroke: #A80036; stroke-width: 2.0; stroke-dasharray: 7.0,7.0;"/><!--MD5=[d320135e18d4819ab489a80e606b00fb]
+reverse link i_web to user--><path d="M655.9018,783.2784 C655.9018,826.5384 655.9018,912.3384 655.9018,975.5784 " fill="none" id="i_web-backto-user" style="stroke: #A80036; stroke-width: 2.0;"/><polygon fill="#A80036" points="655.9018,772.7384,647.9018,790.7384,655.9018,782.7384,663.9018,790.7384,655.9018,772.7384" style="stroke: #A80036; stroke-width: 2.0;"/><!--MD5=[6eaad38a4f3f774845dfa0cd71847109]
+@startuml
+
+skinparam shadowing false
+scale 2
+
+title: Overview Platform (WIP)\njoinus4health.eu
+header version: %date("dd.MM.yyyy")
+
+skinparam actorStyle awesome
+skinparam nodeBackgroundColor<<Server>> #ffccaa
+
+actor "User" as user
+
+cloud "Internet" {
+    rectangle "???" <<Provider>> #ddbbaa {
+        node "Web-Server" <<Server>> {
+            component "WordPress" <<Web-Framework>> as wp
+            database "MySQL" <<database>> as my
+            wp - -> my
+        }
+        interface "Homepage" as i_web
+        i_web .u. wp
+    }
+}
+
+user    -u-> i_web
+
+@enduml
+
+@startuml
+
+skinparam shadowing false
+scale 2
+
+title: Overview Platform (WIP)\njoinus4health.eu
+header version: 24.06.2021
+
+skinparam actorStyle awesome
+skinparam nodeBackgroundColor<<Server>> #ffccaa
+
+actor "User" as user
+
+cloud "Internet" {
+    rectangle "???" <<Provider>> #ddbbaa {
+        node "Web-Server" <<Server>> {
+            component "WordPress" <<Web-Framework>> as wp
+            database "MySQL" <<database>> as my
+            wp - -> my
+        }
+        interface "Homepage" as i_web
+        i_web .u. wp
+    }
+}
+
+user    -u-> i_web
+
+@enduml
+
+PlantUML version 1.2020.16(Sun Aug 23 22:20:43 CEST 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: GB
+--></g></svg>

@@ -1,0 +1,43 @@
+@startuml
+
+header version: %date("dd.MM.yyyy")
+scale 1.3
+
+'skinparam shadowing false
+
+skinparam state {
+  BackgroundColor<<bigstate>> lightgreen
+}
+
+title JoinUs4health - general discussion flow overview
+
+state "Low Level Interaction" as lli <<bigstate>> {
+    state "Make submissions,\ncollect possible topics." as collect : Example: Association between age,\nlifestyle and cardiovascular diseases?
+    state "Topic Collection" as votebucket <<sdlreceive>>
+    state "Voting Phase\n//use all topics from collection//" as vote : Members vote for topics.
+''    state votechoice <<choice>>
+}
+
+state "High Level Interaction" as hli <<bigstate>> {
+    state "Formation of Working Group" as formworkgroup : magically build/find work groups
+    state "Discuss, interpret, start documentation" as discuss
+    state "Request specific cohort results/data" as request
+    state "Work with the data" as data
+    state "Present the Results" as result : finalise the documentation, publish it for the other members
+}
+
+collect         -->     votebucket
+vote            -->     formworkgroup   : chosen options
+vote            -u->    votebucket      : non-chosen options\nstay in the collection
+formworkgroup   -->     discuss
+discuss         -->     request
+discuss         -->     result          : dismiss\nthe topic
+request         -->     data            : request\napproved
+request         -->     result          : request\nrejected
+data            -->     result  
+result          -u[dashed]->     collect    : influence
+result          -u[dashed]->     formworkgroup    : influence
+}
+
+
+@enduml
