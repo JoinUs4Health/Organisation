@@ -2,6 +2,7 @@
 
 <!-- TOC START min:1 max:4 link:true asterisk:false update:true -->
 - [WordPress-Installation for the Project JoinUs4Health](#wordpress-installation-for-the-project-joinus4health)
+    - [Overview](#overview)
     - [WordPress-Configuration](#wordpress-configuration)
         - [Disable Avatars](#disable-avatars)
         - [Privacy Statement](#privacy-statement)
@@ -37,6 +38,10 @@
 | 04.05.2021 | winterb | added Plugin-Check `Newsletter`                                     |
 | 03.05.2021 | winterb | added general chapter `WordPress-Configuration`                     |
 | 06.04.2021 | winterb | created document with various Plugin-Check-results                  |
+
+## Overview
+This document gives information about all configurations and installations in the WordPress-Instance.
+For the Server-Configuration, please see the `Server-Installation`.
 
 ## WordPress-Configuration
 ### Disable Avatars
