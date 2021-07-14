@@ -16,9 +16,10 @@
 
 **Changelog**
 
-| date       | editor  | changes                 |
-| ---------- | ------- | ----------------------- |
-| 09.07.2021 | winterb | added basic information |
+| date       | editor  | changes                                        |
+| ---------- | ------- | ---------------------------------------------- |
+| 14.07.2021 | winterb | backup information; translated security checks |
+| 09.07.2021 | winterb | added basic information                        |
 
 ## Overview
 This document gives information about all configurations and installations in the Website-Server.
@@ -42,12 +43,13 @@ For the WordPress-internal configuration, please see the `WordPress-Installation
 #### Automatic Backup
 - enabled in [control panel → Konto → Website sichern → Planen](https://a2efa.webhosting.systems/smb/backup/list/domainId/548)
     - create every 24h an incremental Backup
-    - create a full backup every three days
+    - create a full backup every seven days
     - store up to three full backups
     - content
         - files
         - databases
         - users
+- last test of restore: 14.07.2021 by winterb and kondrackir
 
 #### Offsite Backup
 - there is no automatic offsite-backup
@@ -62,25 +64,25 @@ For the WordPress-internal configuration, please see the `WordPress-Installation
 
 #### Checked Security
 - for WordPress in the [WordPress-Toolkit](https://a2efa.webhosting.systems/modules/wp-toolkit/index.php/domain/list):
-    - ❌ Skriptverkettung für WordPress-Administrator-Panel deaktivieren
+    - ❌ "Skriptverkettung für WordPress-Administrator-Panel deaktivieren" (Disable script chaining for WordPress admin panel)
         - not enabled, because it can cause problems with the AdminPanel in WordPress
-    - ❌ Dateibearbeitung im WordPress-Dashboard deaktivieren
+    - ❌ "Dateibearbeitung im WordPress-Dashboard deaktivieren" (Disable file editing in WordPress dashboard)
         - not enabled, because this function is needed by the admins
-    - ❌ Autorenscans blockieren
+    - ❌ "Autorenscans blockieren" (Block author scans)
         - not enabled, because this can cause problems on pages with only one author
-    - ✓ Zugriff auf Dateien und Verzeichnisse einschränken
-    - ✓ Sicherheitsschlüssel konfigurieren
-    - ✓ Verzeichnissuche blockieren
-    - ✓ Ausführung von PHP-Skripts im Verzeichnis "wp-includes" nicht erlauben
-    - ✓ Ausführung von PHP-Skripts im Verzeichnis "wp-content/uploads" nicht erlauben
-    - ✓ Nicht autorisierten Zugriff auf "wp-config.php" blockieren
-    - ✓ Pingbacks deaktivieren
-    - ✓ Schutz vor Hotlinks aktivieren
-    - ✓ Nicht verwendete Skriptsprachen deaktivieren
-    - ✓ PHP-Ausführung in Cache-Verzeichnissen deaktivieren
-    - ✓ Standardpräfix von Datenbanktabellen ändern
-    - ✓ Schutz vor Bots aktivieren
-    - ✓ Zugriff auf sensible Dateien blockieren
-    - ✓ Zugriff auf potenziell sensible Dateien blockieren
-    - ✓ Zugriff auf HTACCESS- und HTPASSWD-Datei blockieren
-    - ✓ Standardbenutzername des Administrators ändern
+    - ✓ "Zugriff auf Dateien und Verzeichnisse einschränken" (Restrict access to files and directories)
+    - ✓ "Sicherheitsschlüssel konfigurieren" (Configure security keys)
+    - ✓ "Verzeichnissuche blockieren" (Block directory scanning)
+    - ✓ "Ausführung von PHP-Skripts im Verzeichnis "wp-includes" nicht erlauben" (Do not allow execution of PHP scripts in "wp-includes" directory)
+    - ✓ "Ausführung von PHP-Skripts im Verzeichnis "wp-content/uploads" nicht erlauben" (Do not allow execution of PHP scripts in "wp-content/uploads" directory)
+    - ✓ "Nicht autorisierten Zugriff auf "wp-config.php" blockieren" (Block unauthorized access to "wp-config.php)
+    - ✓ "Pingbacks deaktivieren" (Disable pingbacks)
+    - ✓ "Schutz vor Hotlinks aktivieren" (Enable hotlink protection)
+    - ✓ "Nicht verwendete Skriptsprachen deaktivieren" (Disable unused scripting languages)
+    - ✓ "PHP-Ausführung in Cache-Verzeichnissen deaktivieren" (Disable PHP execution in cache directories)
+    - ✓ "Standardpräfix von Datenbanktabellen ändern" (Change default prefix of database tables)
+    - ✓ "Schutz vor Bots aktivieren" (Enable protection against bots)
+    - ✓ "Zugriff auf sensible Dateien blockieren" (Block access to sensitive files)
+    - ✓ "Zugriff auf potenziell sensible Dateien blockieren" (Block access to potentially sensitive files)
+    - ✓ "Zugriff auf HTACCESS- und HTPASSWD-Datei blockieren" (Block access to HTACCESS and HTPASSWD file)
+    - ✓ "Standardbenutzername des Administrators ändern" (Change default username of administrator)
