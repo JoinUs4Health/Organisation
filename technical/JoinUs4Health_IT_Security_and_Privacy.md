@@ -40,6 +40,7 @@
 <!-- TOC START min:1 max:10 link:true asterisk:false update:true -->
 - [JoinUs4Health IT Security and Privacy](#joinus4health-it-security-and-privacy)
 - [Explanations](#explanations)
+    - [Terminology](#terminology)
     - [IP address, or in short IP](#ip-address-or-in-short-ip)
     - [HTTP Referrer, also HTTP referer](#http-referrer-also-http-referer)
     - [Browser Fingerprint](#browser-fingerprint)
@@ -62,6 +63,45 @@
 <!-- TOC END -->
 
 # Explanations
+
+## Terminology
+- data protection
+    - refers to the methods and structures established to protect personal data from misusage
+- privacy
+    - refers to individuals and their rights to decide, who uses their personal data
+- privacy by design
+    - given by the GDPR this principles force all kind of developers to implement privacy-centred thinking from the start of the project on
+- privacy by default
+    - defines, that all default-values of any system is by default in the most private state
+    - this forces all consent to be Opt-in (users must actively agree)
+- personal data
+    - data that is suitable for identifying a individuals or private data
+    - examples: e-mail-address, IP-Address, Name, MRI-Images, Pictures as well as health data, political opinions, sexual preferences,… (see Art. 9 GDPR)
+- rights and freedom
+    - …given by the law to individuals, may vary between different countries and even federal-states 
+- security
+    - protect against unauthorized access or misuse
+    - examples: the lock on your car; intrusion detection and intrusion detection
+- safety
+    - protect things against loss, wear and tear, accidents
+    - examples: the breaks on your car; backup, version control system
+- open source
+    - in software: the source code, a program is based on, can be vied by anyone
+- free software or FOSS (free and open source software)
+    - in software: "view, share, improve"
+        - is open source
+        - right to modify the code
+        - right to distribute the code and the modified code
+- libre software
+    - this term was invented, after people started to thing that "free software" ist software you can use without paying
+    - imagine a tiger in cage in front of the zoo - would you say, it's a "free tiger" if you can watch it without paying?
+- public domain
+    - a license that gives away all rights on a piece of work (a script, image, audio, text,…)
+- free license
+    - a transnational standard license that allows you to use a piece of work in a free way
+    - example:
+        - [Creative Commons-Licenses](https://creativecommons.org/) for Images, Music, Texts, Cliparts,…
+        - [GPL](https://www.gnu.org/) for Software 
 
 ## IP address, or in short IP
 - "Internet Protocol address"
