@@ -2,7 +2,8 @@
 
 | Version    | Editor  | Comments             |
 | ---------- | ------- | -------------------- |
-| 16.02.2021 | winterb | created base version | 
+| 16.07.2021 | winterb | added Terminology    | 
+| 16.02.2021 | winterb | created base version |
 
 **Who should read this document?**
 
