@@ -2,7 +2,7 @@
 Diese Datenschutzerklärung gilt für die Nutzung unseres Online-Angebots `www.joinus4health.eu`.
 Wir möchten Sie hier darüber aufklären, in welcher Weise wir Ihre personenbezogenen Daten (nachfolgend kurz "Daten") verarbeiten und Ihnen Zweck und Umfang darlegen.
 
-Stand: 07.05.2021
+Version: 07.05.2021
 
 **Table of Content**
 
@@ -15,6 +15,7 @@ Stand: 07.05.2021
     - [Information über die Erhebung personenbezogener Daten](#information-über-die-erhebung-personenbezogener-daten)
         - [Kontaktaufnahme per E-Mail](#kontaktaufnahme-per-e-mail)
         - [Benutzung unserer Webseite](#benutzung-unserer-webseite)
+        - [Benutzung unseres Newsletters](#benutzung-unseres-newsletters)
         - [Cookies, Session Storage und Local Storage](#cookies-session-storage-und-local-storage)
         - [Weitere Funktionen und Angebote auf unserer Website](#weitere-funktionen-und-angebote-auf-unserer-website)
         - [Minderjährige](#minderjährige)

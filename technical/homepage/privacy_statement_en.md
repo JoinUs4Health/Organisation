@@ -2,7 +2,7 @@
 This privacy statement applies to the use of our online offer `www.joinus4health.eu`.
 We would like to inform you here about the way in which we process your personal data (hereinafter referred to as "data") and explain the purpose and scope.
 
-Status: 07.05.2021
+Version: 07.05.2021
 
 **Table of Content**
 
