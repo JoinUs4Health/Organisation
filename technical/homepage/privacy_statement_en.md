@@ -2,7 +2,7 @@
 This privacy statement applies to the use of our online offer `www.joinus4health.eu`.
 We would like to inform you here about the way in which we process your personal data (hereinafter referred to as "data") and explain the purpose and scope.
 
-Version: 07.05.2021
+Version: 01.09.2021
 
 **Table of Content**
 
@@ -33,7 +33,6 @@ Version: 07.05.2021
         - [Right to lodge a complaint with a supervisory authority](#right-to-lodge-a-complaint-with-a-supervisory-authority)
         - [Right to effective judicial remedy](#right-to-effective-judicial-remedy)
     - [Links](#links)
-        - [Social Media Links](#social-media-links)
     - [Changes of our data protection regulations](#changes-of-our-data-protection-regulations)
     - [Definitions and Explanations](#definitions-and-explanations)
         - [Terms](#terms)
@@ -85,7 +84,7 @@ Below, we inform you of the collection of personal data when using our website.
 Personal data is e.g. you name, address, email addresses, user behaviour, etc. 
 
 ### Contact by e-mail
-When contacting us by email, the information you provide (e.g. your email address and, if applicable, your name and your telephone number) is stored by us in order to answer your questions. (in accordance with Art. 6 (1) (f) GDPR)
+When contacting us by email, the information you provide (e.g. your email address and, if applicable, your name and your telephone number) is stored by us in order to answer your questions (in accordance with Art. 6 (1) (f) GDPR).
 We delete the data collected in this manner once storage is no longer required, if processing is restricted, or in the event that legal retention obligations exist.
 
 We would like to point out that e-mails are generally transmitted not encrypted – in plain-text.
@@ -261,18 +260,18 @@ The exercise of the right to data portability does not affect your right to eras
 That right shall not apply to processing necessary for the performance of a task carried out in the public interest or in the exercise of official authority vested in the controller.
 
 ### Right to object
-You have the right to object, on grounds relating to your particular situation, at any time to processing of personal data which concerns you which is based on point (e) or (f) of Article 6 (1) GDPR, including profiling based on those provisions.
-If objection is made, the controller will no longer process the personal data unless the controller demonstrates compelling legitimate grounds for the processing which override the interests, rights and freedoms of the data subject or for the establishment, exercise or defence of legal claims.
+**You have the right to object, on grounds relating to your particular situation, at any time to processing of personal data which concerns you which is based on point (e) or (f) of Article 6 (1) GDPR, including profiling based on those provisions.**
+**If objection is made, the controller will no longer process the personal data unless the controller demonstrates compelling legitimate grounds for the processing which override the interests, rights and freedoms of the data subject or for the establishment, exercise or defence of legal claims.**
 
-In the event that personal data is processed for direct marketing purposes, you have the right to object at any time to processing of personal data concerning you for such marketing.
-This also applies to profiling to the extent that it is related to such direct marketing.
-If you object to processing for direct marketing purposes, your personal data shall no longer be processed for such purposes.
+**In the event that personal data is processed for direct marketing purposes, you have the right to object at any time to processing of personal data concerning you for such marketing.**
+**This also applies to profiling to the extent that it is related to such direct marketing.**
+**If you object to processing for direct marketing purposes, your personal data shall no longer be processed for such purposes.**
 
-Regarding the use of information society services, and notwithstanding Directive 2002/58/EC, you can exercise your right to object by automated means using technical specifications.
+**Regarding the use of information society services, and notwithstanding Directive 2002/58/EC, you can exercise your right to object by automated means using technical specifications.**
 
-Where personal data are processed for scientific or historical research purposes or statistical purposes pursuant to Article 89 (1), you, on grounds relating to your particular situation, have the right to object to processing of personal data concerning you, unless the processing is necessary for the performance of a task carried out for reasons of public interest.
+**Where personal data are processed for scientific or historical research purposes or statistical purposes pursuant to Article 89 (1), you, on grounds relating to your particular situation, have the right to object to processing of personal data concerning you, unless the processing is necessary for the performance of a task carried out for reasons of public interest.**
 
-The right of objection can be exercised at any time by contacting the respective controller.
+**The right of objection can be exercised at any time by contacting the respective controller.**
 
 ### Automated individual decision-making, including profiling
 You have the right not to be subject to a decision based solely on automated processing, including profiling, which produces legal effects for you or similarly significantly affects you.

@@ -2,7 +2,7 @@
 Diese Datenschutzerklärung gilt für die Nutzung unseres Online-Angebots `www.joinus4health.eu`.
 Wir möchten Sie hier darüber aufklären, in welcher Weise wir Ihre personenbezogenen Daten (nachfolgend kurz "Daten") verarbeiten und Ihnen Zweck und Umfang darlegen.
 
-Version: 07.05.2021
+Version: 01.09.2021
 
 **Table of Content**
 
@@ -15,7 +15,6 @@ Version: 07.05.2021
     - [Information über die Erhebung personenbezogener Daten](#information-über-die-erhebung-personenbezogener-daten)
         - [Kontaktaufnahme per E-Mail](#kontaktaufnahme-per-e-mail)
         - [Benutzung unserer Webseite](#benutzung-unserer-webseite)
-        - [Benutzung unseres Newsletters](#benutzung-unseres-newsletters)
         - [Cookies, Session Storage und Local Storage](#cookies-session-storage-und-local-storage)
         - [Weitere Funktionen und Angebote auf unserer Website](#weitere-funktionen-und-angebote-auf-unserer-website)
         - [Minderjährige](#minderjährige)
@@ -34,7 +33,6 @@ Version: 07.05.2021
         - [Recht auf Beschwerde bei einer Aufsichtsbehörde](#recht-auf-beschwerde-bei-einer-aufsichtsbehörde)
         - [Recht auf wirksamen gerichtlichen Rechtsbehelf](#recht-auf-wirksamen-gerichtlichen-rechtsbehelf)
     - [Links](#links)
-        - [Einsatz von Social-Media-Links](#einsatz-von-social-media-links)
     - [Änderung unserer Datenschutzbestimmungen](#änderung-unserer-datenschutzbestimmungen)
     - [Definitionen und Erklärungen](#definitionen-und-erklärungen)
         - [Begriffsdefinitionen](#begriffsdefinitionen)
@@ -86,7 +84,7 @@ Nachfolgend möchten wir Sie über die Erhebung personenbezogener Daten bei Nutz
 Personenbezogene Daten sind z.B. Ihr Name, Ihre Anschrift, Ihre E-Mail-Adressen, Ihr Nutzungsverhalten, etc. 
 
 ### Kontaktaufnahme per E-Mail
-Bei einer Kontaktaufnahme per E-Mail werden die von Ihnen mitgeteilten Daten (z.B: Ihre E-Mail-Adresse, ggf. Ihr Name und Telefonnummer) von uns gespeichert, um Ihre E-Mail zu beantworten.
+Bei einer Kontaktaufnahme per E-Mail werden die von Ihnen mitgeteilten Daten (z.B: Ihre E-Mail-Adresse, ggf. Ihr Name und Telefonnummer) von uns gespeichert, um Ihre E-Mail zu beantworten (Rechtsgrundlage ist Art. 6 Abs. 1 S. 1 lit. f DSGVO).
 Die in diesem Zusammenhang anfallenden personenbezogenen Daten löschen wir, nachdem die Speicherung nicht mehr erforderlich ist, oder die Verarbeitung wird eingeschränkt, falls gesetzliche Aufbewahrungspflichten bestehen.
 
 Wir weisen darauf hin, dass E-Mails in aller Regel unverschlüsselt, also im Klartext, übertragen werden.
@@ -120,17 +118,6 @@ Wenn Sie unsere Website aufrufen, erheben wir die folgenden Daten, die technisch
 - Zugriffsstatus/HTTP-Statuscode
 - jeweils übertragene Datenmenge
 
-### Benutzung unseres Newsletters
-Der Newsletter ist für Sie eine einfache Möglichkeit, sich regelmäßig über das Projekt informieren zu lassen.
-Wir verarbeiten hierzu Ihre E-Mail-Adresse und optional weitere Daten wie Name und Geschlecht.
-
-Ihre personenbezogenen Daten werden nicht weitergegeben und ohne weitere Einwilligung ihrerseits, nur für die Zwecke des Newsletters verwendet.
-
-Sie haben jederzeit die Möglichkeit, sich vom Newsletter abzumelden.
-Dadurch werden alle diesbezüglichen Daten über Sie aus unserem System gelöscht.
-
-Wir verwenden den Newsletter auf Grundlage Ihrer expliziten Einwilligung nach Artikel 6 Absatz 1 Buchstabe a DSGVO.
-
 ### Cookies, Session Storage und Local Storage
 #### Cookies
 Cookies sind Textdateien, die maximal 4096 Bytes groß sein können.
@@ -145,7 +132,6 @@ Dadurch kann es allerdings zu einer Einschränkung der Funktionsfähigkeit von W
 Diese Website kann folgende Arten von First-Party-Cookies nutzen:
 
 - Session Cookies (nur technisch notwendige Cookies)
-- Persistente Cookies (nur mit Ihrer Einwilligung)
 
 Wir nutzen keine Third-Party-Cookies.
 
@@ -153,19 +139,12 @@ Als "technisch notwendige Cookies" werden Cookies bezeichnet, die für die einwa
 
 Als "First-Party-Cookies" werden Cookies bezeichnet, die von der Webseite gesetzt werden, die Sie besuchen.  
 
-Als "Third-Party-Cookies" werden Cookies bezeichnet, die von Dritte gesetzt werden – Webseiten, die durch die besuchte Webseite eingebunden werden.
-
 In "Session Cookies" werden so genannte Session-IDs hinterlegt, die dazu dienen, ihre Anfragen der aktuellen Session zuzuordnen.
 Dadurch kann Ihr Rechner wiedererkannt werden, wenn Sie auf eine Website zurückkehren.
 Session Cookies werden automatisiert gelöscht, wenn Sie den Browser schließen.
 
-"Persistente Cookies" werden automatisiert nach einer vorgegebenen Dauer gelöscht, die sich je nach Cookie unterscheiden kann.
-Sie können die Cookies in den Sicherheitseinstellungen Ihres Browsers jederzeit löschen.
-Persistente Cookies werden nur verwendet, wenn Sie der Nutzung aktiv zustimmen.
-
 Wir verwenden Cookies auf folgender Rechtsgrundlage:
 - Session Cookies – Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f. DSGVO)
-- Persistente Cookies – Einwilligung (Art. 6 Abs. 1 S. 1 lit. a. DSGVO)
 
 #### Local-Storage und Session-Storage
 Als "local storage" und "session storage" wird eine Technik bezeichnet, die ähnlich wie Cookies Daten lokal in Ihrem Browser speichert.
@@ -281,17 +260,17 @@ Die Ausübung des Rechts auf Datenübertragbarkeit lässt das Recht auf Löschun
 Dieses Recht gilt nicht für eine Verarbeitung, die für die Wahrnehmung einer Aufgabe erforderlich ist, die im öffentlichen Interesse liegt oder in Ausübung öffentlicher Gewalt erfolgt, die dem Verantwortlichen übertragen wurde. 
 
 ### Widerspruchsrecht
-Sie haben das Recht, aus Gründen, die sich aus Ihrer besonderen Situation ergeben, jederzeit gegen die Verarbeitung Sie betreffender personenbezogener Daten, die aufgrund von Artikel 6 Absatz 1 Buchstaben e oder f DSGVO erfolgt, Widerspruch einzulegen; dies gilt auch für ein auf diese Bestimmungen gestütztes Profiling.
-Der Verantwortliche verarbeitet die personenbezogenen Daten nicht mehr, es sei denn, er kann zwingende schutzwürdige Gründe für die Verarbeitung nachweisen, die die Interessen, Rechte und Freiheiten der betroffenen Person überwiegen, oder die Verarbeitung dient der Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen.
+**Sie haben das Recht, aus Gründen, die sich aus Ihrer besonderen Situation ergeben, jederzeit gegen die Verarbeitung Sie betreffender personenbezogener Daten, die aufgrund von Artikel 6 Absatz 1 Buchstaben e oder f DSGVO erfolgt, Widerspruch einzulegen; dies gilt auch für ein auf diese Bestimmungen gestütztes Profiling.**
+**Der Verantwortliche verarbeitet die personenbezogenen Daten nicht mehr, es sei denn, er kann zwingende schutzwürdige Gründe für die Verarbeitung nachweisen, die die Interessen, Rechte und Freiheiten der betroffenen Person überwiegen, oder die Verarbeitung dient der Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen.**
 
-Werden personenbezogene Daten verarbeitet, um Direktwerbung zu betreiben, so haben Sie das Recht, jederzeit Widerspruch gegen die Verarbeitung Sie betreffender personenbezogener Daten zum Zwecke derartiger Werbung einzulegen; dies gilt auch für das Profiling, soweit es mit solcher Direktwerbung in Verbindung steht.
-Widersprechen Sie der Verarbeitung für Zwecke der Direktwerbung, so werden die personenbezogenen Daten nicht mehr für diese Zwecke verarbeitet.
+**Werden personenbezogene Daten verarbeitet, um Direktwerbung zu betreiben, so haben Sie das Recht, jederzeit Widerspruch gegen die Verarbeitung Sie betreffender personenbezogener Daten zum Zwecke derartiger Werbung einzulegen; dies gilt auch für das Profiling, soweit es mit solcher Direktwerbung in Verbindung steht.**
+**Widersprechen Sie der Verarbeitung für Zwecke der Direktwerbung, so werden die personenbezogenen Daten nicht mehr für diese Zwecke verarbeitet.**
 
-Im Zusammenhang mit der Nutzung von Diensten der Informationsgesellschaft könne Sie ungeachtet der Richtlinie 2002/58/EG Ihr Widerspruchsrecht mittels automatisierter Verfahren ausüben, bei denen technische Spezifikationen verwendet werden.
+**Im Zusammenhang mit der Nutzung von Diensten der Informationsgesellschaft könne Sie ungeachtet der Richtlinie 2002/58/EG Ihr Widerspruchsrecht mittels automatisierter Verfahren ausüben, bei denen technische Spezifikationen verwendet werden.**
 
-Sie haben das Recht, aus Gründen, die sich aus Ihrer besonderen Situation ergeben, gegen die Sie betreffende Verarbeitung Sie betreffender personenbezogener Daten, die zu wissenschaftlichen oder historischen Forschungszwecken oder zu statistischen Zwecken gemäß Artikel 89 Absatz 1 erfolgt, Widerspruch einzulegen, es sei denn, die Verarbeitung ist zur Erfüllung einer im öffentlichen Interesse liegenden Aufgabe erforderlich.
+**Sie haben das Recht, aus Gründen, die sich aus Ihrer besonderen Situation ergeben, gegen die Sie betreffende Verarbeitung Sie betreffender personenbezogener Daten, die zu wissenschaftlichen oder historischen Forschungszwecken oder zu statistischen Zwecken gemäß Artikel 89 Absatz 1 erfolgt, Widerspruch einzulegen, es sei denn, die Verarbeitung ist zur Erfüllung einer im öffentlichen Interesse liegenden Aufgabe erforderlich.**
 
-Das Widerspruchsrecht können Sie jederzeit ausüben, indem Sie sich an den jeweiligen Verantwortlichen wenden. 
+**Das Widerspruchsrecht können Sie jederzeit ausüben, indem Sie sich an den jeweiligen Verantwortlichen wenden.**
 
 ### Automatisierte Entscheidungen im Einzelfall einschließlich Profiling
 Sie haben das Recht, nicht einer ausschließlich auf einer automatisierten Verarbeitung – einschließlich Profiling – beruhenden Entscheidung unterworfen zu werden, die Ihnen gegenüber rechtliche Wirkung entfaltet oder Sie in ähnlicher Weise erheblich beeinträchtigt.
@@ -317,12 +296,6 @@ Sofern Sie externe Links nutzen, die im Rahmen unserer Internetseiten angeboten 
 Insofern wir Links anbieten, versichern wir, dass zum Zeitpunkt der Link-Setzung keine Verstöße gegen geltendes Recht auf den verlinkten Internetseiten erkennbar waren.
 Wir haben jedoch keinen Einfluss auf die Einhaltung der Datenschutz- und Sicherheitsbestimmungen durch andere Anbieter.
 Informieren Sie sich deshalb bitte auf den Internetseiten der anderen Anbieter auch über die dort bereitgestellten Datenschutzerklärungen.
-
-### Einsatz von Social-Media-Links
-Wir setzen derzeit diverse Links zu unterschiedlichen Social-Media Plattformen ein, wie z.B. Facebook oder Twitter.
-Dabei handelt es sich um keine Social-Media-Plugins, sondern lediglich um Verlinkungen.
-Wenn Sie einen der Links anklicken, gelangen Sie zum jeweiligen Anbieter der Website und dabei wird Ihre IP-Adresse übermittelt.
-Sofern Sie gleichzeitig mit dem jeweiligen Social-Media-Account eingeloggt sind, können unter Umständen weitere Daten vom jeweiligen Anbieter erfasst werden.
 
 ## Änderung unserer Datenschutzbestimmungen
 Wir behalten uns das Recht vor, unsere Sicherheits- und Datenschutzmaßnahmen zu verändern, soweit dies wegen der technischen Entwicklung erforderlich wird.
