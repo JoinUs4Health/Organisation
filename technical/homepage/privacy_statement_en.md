@@ -85,7 +85,7 @@ Below, we inform you of the collection of personal data when using our website.
 Personal data is e.g. you name, address, email addresses, user behaviour, etc. 
 
 ### Contact by e-mail
-When contacting us by email, the information you provide (e.g. your email address and, if applicable, your name and your telephone number) is stored by us in order to answer your questions.
+When contacting us by email, the information you provide (e.g. your email address and, if applicable, your name and your telephone number) is stored by us in order to answer your questions. (Art. 6 (1) (f) GDPR)
 We delete the data collected in this manner once storage is no longer required, if processing is restricted, or in the event that legal retention obligations exist.
 
 We would like to point out that e-mails are generally transmitted not encrypted – in plain-text.
@@ -119,17 +119,6 @@ If you wish to view our website, we collect the following data which is technica
 - access status/HTTP status code
 - amount of data transferred in each case
 
-### Use of our newsletter
-The newsletter is an easy way for you to receive regular information about the project.
-For this purpose, we process your e-mail-address and optionally further data such as name and gender.
-
-Your personal data will not be shared and without further consent on your part, used only for the purposes of the newsletter.
-
-You have the option to unsubscribe from the newsletter at any time.
-This will delete all relevant data about you from our system.
-
-We use the newsletter on the basis of your explicit consent pursuant to Article 6 (1) (f) GDPR.
-
 ### Cookies, session storage and local storage
 #### Cookies
 Cookies are text files that can be a maximum of 4096 bytes in size.
@@ -144,7 +133,6 @@ However, this may restrict the functionality of websites.
 This website may use the following types of first-party cookies:
 
 - technically necessary Session cookies
-- Persistent cookies (only with your consent)
 
 We do not use third party cookies.
 
@@ -152,19 +140,12 @@ We do not use third party cookies.
 
 "First-party cookies" are cookies that are set by the website you are visiting.  
 
-"Third-party cookies" are cookies that are set by third parties – websites that are integrated by the visited website.
-
 So-called session IDs are stored in "session cookies", which are used to assign your requests to the current session.
 This enables your computer to be recognised when you return to a website.
 Session cookies are automatically deleted when you close the browser.
 
-"Persistent cookies" are automatically deleted after a specified period of time, which may differ depending on the cookie.
-You can delete the cookies at any time within the security settings of your browser.
-Persistent cookies are only used if you actively consent to their use.
-
 We use cookies on the following legal basis:
 - Session Cookies – Legitimate Interests (Art. 6 Para. 1 p. 1 lit. f GDPR).
-- Persistent cookies – Consent (Art. 6 Para. 1 p. 1 lit. a GDPR)
 
 #### Local storage and session storage
 Local storage" and "session storage" are technologies that store data locally in your browser, similar to cookies.
@@ -316,12 +297,6 @@ If you use external links that are offered within the framework of our Internet 
 Insofar as we offer links, we assure that no violations of applicable law were recognisable on the linked Internet pages at the time the link was set.
 However, we have no influence on compliance with data protection and security regulations by other providers.
 Therefore, please also inform yourself on the Internet pages of the other providers about the data protection declarations provided there.
-
-### Social Media Links
-We currently use various links to different social media platforms, such as Facebook or Twitter.
-These are not social media plugins, but merely links.
-If you click on one of the links, you will be taken to the respective provider of the website and your IP address will be transmitted.
-If you are logged in to the respective social media account at the same time, further data may be collected by the respective provider under certain circumstances.
 
 ## Changes of our data protection regulations
 We reserve the right to change our security and data protection measures if this becomes necessary due to technical developments.
