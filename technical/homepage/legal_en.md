@@ -6,8 +6,8 @@ Fleischmannstraße 8
 17475 Greifswald
 
 Phone: `+49 (0)3834 86-0`  
-E-Mail: `info-unimedizin@med.uni-greifswald.de`  
-Website: https://www.medizin.uni-greifswald.de
+E-Mail: `info-unimedizin [at] med.uni-greifswald.de`  
+Website: [https://www.medizin.uni-greifswald.de](https://www.medizin.uni-greifswald.de)
 
 **Represented by the Executive Board**  
 Prof. Dr. Uwe Reuter (Ärztlicher Vorstand und Vorstandsvorsitzender),  

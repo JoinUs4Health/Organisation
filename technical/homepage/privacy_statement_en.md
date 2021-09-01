@@ -46,8 +46,8 @@ University Medicine Greifswald (UMG)
 Walther-Rathenau-Strasse 48  
 DE-17475 Greifswald, Germany
 
-Email: `birgit.schauer [at] uni-greifswald.de`  
-Website: https://www2.medizin.uni-greifswald.de/icm/index.php?id=20
+E-Mail: `birgit.schauer [at] uni-greifswald.de`  
+Website: [https://www2.medizin.uni-greifswald.de/icm/index.php?id=20](https://www2.medizin.uni-greifswald.de/icm/index.php?id=20)
 
 ### Data protection officer 
 Prof. Ulf Glende  
@@ -56,7 +56,7 @@ Walther-Rathenau-Straße 49
 DE-17475 Greifswald
 
 Phone: `+49 (0)3834 86-5124`  
-Email: `datenschutz-umg [at] med.uni-greifswald.de`
+E-Mail: `datenschutz-umg [at] med.uni-greifswald.de`
 
 ## Safety and protection of your personal data
 We consider it our primary responsibility to protect the confidentiality of the personal information you provide and to protect it from unauthorised access.
@@ -81,10 +81,10 @@ We refrain from automatic decision-making or profiling.
 
 ## Information on the collection of personal data
 Below, we inform you of the collection of personal data when using our website.
-Personal data is e.g. you name, address, email addresses, user behaviour, etc. 
+Personal data is e.g. you name, address, e-mail addresses, user behaviour, etc. 
 
 ### Contact by e-mail
-When contacting us by email, the information you provide (e.g. your email address and, if applicable, your name and your telephone number) is stored by us in order to answer your questions (in accordance with Art. 6 (1) (f) GDPR).
+When contacting us by e-mail, the information you provide (e.g. your e-mail address and, if applicable, your name and your telephone number) is stored by us in order to answer your questions (in accordance with Art. 6 (1) (f) GDPR).
 We delete the data collected in this manner once storage is no longer required, if processing is restricted, or in the event that legal retention obligations exist.
 
 We would like to point out that e-mails are generally transmitted not encrypted – in plain-text.
@@ -98,7 +98,7 @@ The following data is transmitted when sending e-mails:
 - Information about the route taken by the e-mail
 - If applicable, the e-mail client used and its version
 - If applicable, operating system used and its version and, if applicable, interface
-- References to previous emails, if applicable
+- References to previous e-mails, if applicable
 - E-mail content, which may contain further personal data, if applicable
 
 ### Use of our website
@@ -180,7 +180,7 @@ We use external service providers (order processors).
 A separate order data processing agreement has been concluded with the service provider to ensure the protection of your personal data.
 
 ### our processors
-The hosting of the domain https://joinus4health.eu, with all associated components (e.g. website, e-mail) is carried out for us by netcup GmbH, Daimlerstraße 25, D-76185 Karlsruhe.
+The hosting of the domain [https://joinus4health.eu](https://joinus4health.eu), with all associated components (e.g. website, e-mail) is carried out for us by netcup GmbH, Daimlerstraße 25, D-76185 Karlsruhe.
 
 ## Rights of data subjects
 According to the GDPR, you are entitled to various rights, which result in particular from Art. 15 to 21 GDPR:

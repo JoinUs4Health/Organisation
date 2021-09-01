@@ -46,8 +46,8 @@ Universitätsmedizin Greifswald (UMG)
 Walther-Rathenau-Strasse 48  
 DE-17475 Greifswald, Germany
 
-Email: `birgit.schauer [at] uni-greifswald.de`  
-Website: https://www2.medizin.uni-greifswald.de/icm/index.php?id=20
+E-Mail: `birgit.schauer [at] uni-greifswald.de`  
+Website: [https://www2.medizin.uni-greifswald.de/icm/index.php?id=20](https://www2.medizin.uni-greifswald.de/icm/index.php?id=20)
 
 ### Datenschutzbeauftragter 
 Prof. Ulf Glende  
@@ -180,7 +180,7 @@ Wir bedienen uns externen Dienstleister (Auftragsverarbeiter).
 Mit dem Dienstleister wurde eine separate Auftragsdatenverarbeitung geschlossen, um den Schutz Ihrer personenbezogenen Daten zu gewährleisten. 
 
 ### unsere Auftragsverarbeiter
-Das Hosting von der Domain https://joinus4health.eu, mit allen dazugehörigen Komponenten (z.B. Webseite, E-Mail) wird von der netcup GmbH, Daimlerstraße 25, D-76185 Karlsruhe für uns durchgeführt.
+Das Hosting von der Domain [https://joinus4health.eu](https://joinus4health.eu), mit allen dazugehörigen Komponenten (z.B. Webseite, E-Mail) wird von der netcup GmbH, Daimlerstraße 25, D-76185 Karlsruhe für uns durchgeführt.
 
 ## Rechte der betroffenen Personen
 Ihnen stehen nach der DSGVO verschiedene Rechte zu, die sich insbesondere aus Art. 15 bis 21 DSGVO ergeben:
