@@ -85,7 +85,7 @@ Below, we inform you of the collection of personal data when using our website.
 Personal data is e.g. you name, address, email addresses, user behaviour, etc. 
 
 ### Contact by e-mail
-When contacting us by email, the information you provide (e.g. your email address and, if applicable, your name and your telephone number) is stored by us in order to answer your questions. (Art. 6 (1) (f) GDPR)
+When contacting us by email, the information you provide (e.g. your email address and, if applicable, your name and your telephone number) is stored by us in order to answer your questions. (in accordance with Art. 6 (1) (f) GDPR)
 We delete the data collected in this manner once storage is no longer required, if processing is restricted, or in the event that legal retention obligations exist.
 
 We would like to point out that e-mails are generally transmitted not encrypted – in plain-text.
