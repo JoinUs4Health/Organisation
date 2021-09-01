@@ -6,11 +6,17 @@ Fleischmannstraße 8
 17475 Greifswald
 
 Telefon: `+49 (0) 03834 86-0`  
-Web: https://www.medizin.uni-greifswald.de
+E-Mail: `info-unimedizin@med.uni-greifswald.de`  
+Website: https://www.medizin.uni-greifswald.de
 
-[vertreten durch den Vorstand.](https://www.medizin.uni-greifswald.de/en/service/impressum/)
+**Vertreten durch den Vorstand**  
+Prof. Dr. Uwe Reuter (Ärztlicher Vorstand und Vorstandsvorsitzender),  
+Toralf Giebe (Kaufmännischer Vorstand)  
+Prof. Dr. Karlhans Endlich (komm. Wissenschaftlicher Vorstand)
 
-Umsatzsteuer-Identifikationsnummer gemäß § 27a Umsatzsteuergesetz: `DE 227 825 354`
+**Ausführende Einrichtung des Anbieters**  
+Institut für Community Medicine (ICM)  
+Abteilung: Study of Health in Pomerania - Klinisch-Epidemiologische Forschung (SHIP-KEF)
 
 ## Zuständige Aufsichtsbehörde
 Ministerium für Bildung, Wissenschaft und Kultur Mecklenburg-Vorpommern
@@ -18,14 +24,26 @@ Werderstraße 124
 DE-19053 Schwerin  
 Telefon: +49 (0)385 5880
 
-## Inhaltlich Verantwortlicher
-Das Projekt JoinUs4Health ist koordiniert durch und angegliedert an das 
-Institut für Community Medicine  
-Universitätsmedizin Greifswald  
-Walter-Rathenau-Straße 48  
-DE-17475 Greifswald
+## Zuständige Kammern
+- [Ärztekammer M-V](http://www.aekmv.de/)
+- [Zahnärztekammer M-V](http://www.zaekmv.de/)
+- [Apothekerkammer M-V](http://www.akmv.de/)
 
-vertreten durch Prof. Dr. Henry Völzke.
+## Berufsrechtliche Regelungen
+- [Berufsordnung der Ärztekammer](http://www.aekmv.de/upload/file/aerzte/Recht/Rechtsquellen/Berufsordnung_5_6_Aenderung.pdf)
+- [Berufsordnung der Zahnärztekammer](https://www.zaekmv.de/fileadmin/Redaktion/PDF_Satzungen_Ordnungen/2_Berufsordnung.pdf)
+
+## Umsatzsteuer-Identifikationsnummer gemäß § 27a Umsatzsteuergesetz:
+`DE 227 825 354`
+
+## Inhaltlich Verantwortlicher gemäß § 18 Abs. 2 MStV
+Prof. Dr. med. Henry Völzke  
+Walter Rathenau Str. 48, 5. Etage  
+DE-17475 Greifswald  
+Tel.: +49 (0) 3834 86-7541  
+Fax: +49 (0) 3834 86-6684
+
+Ansprechperson: Dr. Birgit Schauer
 
 ## Inhalt
 Diese Website enthält Informationen zum im EU-Förderprogramm Horizon2020 finanzierten Forschungsprojekt JoinUs4Health.

@@ -6,11 +6,17 @@ Fleischmannstraße 8
 17475 Greifswald
 
 Phone: `+49 (0)3834 86-0`  
-Web: https://www.medizin.uni-greifswald.de
+E-Mail: `info-unimedizin@med.uni-greifswald.de`  
+Website: https://www.medizin.uni-greifswald.de
 
-[represented by the executive board.](https://www.medizin.uni-greifswald.de/en/service/impressum/)
+**Represented by the Executive Board**  
+Prof. Dr. Uwe Reuter (Ärztlicher Vorstand und Vorstandsvorsitzender),  
+Toralf Giebe (Kaufmännischer Vorstand)  
+Prof. Dr. Karlhans Endlich (komm. Wissenschaftlicher Vorstand)
 
-Umsatzsteuer-Identifikationsnummer gemäß § 27a Umsatzsteuergesetz: `DE 227 825 354`
+**Executing Institution of the Provider**  
+Institute for Community Medicine (ICM)  
+Department: Study of Health in Pomerania - Klinisch-Epidemiologische Forschung (SHIP-KEF)
 
 ## Regulatory authority
 Ministry for Education, Science and Culture Mecklenburg-Vorpommern
@@ -18,16 +24,26 @@ Werderstraße 124
 DE-19053 Schwerin  
 Phone: +49 (0)385 5880
 
-## Responsible for content
-The JoinUs4Health project is coordinated by and affiliated with the
-Institute for Community Medicine
-Universitätsmedizin Greifswald
-Walter-Rathenau-Straße 48
-DE-17475 Greifswald
+## Responsible Chambers
+- [Medical Association M-V](http://www.aekmv.de/)
+- [Dental Association M-V](http://www.zaekmv.de/)
+- [Chamber of Pharmacists M-V](http://www.akmv.de/)
 
-represented by
+## Legal Regulations for the Profession
+- [Professional code of the medical association](http://www.aekmv.de/upload/file/aerzte/Recht/Rechtsquellen/Berufsordnung_5_6_Aenderung.pdf)
+- [Professional code of the dental association](https://www.zaekmv.de/fileadmin/Redaktion/PDF_Satzungen_Ordnungen/2_Berufsordnung.pdf)
 
-Prof. Dr. med. Henry Völzke.
+## Umsatzsteuer-Identifikationsnummer according to § 27a Umsatzsteuergesetz:
+`DE 227 825 354`
+
+## Responsible for content according to § 18 Abs. 2 MStV
+Prof. Dr. med. Henry Völzke  
+Walter Rathenau Str. 48, 5. Etage  
+DE-17475 Greifswald  
+Tel.: +49 (0) 3834 86-7541  
+Fax: +49 (0) 3834 86-6684
+
+Contact: Dr. Birgit Schauer
 
 ## Purpose
 This website provides information about the research project JoinUsForHealth, funded in the EU Horizon2020 funding program.
