@@ -4,6 +4,7 @@
 - [WordPress-Installation for the Project JoinUs4Health](#wordpress-installation-for-the-project-joinus4health)
     - [Overview](#overview)
     - [WordPress-Configuration](#wordpress-configuration)
+        - [Plugins](#plugins)
         - [Disable Avatars](#disable-avatars)
         - [Privacy Statement](#privacy-statement)
     - [WordPress-Plugins used](#wordpress-plugins-used)
@@ -32,6 +33,7 @@
 
 | date       | editor  | changes                                                             |
 | ---------- | ------- | ------------------------------------------------------------------- |
+| 01.09.2021 | winterb | updated WordPress-Configuration Details                             |
 | 01.06.2021 | winterb | added Plugin-Check `Matomo`; added `WordPress-Plugin-Configuration` |
 | 26.05.2021 | winterb | added Plugin-Check `Email Subscribers & Newsletters`                |
 | 06.05.2021 | winterb | added `Changelog`, small structure changes                          |
@@ -44,6 +46,9 @@ This document gives information about all configurations and installations in th
 For the Server-Configuration, please see the `Server-Installation`.
 
 ## WordPress-Configuration
+### Plugins
+- enable all auto-updates for all plugins
+
 ### Disable Avatars
 By using Gravatar-Service, personal data (IP, e-mail) is sent to the US company.
 
@@ -60,8 +65,6 @@ This is a list of checked and approved plugins used within out website:
     - Elementor Pro
 - Email Subscribers & Newsletters
 - One Click Accessibility
-- Polylang
-- WP Event Manager
 
 ### WordPress-Plugin-Configuration
 #### Configuration Elementor and Elementor Pro
