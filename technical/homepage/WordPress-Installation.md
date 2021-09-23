@@ -26,6 +26,7 @@
         - [Newsletter](#newsletter)
         - [One Click Accessibility](#one-click-accessibility)
         - [Polylang](#polylang)
+        - [TranslatePress - Multilingual](#translatepress---multilingual)
         - [WP Event Manager](#wp-event-manager)
 <!-- TOC END -->
 
@@ -58,13 +59,13 @@ To disable the use of Avatars disable `Show Avatars` in `Settings → Discussion
 Link the Page with the privacy statement in `Show Avatars` in `Settings → Privacy`.
 
 ## WordPress-Plugins used
-This is a list of checked and approved plugins used within out website:
+This is a list of checked and approved plugins used within our website:
 
 - Elementor-Plugins
     - Elementor
     - Elementor Pro
-- Email Subscribers & Newsletters
 - One Click Accessibility
+- *Planned: Email Subscribers & Newsletters*
 
 ### WordPress-Plugin-Configuration
 #### Configuration Elementor and Elementor Pro
@@ -337,17 +338,57 @@ General Information about Privacy Policy for WordPress plugins:
 - description
     - create multilingual pages
 - check
-    - last checked: `06.04.2021, winterb`
-    - version: `3.0.3`
+    - last checked: `23.09.2021, winterb`
+    - version: `3.1.1`
+    - requirements checked
+        - ✓ can handle four languages → ok
+        - ✓ content can be edited by WordPress-Users with the Role `Editor`
+            - @winterb: WordPress-Editor is working; couldn't start the Elementor-Editor in the test environment, could also be a problem with Elementor
+        - ✓ content can be edited without publishing (i.e. EN-site is online, while we are still working on the DE-version)
     - privacy checked: ✓ ok
+        - ⚠ check Cookies and Local/Session Storage before productive use
         - ⚠ attention with any auto-translate
+        - no personal data is collected ([link](https://polylang.pro/doc/is-polylang-gdpr-compliant/))
     - terms checked: ✓ `GPLv3 or later`
         - https://plugins.svn.wordpress.org/polylang/ 
 - conclusion: ✓ ok
 - links
     - https://wordpress.org/plugins/polylang/ 
     - https://polylang.pro/privacy-policy/
+    - [Documentation](https://polylang.pro/doc/)
     - [Issue in Jira](https://join-us-4-health.atlassian.net/browse/HP-70)
+
+### TranslatePress - Multilingual
+- description
+    - create multilingual pages
+    - difference to Polylang: "usability"
+        - "TranslatePress is easier to use and more intuitive altogether. No more switching between the editor, string translation interfaces or badly translated plugins. You can now translate the full page content directly from the front-end. This makes TranslatePress a great alternative to plugins like Polylang and WPML." ([link](https://wordpress.org/plugins/translatepress-multilingual/#description))
+- check
+    - last checked: `23.09.2021, winterb`
+    - version: `2.1.2`
+    - requirements checked
+        - ❌ can handle four languages → ok
+            - only with an extra paid plugin "TranslatePress Advanced Add-ons"
+            - "To add more than two languages and support for SEO Title, Description, Slug and more check out TranslatePress Advanced Add-ons."
+        - ❌ content can be edited by WordPress-Users with the Role `Editor`
+            - only with an extra paid plugin "Translator Accounts add-on"
+                - "Using the Translator Accounts Add-on you can create or allow existing users to translate the site without admin rights. The Translator Accounts add-on is only available with a Developer or Business license." ([link](https://translatepress.com/docs/addons/translator-accounts/))
+        - ❓ content can be edited without publishing (i.e. EN-site is online, while we are still working on the DE-version)
+            - "Editorial control allowing you to publish your language only when all your translations are done" ([link](https://wordpress.org/plugins/translatepress-multilingual/))
+            - @winterb: cannot find an option for that in the running test system
+    - privacy checked: ❓ maybe
+        - ⚠ check Cookies and Local/Session Storage before productive use
+        - ⚠ attention with any auto-translate and third-party services
+        - ⚠ no privacy policy or any info on the data processed found for the plugin
+        - ⚠ advertises paid add-ons
+    - terms checked: ✓ `GPLv2 or later`
+        - https://plugins.svn.wordpress.org/translatepress-multilingual/
+    - conclusion: ❓ maybe not
+- links
+    - https://wordpress.org/plugins/translatepress-multilingual/
+    - https://translatepress.com/, Romania
+    - [Documentation](https://translatepress.com/docs/translatepress/?utm_source=wp.org&utm_medium=tp-description-page&utm_campaign=TPFree)
+    - [Issue in Jira](https://join-us-4-health.atlassian.net/browse/HP-107)
 
 ### WP Event Manager
 - description
