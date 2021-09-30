@@ -13,6 +13,7 @@
             - [Configuration Email Subscribers & Newsletters](#configuration-email-subscribers--newsletters)
             - [Configuration Polylang](#configuration-polylang)
             - [Configuration WP Event Manager](#configuration-wp-event-manager)
+            - [Configuration Yoast SEO](#configuration-yoast-seo)
 - [Attachments](#attachments)
     - [Attachment: WordPress-Plugins-Checks](#attachment-wordpress-plugins-checks)
         - [Contact Form 7](#contact-form-7)
@@ -28,12 +29,15 @@
         - [Polylang](#polylang)
         - [TranslatePress - Multilingual](#translatepress---multilingual)
         - [WP Event Manager](#wp-event-manager)
+        - [Yoast SEO](#yoast-seo)
 <!-- TOC END -->
 
 **Changelog**
 
 | date       | editor  | changes                                                             |
 | ---------- | ------- | ------------------------------------------------------------------- |
+| 30.09.2021 | winterb | checked Yoast SEO Plugin                                            |
+| 23.09.2021 | winterb | checked TranslatePress-Base-Plugin, rechecked Polylang              |
 | 01.09.2021 | winterb | updated WordPress-Configuration Details                             |
 | 01.06.2021 | winterb | added Plugin-Check `Matomo`; added `WordPress-Plugin-Configuration` |
 | 26.05.2021 | winterb | added Plugin-Check `Email Subscribers & Newsletters`                |
@@ -66,6 +70,7 @@ This is a list of checked and approved plugins used within our website:
     - Elementor Pro
 - One Click Accessibility
 - *Planned: Email Subscribers & Newsletters*
+- Yoast SEO
 
 ### WordPress-Plugin-Configuration
 #### Configuration Elementor and Elementor Pro
@@ -119,6 +124,16 @@ This is a list of checked and approved plugins used within our website:
 
 #### Configuration WP Event Manager
 - TODO not synced to any third-party-service
+
+#### Configuration Yoast SEO
+- SEO
+    - General
+        - Featured
+            - disabled `Usage tracking` and `Slack sharing`
+        - Integrations
+            - disabled `Semrush integration` and `Ryte integration`
+    - Social
+        - disabled `Facebook` and `Twitter`
 
 ---
 
@@ -404,3 +419,22 @@ General Information about Privacy Policy for WordPress plugins:
 - links
     - https://wordpress.org/plugins/wp-event-manager/
     - https://www.wp-eventmanager.com/
+
+### Yoast SEO
+- description
+    - adds different functionalities to enhance the findability of the page (meta tags, SEO-magic)
+- check
+    - last checked: `30.09.2021, winterb`
+    - version: `17.2.1`
+    - privacy checked: ✓ `ok`
+        - "The Yoast plugins do not process, collect, or store any of that personal data at Yoast premises or servers. Every analysis performed on your content is done on your site and none of your content is used by Yoast off-site." ([link](https://yoast.com/help/do-i-need-a-dpa-when-i-purchase-from-yoast/))
+        - https://yoast.com/help/gdpr/
+        - https://yoast.com/innovations/privacy-by-design/
+        - ⚠ talk about the use of third party products like SEMrush, Ryte before using it in any way
+    - terms checked: ✓ `GPLv3`
+        - https://plugins.svn.wordpress.org/wordpress-seo/
+    - conclusion: ✓ ok
+- links
+    - https://wordpress.org/plugins/wordpress-seo/
+    - https://yoast.com
+    - [Issue in Jira](https://join-us-4-health.atlassian.net/browse/HP-133)
