@@ -8,18 +8,35 @@ header version: %date("dd.MM.yyyy")
 
 skinparam actorStyle awesome
 skinparam nodeBackgroundColor<<Server>> #ffccaa
+skinparam rectangleBackgroundColor<<Provider>> #ddbbaa
 
 actor "User" as user
 
 cloud "Internet" {
-    rectangle "???" <<Provider>> #ddbbaa {
+    rectangle "???" <<Provider>>  {
         node "Web-Server" <<Server>> {
             component "WordPress" <<Web-Framework>> as wp
-            database "MySQL" <<database>> as my
-            wp --> my
+            component "Pad" as pad
+            component "Questionaire System" as survey
+            folder "WordPress-Files" as wpfolder
+            rectangle "DBMS MySQL" as dbms {
+                note "OPEN: maybe on database server" as n1
+                database "user data" <<database>> as db_user
+                database "platform data" <<database>> as db_plattform
+            }
+            wp --> dbms
+            wp --> wpfolder
         }
-        interface "Homepage" as i_web
+        node "Database-Server" <<Server>> {
+            note "OPEN: can we use a database server\nasking netcup, technical issues" as n2
+        }
+        interface "Platform" as i_web
         i_web .u. wp
+    }
+    rectangle "????" <<Provider>> {
+        node "BBB-Server" <<Server>> {
+            component "BigBlueButton" as bbb
+        }
     }
 }
 
