@@ -10,6 +10,7 @@
     - [WordPress-Plugins used](#wordpress-plugins-used)
         - [WordPress-Plugin-Configuration](#wordpress-plugin-configuration)
             - [Configuration Elementor and Elementor Pro](#configuration-elementor-and-elementor-pro)
+            - [Configuration TranslatePress](#configuration-translatepress)
             - [Configuration Email Subscribers & Newsletters](#configuration-email-subscribers--newsletters)
             - [Configuration Polylang](#configuration-polylang)
             - [Configuration WP Event Manager](#configuration-wp-event-manager)
@@ -36,6 +37,7 @@
 
 | date       | editor  | changes                                                             |
 | ---------- | ------- | ------------------------------------------------------------------- |
+| 22.10.2021 | winterb | TranslatePress configuration                                        | 
 | 30.09.2021 | winterb | checked Yoast SEO Plugin                                            |
 | 23.09.2021 | winterb | checked TranslatePress-Base-Plugin, rechecked Polylang              |
 | 01.09.2021 | winterb | updated WordPress-Configuration Details                             |
@@ -68,8 +70,9 @@ This is a list of checked and approved plugins used within our website:
 - Elementor-Plugins
     - Elementor
     - Elementor Pro
-- One Click Accessibility
 - *Planned: Email Subscribers & Newsletters*
+- One Click Accessibility
+- TranslatePress
 - Yoast SEO
 
 ### WordPress-Plugin-Configuration
@@ -114,6 +117,29 @@ This is a list of checked and approved plugins used within our website:
           })();
         </script>
         ```
+#### Configuration TranslatePress
+- installed Add-Ons (inside the Plugin)
+    - [Multiple Languages](https://translatepress.com/docs/addons/multiple-languages/?utm_source=wpbackend&utm_medium=clientsite&utm_content=add-on-page&utm_campaign=TRP)
+        - removes the anti-feature of only having two languages
+    - [Translator Accounts](https://translatepress.com/docs/addons/translator-accounts/?utm_source=wpbackend&utm_medium=clientsite&utm_content=add-on-page&utm_campaign=TRP)
+        - removes the anti-feature that only administrators can edit content
+    - [Automatic User-Language Detection](https://translatepress.com/docs/addons/automatic-user-language-detection/?utm_source=wpbackend&utm_medium=clientsite&utm_content=add-on-page&utm_campaign=TRP)
+        - tries to determine the users preferred language by browser settings and IP address
+        - ⚠ The visitor’s IP address is searched in the GeoLite2 database to determine the country from which the user accessed the website.
+            - the IP-address cannot be used!
+    - [Browse As User Role](https://translatepress.com/docs/addons/browse-as-role/?utm_source=wpbackend&utm_medium=clientsite&utm_content=add-on-page&utm_campaign=TRP)
+        - helps translators to see the site from the users perspective
+- Settings → TranslatePress
+    - General
+        - **IMPORTANT**: Method of language detection: Only by browser language
+    - Advanced
+        - Do not translate certain paths
+            - `/privacy-statement/*`
+
+##### *TODO* using Deepl to translate contents on the webpage
+- [Pricing](https://www.deepl.com/en/pro#developer)
+- install Add-On (inside the Plugin)
+    - [DeepL Automatic Translation](https://translatepress.com/docs/addons/deepl-automatic-translation/?utm_source=wpbackend&utm_medium=clientsite&utm_content=add-on-page&utm_campaign=TRP)
 
 #### Configuration Email Subscribers & Newsletters
 - TODO with double-opt-in
@@ -367,6 +393,7 @@ General Information about Privacy Policy for WordPress plugins:
     - terms checked: ✓ `GPLv3 or later`
         - https://plugins.svn.wordpress.org/polylang/ 
 - conclusion: ✓ ok
+    - Info 22.10.2021 winterb: we cannot use Polylang, because of problems with the used content builder Elementor
 - links
     - https://wordpress.org/plugins/polylang/ 
     - https://polylang.pro/privacy-policy/
