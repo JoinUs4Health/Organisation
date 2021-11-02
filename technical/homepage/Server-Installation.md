@@ -18,6 +18,7 @@
 
 | date       | editor  | changes                                        |
 | ---------- | ------- | ---------------------------------------------- |
+| 02.11.2021 | winterb | changed WordPress security options             |
 | 14.07.2021 | winterb | backup information; translated security checks |
 | 09.07.2021 | winterb | added basic information                        |
 
@@ -66,10 +67,10 @@ For the WordPress-internal configuration, please see the `WordPress-Installation
 - for WordPress in the [WordPress-Toolkit](https://a2efa.webhosting.systems/modules/wp-toolkit/index.php/domain/list):
     - ❌ "Skriptverkettung für WordPress-Administrator-Panel deaktivieren" (Disable script chaining for WordPress admin panel)
         - not enabled, because it can cause problems with the AdminPanel in WordPress
-    - ❌ "Dateibearbeitung im WordPress-Dashboard deaktivieren" (Disable file editing in WordPress dashboard)
-        - not enabled, because this function is needed by the admins
     - ❌ "Autorenscans blockieren" (Block author scans)
         - not enabled, because this can cause problems on pages with only one author
+    - ✓ "Dateibearbeitung im WordPress-Dashboard deaktivieren" (Disable file editing in WordPress dashboard)
+        - was disabled during setup and test procedure
     - ✓ "Zugriff auf Dateien und Verzeichnisse einschränken" (Restrict access to files and directories)
     - ✓ "Sicherheitsschlüssel konfigurieren" (Configure security keys)
     - ✓ "Verzeichnissuche blockieren" (Block directory scanning)

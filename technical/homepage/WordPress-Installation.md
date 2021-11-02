@@ -135,6 +135,7 @@ This is a list of checked and approved plugins used within our website:
     - Advanced
         - Do not translate certain paths
             - `/privacy-statement/*`
+            - `/legal-notice/*`
 
 ##### *TODO* using Deepl to translate contents on the webpage
 - [Pricing](https://www.deepl.com/en/pro#developer)
