@@ -37,7 +37,8 @@
 
 | date       | editor  | changes                                                             |
 | ---------- | ------- | ------------------------------------------------------------------- |
-| 22.10.2021 | winterb | TranslatePress configuration                                        | 
+| 09.11.2021 | winterb | TranslatePress added and configured DeepL-Addon                     | 
+| 22.10.2021 | winterb | TranslatePress configuration                                        |
 | 30.09.2021 | winterb | checked Yoast SEO Plugin                                            |
 | 23.09.2021 | winterb | checked TranslatePress-Base-Plugin, rechecked Polylang              |
 | 01.09.2021 | winterb | updated WordPress-Configuration Details                             |
@@ -137,10 +138,18 @@ This is a list of checked and approved plugins used within our website:
             - `/privacy-statement/*`
             - `/legal-notice/*`
 
-##### *TODO* using Deepl to translate contents on the webpage
+##### using Deepl to translate contents on the webpage
 - [Pricing](https://www.deepl.com/en/pro#developer)
+    - needed: an API Key - we use the free version limited to 500'000 Chracters/Month
 - install Add-On (inside the Plugin)
     - [DeepL Automatic Translation](https://translatepress.com/docs/addons/deepl-automatic-translation/?utm_source=wpbackend&utm_medium=clientsite&utm_content=add-on-page&utm_campaign=TRP)
+- Settings → TranslatePress → Automatic Translation
+    - Enable Automatic Translation: Yes
+    - Translate Engine: DeepL
+        - DeepL API Type: Free
+        - DeepL API Type: *see KeePassXC*
+    - Block Crawlers: Yes
+    - Limit machine translation per day: 100'000
 
 #### Configuration Email Subscribers & Newsletters
 - TODO with double-opt-in
