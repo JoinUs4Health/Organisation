@@ -39,10 +39,16 @@ rectangle "Medical Center of the\nErasmus University Rotterdamm" <<Partner>> as 
 cloud "Internet" {
     node "netcup.de" <<Provider>> as netcup #ddbbaa {
         rectangle "Domain joinus4health.eu" as webspace #ffccaa {
-            component "WordPress" <<Web-Framework>> as wp
+            component "WordPress" <<Web-Framework>> as wp {
+                component "Elementor"
+                component "TranslatePress"
+                component "Yoast SEO"
+                component "One Click Accessibility"
+            }
             rectangle "//separate Server//" {
                 database "MySQL" <<database>> as my
             }
+            folder "WordPress-Files" as wpfolder
             file "log files" as log
             component "Webalizer" <<statistic-tool>> as stats
             component "E-Mail" as email {
@@ -51,6 +57,7 @@ cloud "Internet" {
                 rectangle "nl/en" <<inbox>> as e_nl
             }
             wp --> my
+            wp -l-> wpfolder
             stats --> log
         }
         interface "Homepage" as i_web

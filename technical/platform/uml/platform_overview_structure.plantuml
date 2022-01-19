@@ -9,37 +9,59 @@ header version: %date("dd.MM.yyyy")
 skinparam actorStyle awesome
 skinparam nodeBackgroundColor<<Server>> #ffccaa
 skinparam rectangleBackgroundColor<<Provider>> #ddbbaa
+skinparam componentBackgroundColor #fefece
+skinparam databaseBackgroundColor #fefece
+
 
 actor "User" as user
 
 cloud "Internet" {
-    rectangle "???" <<Provider>>  {
-        node "Web-Server" <<Server>> {
-            component "WordPress" <<Web-Framework>> as wp
-            component "Pad" as pad
-            component "Questionaire System" as survey
+    rectangle "netcup" <<Provider>>  {
+        node "Platform-Server" <<Server>> {
+            component "WordPress" <<Web-Framework>> as wp {
+                component "bbPress"
+                component "BuddyPress*"
+                component "TaskBreaker"
+                component "TODO???"
+            }
             folder "WordPress-Files" as wpfolder
-            rectangle "DBMS MySQL" as dbms {
-                note "OPEN: maybe on database server" as n1
+            database "DBMS MySQL" as dbms {
                 database "user data" <<database>> as db_user
                 database "platform data" <<database>> as db_plattform
             }
             wp --> dbms
             wp --> wpfolder
         }
-        node "Database-Server" <<Server>> {
-            note "OPEN: can we use a database server\nasking netcup, technical issues" as n2
+        node "Questionnaire-Server" <<Server>> {
+            component "LimeSurvey" <<Web-Framework>> as lime
+            database "DBMS MySQL" as lime_db
+            
+            lime    -->     lime_db
         }
-        interface "Platform" as i_web
-        i_web .u. wp
+        node "LDAP-Server" <<Server>> as ldap
+
     }
     rectangle "????" <<Provider>> {
-        node "BBB-Server" <<Server>> {
-            component "BigBlueButton" as bbb
+        node "BBB???-Server" <<Server>> {
+            component "Conference System" as bbb
+            
         }
     }
+    wp      -u->     ldap
+    bbb     -u->     ldap
+    lime    -u->     ldap
+
+    interface "Conference" as i_bbb
+    interface "Platform" as i_web
+    interface "Questionnaire" as i_lime
+
+    i_web   .u.     wp
+    i_lime  .u.     lime
+    i_bbb   .u.     bbb
 }
 
 user    -u-> i_web
+user    -u-> i_bbb
+user    -u-> i_lime
 
 @enduml
