@@ -40,7 +40,9 @@ cloud "Internet" {
     node "netcup.de" <<Provider>> as netcup #ddbbaa {
         rectangle "Domain joinus4health.eu" as webspace #ffccaa {
             component "WordPress" <<Web-Framework>> as wp
-            database "MySQL" <<database>> as my
+            rectangle "//separate Server//" {
+                database "MySQL" <<database>> as my
+            }
             file "log files" as log
             component "Webalizer" <<statistic-tool>> as stats
             component "E-Mail" as email {
