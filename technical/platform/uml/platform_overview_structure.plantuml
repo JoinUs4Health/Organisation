@@ -8,48 +8,68 @@ header version: %date("dd.MM.yyyy")
 
 skinparam actorStyle awesome
 skinparam nodeBackgroundColor<<Server>> #ffccaa
+skinparam rectangleBackgroundColor<<Partner>> #cccccc
 skinparam rectangleBackgroundColor<<Provider>> #ddbbaa
 skinparam componentBackgroundColor #fefece
 skinparam databaseBackgroundColor #fefece
 
+legend
+**Legend**
+- DPA "Data Processing Agreement" - Auftragsverarbeitungsvertrag (AVV)
+end legend
 
 actor "User" as user
 
-cloud "Internet" {
-    rectangle "netcup" <<Provider>>  {
-        node "Platform-Server" <<Server>> {
-            component "WordPress" <<Web-Framework>> as wp {
-                component "bbPress"
-                component "BuddyPress*"
-                component "TaskBreaker"
-                component "TODO???"
-            }
-            folder "WordPress-Files" as wpfolder
-            database "DBMS MySQL" as dbms {
-                database "user data" <<database>> as db_user
-                database "platform data" <<database>> as db_plattform
-            }
-            wp --> dbms
-            wp --> wpfolder
-        }
-        node "Questionnaire-Server" <<Server>> {
-            component "LimeSurvey" <<Web-Framework>> as lime
-            database "DBMS MySQL" as lime_db
-            
-            lime    -->     lime_db
-        }
-        node "LDAP-Server" <<Server>> as ldap
-
+rectangle "UMG\ncoordinator" as umg #ffcccc {
+    rectangle "ICM SHIP-KEF" {
+        actor "SHIP-IT" as ship
+        actor "JoinUs4Health\nProject Manage-\nment Team" as umg_team
     }
-    rectangle "????" <<Provider>> {
-        node "BBB???-Server" <<Server>> {
+}
+
+rectangle "science4people.eu" <<Partner>> as s4p {
+    actor "science4people\nPartner" as s4p_partner
+}
+
+cloud "Internet" {
+    rectangle "netcup" <<Provider>> as netcup {
+        node "Managed Private Server" <<Server>> as mps {
+            node "LDAP-Server" <<Server>> as ldap_server #fefece
+            node "Platform-Server" <<Server>> as platform_server {
+                component "WordPress" <<Web-Framework>> as wp {
+                    component "bbPress"
+                    component "BuddyPress*"
+                    component "TaskBreaker"
+                    component "TODO???"
+                }
+                folder "WordPress-Files" as wpfolder
+                database "DBMS MySQL" as dbms {
+                    database "user data" <<database>> as db_user
+                    database "platform data" <<database>> as db_plattform
+                }
+                wp --> dbms
+                wp --> wpfolder
+            }
+            node "Questionnaire-Server" <<Server>> as lime_server {
+                component "LimeSurvey" <<Web-Framework>> as lime
+                database "MySQL" <<database>> as lime_db
+                
+                lime    -->     lime_db
+            }
+            
+''            ldap_server -d-  platform_server
+''            lime_server -l-  platform_server
+            lime    -u->     ldap_server
+            wp      -->     ldap_server
+        }
+    }
+    rectangle "????" <<Provider>> as bbb_provider {
+        node "???-Server" <<Server>> {
             component "Conference System" as bbb
             
         }
     }
-    wp      -u->     ldap
-    bbb     -u->     ldap
-    lime    -u->     ldap
+    bbb     -->     ldap_server
 
     interface "Conference" as i_bbb
     interface "Platform" as i_web
@@ -60,8 +80,27 @@ cloud "Internet" {
     i_bbb   .u.     bbb
 }
 
+note "DPA" as a_us #aaaaff
+umg .. a_us
+a_us ..> s4p
+note "DPA" as a_un #aaaaff
+umg .. a_un
+a_un ..> netcup
+note "DPA" as a_ub #aaaaff
+umg .. a_ub
+a_ub ..> bbb_provider
+
+ship        -->     mps         : Adminis-\ntration
+ship        -->     bbb         : Adminis-\ntration
+s4p_partner -->     wp          : Adminis-\ntration
+s4p_partner -->     lime        : Adminis-\ntration
+s4p_partner -->     ldap_server : Adminis-\ntration
+
+i_web   -[hidden]-  i_bbb
+i_bbb   -[hidden]-  i_lime
+
 user    -u-> i_web
 user    -u-> i_bbb
-user    -u-> i_lime
+user    -->  i_lime
 
 @enduml
