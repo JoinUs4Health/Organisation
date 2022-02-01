@@ -1,7 +1,5 @@
-# WordPress-Installation for the Project JoinUs4Health
-
 <!-- TOC START min:1 max:4 link:true asterisk:false update:true -->
-- [WordPress-Installation for the Project JoinUs4Health](#wordpress-installation-for-the-project-joinus4health)
+- [WordPress-Server-Installation for the Platform of the Project JoinUs4Health](#wordpress-server-installation-for-the-platform-of-the-project-joinus4health)
     - [Overview](#overview)
     - [Server-Installation](#server-installation)
         - [WordPress installation](#wordpress-installation)
@@ -12,31 +10,41 @@
         - [Security](#security)
             - [Automatic Updates](#automatic-updates)
             - [Checked Security](#checked-security)
+- [WordPress-internal Installation/Configuration](#wordpress-internal-installationconfiguration)
+    - [Overview](#overview-1)
+    - [WordPress-Configuration](#wordpress-configuration)
+        - [Plugins](#plugins)
+        - [Disable Avatars](#disable-avatars)
+        - [Privacy Statement](#privacy-statement)
+    - [WordPress-Plugins used](#wordpress-plugins-used)
+        - [WordPress-Plugin-Configuration](#wordpress-plugin-configuration)
+- [Attachments](#attachments)
+    - [Attachment: WordPress-Plugins-Checks](#attachment-wordpress-plugins-checks)
+        - [Mind maps](#mind-maps)
 <!-- TOC END -->
 
 **Changelog**
 
-| date       | editor  | changes                                        |
-| ---------- | ------- | ---------------------------------------------- |
-| 02.11.2021 | winterb | changed WordPress security options             |
-| 14.07.2021 | winterb | backup information; translated security checks |
-| 09.07.2021 | winterb | added basic information                        |
+| date       | editor  | changes                                       |
+| ---------- | ------- | --------------------------------------------- |
+| 28.01.2022 | winterb | added general configuration and plugin checks | 
+| 19.01.2022 | winterb | started documentation                         |
 
+
+# WordPress-Server-Installation for the Platform of the Project JoinUs4Health
 ## Overview
-This document gives information about all configurations and installations in the Website-Server.
-For the WordPress-internal configuration, please see the `WordPress-Installation`.
+This document gives information about all configurations and installations in the Platform-Server.
+The WordPress-internal configuration can be found in the second chapter.
 
 ## Server-Installation
 The Installation of the backend is done by the netcup GmbH.
-JoinUs4Health uses the "managed server" for hosting the Website [joinus4health.eu](https://joinus4health.eu).
+JoinUs4Health uses a "managed private server" for hosting the Platform as a virtual server.
 
 ### WordPress installation
 WordPress is installed with a so called "WordPress-Toolkit" but without any special Plugins/Themes added.
 
 The "WordPress-Toolkit" provides further possibilities to simplify certain WordPress-Jobs like Backup, Clone, Security-Check.
 See the Configuration-part of this documentation for details.
-
-For the WordPress-internal configuration, please see the `WordPress-Installation`.
 
 ## Server-Configuration
 
@@ -50,11 +58,10 @@ For the WordPress-internal configuration, please see the `WordPress-Installation
         - files
         - databases
         - users
-- last test of restore: 14.07.2021 by winterb and kondrackir
 
 #### Offsite Backup
 - there is no automatic offsite-backup
-- once per month `winterb` will download a full-backup manually
+- at least once per month `winterb` will download a full-backup manually
 
 ### Security
 #### Automatic Updates
@@ -87,3 +94,60 @@ For the WordPress-internal configuration, please see the `WordPress-Installation
     - ✓ "Zugriff auf potenziell sensible Dateien blockieren" (Block access to potentially sensitive files)
     - ✓ "Zugriff auf HTACCESS- und HTPASSWD-Datei blockieren" (Block access to HTACCESS and HTPASSWD file)
     - ✓ "Standardbenutzername des Administrators ändern" (Change default username of administrator)
+
+# WordPress-internal Installation/Configuration
+## Overview
+This document gives information about all configurations and installations in the WordPress-Instance.
+For the Server-Configuration, please see the `Server-Installation`.
+
+## WordPress-Configuration
+### Plugins
+- enable all auto-updates for all plugins
+
+### Disable Avatars
+By using Gravatar-Service, personal data (IP, e-mail) is sent to the US company.
+
+To disable the use of Avatars disable `Show Avatars` in `Settings → Discussion`.
+
+### Privacy Statement
+Link the Page with the privacy statement in `Show Avatars` in `Settings → Privacy`.
+
+## WordPress-Plugins used
+This is a list of checked and approved plugins used within our website:
+
+- 
+
+### WordPress-Plugin-Configuration
+*TODO; Status: WIP; waiting for the documentation by the partner science4people*
+
+---
+
+# Attachments
+
+## Attachment: WordPress-Plugins-Checks
+This Section has the results of our plugin-checks, we do in terms of privacy and security.
+
+General Information about Privacy Policy for WordPress plugins:
+
+- https://www.termsfeed.com/blog/privacy-policy-wordpress-plugins/ (21.12.2020)
+    - WordPress does not require a privacy policy from plugin developers
+    - Developers **should remind** users, if they legally require to have a Privacy Policy
+    - there is no default link on the plugins page, **if** they have some kind of privacy policy
+    - all information, what data is processed, can only be read somewhere in the documents of the plugins - if the developer made a good documentation
+- https://developer.wordpress.org/plugins/privacy/
+    - WordPress privacy guidelines
+
+### Mind maps
+- description
+    - create mind maps to plan, take notes, visualise information, brainstorm, solve problems, study, and share information
+    - languages: english, french
+- check
+    - last checked: `13.01.2022, winterb`
+    - version: `2.18.0`
+    - privacy checked: ✓ `ok`
+        - no explicit information found, seems to run locally only
+    - terms checked: ✓ `GPLv2 or later`
+        - https://plugins.svn.wordpress.org/email-subscribers/
+    - conclusion: ✓ ok
+- links
+    - https://wordpress.org/plugins/mind-maps/

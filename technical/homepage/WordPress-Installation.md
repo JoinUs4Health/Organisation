@@ -1,7 +1,7 @@
-# WordPress-Installation for the Project JoinUs4Health
+# WordPress-Installation for the Website of the Project JoinUs4Health
 
 <!-- TOC START min:1 max:4 link:true asterisk:false update:true -->
-- [WordPress-Installation for the Project JoinUs4Health](#wordpress-installation-for-the-project-joinus4health)
+- [WordPress-Installation for the Website of the Project JoinUs4Health](#wordpress-installation-for-the-website-of-the-project-joinus4health)
     - [Overview](#overview)
     - [WordPress-Configuration](#wordpress-configuration)
         - [Plugins](#plugins)
