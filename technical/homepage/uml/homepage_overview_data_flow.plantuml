@@ -56,9 +56,9 @@ cloud "Internet" {
                 rectangle "pl/en" <<inbox>> as e_pl
                 rectangle "nl/en" <<inbox>> as e_nl
             }
-            wp --> my
-            wp -l-> wpfolder
-            stats --> log
+            wp --> my           #black
+            wp -l-> wpfolder    #black
+            stats --> log       #black
         }
         interface "Homepage" as i_web
         interface "E-Mail" as i_mail

@@ -34,7 +34,6 @@ rectangle "science4people.eu" <<Partner>> as s4p {
 cloud "Internet" {
     rectangle "netcup" <<Provider>> as netcup {
         node "Managed Private Server" <<Server>> as mps {
-            node "LDAP-Server" <<Server>> as ldap_server #fefece
             node "Platform-Server" <<Server>> as platform_server {
                 component "WordPress" <<Web-Framework>> as wp {
                     component "bbPress"
@@ -47,29 +46,26 @@ cloud "Internet" {
                     database "user data" <<database>> as db_user
                     database "platform data" <<database>> as db_plattform
                 }
-                wp --> dbms
-                wp --> wpfolder
+                wp --> dbms     #black
+                wp --> wpfolder #black
             }
             node "Questionnaire-Server" <<Server>> as lime_server {
                 component "LimeSurvey" <<Web-Framework>> as lime
                 database "MySQL" <<database>> as lime_db
                 
-                lime    -->     lime_db
+                lime    -->     lime_db #black
             }
             
-''            ldap_server -d-  platform_server
-''            lime_server -l-  platform_server
-            lime    -u->     ldap_server
-            wp      -->     ldap_server
+            wp      =(0=     lime #00aa00
         }
     }
     rectangle "????" <<Provider>> as bbb_provider {
-        node "???-Server" <<Server>> {
-            component "Conference System" as bbb
+        node "Conference-Server" <<Server>> {
+            component "BigBlueButton" <<Web-Framework>> as bbb
             
         }
     }
-    bbb     -->     ldap_server
+    wp     =(0=     bbb #00aa00
 
     interface "Conference" as i_bbb
     interface "Platform" as i_web
@@ -94,13 +90,12 @@ ship        -->     mps         : Adminis-\ntration
 ship        -->     bbb         : Adminis-\ntration
 s4p_partner -->     wp          : Adminis-\ntration
 s4p_partner -->     lime        : Adminis-\ntration
-s4p_partner -->     ldap_server : Adminis-\ntration
 
 i_web   -[hidden]-  i_bbb
 i_bbb   -[hidden]-  i_lime
 
 user    -u-> i_web
 user    -u-> i_bbb
-user    -->  i_lime
+user    -u->  i_lime
 
 @enduml
