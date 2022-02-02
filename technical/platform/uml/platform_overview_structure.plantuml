@@ -43,11 +43,15 @@ cloud "Internet" {
                 }
                 folder "WordPress-Files" as wpfolder
                 database "DBMS MySQL" as dbms {
-                    database "user data" <<database>> as db_user
                     database "platform data" <<database>> as db_plattform
                 }
                 wp --> dbms     #black
                 wp --> wpfolder #black
+            }
+            node "Database-Server" <<Server>> as db_server {
+                database "DBMS MySQL" as dbms_p {
+                    database "user data" <<database>> as db_user
+                }
             }
             node "Questionnaire-Server" <<Server>> as lime_server {
                 component "LimeSurvey" <<Web-Framework>> as lime
@@ -56,11 +60,12 @@ cloud "Internet" {
                 lime    -->     lime_db #black
             }
             
-            wp      =(0=     lime #00aa00
+            wp      -u->    dbms_p  #black
+            wp      =(0=    lime    #00aa00
         }
     }
     rectangle "????" <<Provider>> as bbb_provider {
-        node "Conference-Server" <<Server>> {
+        node "Conference-Server" <<Server>> as bbb_server {
             component "BigBlueButton" <<Web-Framework>> as bbb
             
         }
@@ -87,7 +92,7 @@ umg .. a_ub
 a_ub ..> bbb_provider
 
 ship        -->     mps         : Adminis-\ntration
-ship        -->     bbb         : Adminis-\ntration
+ship        -->     bbb_server  : Adminis-\ntration
 s4p_partner -->     wp          : Adminis-\ntration
 s4p_partner -->     lime        : Adminis-\ntration
 

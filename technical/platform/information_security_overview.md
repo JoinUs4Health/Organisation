@@ -10,9 +10,12 @@
         - [Provider ??? - Conference-System](#provider----conference-system)
     - [Software](#software)
         - [WordPress - Base Platform](#wordpress---base-platform)
+        - [LimeSurvey - Questionnaire-System](#limesurvey---questionnaire-system)
+        - [BigBlueButton - Conference-System](#bigbluebutton---conference-system)
 - [Data processed in the Components of the JoinUs4Healt-Platform](#data-processed-in-the-components-of-the-joinus4healt-platform)
     - [The Users Profile](#the-users-profile)
 - [User Authentication](#user-authentication)
+- [Security](#security)
 <!-- TOC END -->
 
 ## Project Overview
@@ -23,6 +26,9 @@
 ### Short Project Description
 
 ### Technical Infrastructure Overview
+The following UML-Diagram shows the overall technical infrastructure as well as the user view, the administrators and the data processing agreements.  
+The main system ist based on WordPress. It provides the platform with all content and functions. The central user authentication is done with the WordPress-internal user-management. The data for the WordPress system is separated in two databases, one for personal data and user accounts, the second one for the content.
+
 ![](uml/platform_overview_structure.svg)
 
 #### Partner science4people
@@ -30,12 +36,12 @@ Our project-partner Science4People (Warszawska Nr 6 Lok 23; Bialystock 15 063, P
 Science4people signed an appropriate data processing agreement/Auftragsverarbeitungsvertrag (DPA/AVV) with the UMG and we provide further guidelines and restrictions regarding security. Please see the document `requirements_administration` for more information.
 
 #### Provider netcup - Platform
-https://netcup.de (netcup GmbH; Daimlerstraße 25; D-76185 Karlsruhe) provides the main server environment as "Managed Private Server" running:
+The provider https://netcup.de (netcup GmbH; Daimlerstraße 25; D-76185 Karlsruhe) provides the main server environment as "Managed Private Server" running:
 - the main WordPress-Instance with the platform
 - the LDAP-Server *TODO; Status: planning; to be implemented; details following*
 - the Questionnaire-System *TODO; Status: planning; to be implemented; details following*
 
-Also the WordPress-Website https://joinus4health.eu runs on a netcup server. Please see the data processing agreement/Auftragsverarbeitungsvertrag (DPA/AVV) with netcup for details about the contract and netcups TOMs.
+Also the WordPress-Website https://joinus4health.eu runs on a netcup server but is strictly separated from the platform. Please see the data processing agreement/Auftragsverarbeitungsvertrag (DPA/AVV) with netcup for details about the contract and netcups TOMs.
 
 #### Provider ??? - Conference-System
 *TODO; Status: planning; to be implemented; details following*
@@ -53,7 +59,7 @@ For details on the WordPress-configuration and all Plugins used, please see the 
 - purpose: Users of the platform are allowed to create small anonymous surveys within their topics
 - *TODO; Status: planning; to be implemented; details following*
 
-#### ??? - Conference-System
+#### BigBlueButton - Conference-System
 - hosted at ???
 - purpose: to enhance team communication, we provide a conference system for virtual meetings
 - *TODO; Status: planning; to be implemented; details following*
@@ -85,7 +91,11 @@ Also other fields then the e-mail-address can contain personal data.
 | how they became aware of the platform                              | optional | no               |
 
 ## User Authentication
-The authentication of the user is done by WordPress (the base of the platform) internally. Other systems as the Conference-Platform and the Questionnaire-System are connected via our own LDAP-Server.
+The authentication of the user is done by WordPress (the base of the platform) internally. Other systems as the Conference-Platform and the Questionnaire-System are connected via their APIs with WordPress as the primary system.
 
-
+## Security
+- all connections are TLS encrypted (at least v1.3, only high ciphers)
+- database separation for personal data (user profiles) and platform data (other content)
+- automatic updates for all used systems
+- operational requirements for all administrators, please see `requirements_administration`
 
