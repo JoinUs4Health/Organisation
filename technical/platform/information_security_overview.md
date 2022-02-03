@@ -32,13 +32,13 @@ The main system ist based on WordPress. It provides the platform with all conten
 ![](uml/platform_overview_structure.svg)
 
 #### Partner science4people
-Our project-partner Science4People (Warszawska Nr 6 Lok 23; Bialystock 15 063, Poland) is responsible for the technical administration of the sub-systems such as WordPress, LDAP, the Questionnaire-System.
+Our project-partner Science4People (Warszawska Nr 6 Lok 23; Bialystock 15 063, Poland) is responsible for the technical administration of the sub-systems such as WordPress, <del>LDAP</del> API integration, the Questionnaire-System.
 Science4people signed an appropriate data processing agreement/Auftragsverarbeitungsvertrag (DPA/AVV) with the UMG and we provide further guidelines and restrictions regarding security. Please see the document `requirements_administration` for more information.
 
 #### Provider netcup - Platform
 The provider https://netcup.de (netcup GmbH; Daimlerstraße 25; D-76185 Karlsruhe) provides the main server environment as "Managed Private Server" running:
 - the main WordPress-Instance with the platform
-- the LDAP-Server *TODO; Status: planning; to be implemented; details following*
+- <del>the LDAP-Server *TODO; Status: planning; to be implemented; details following* </del>
 - the Questionnaire-System *TODO; Status: planning; to be implemented; details following*
 
 Also the WordPress-Website https://joinus4health.eu runs on a netcup server but is strictly separated from the platform. Please see the data processing agreement/Auftragsverarbeitungsvertrag (DPA/AVV) with netcup for details about the contract and netcups TOMs.
