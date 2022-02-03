@@ -52,7 +52,7 @@ Also the WordPress-Website https://joinus4health.eu runs on a netcup server but 
 - purpose: provide the base platform with content, user authentication and team structures
 
 Netcup provides a special WordPress-environment with configuration options on certain security aspects and automatic updates of the base software, plugins and themes.  
-For details on the WordPress-configuration and all Plugins used, please see the documentation `WordPress_documentation`.
+For details on the WordPress-configuration and all Plugins used, please see the documentation `Server_WordPress_documentation`.
 
 #### LimeSurvey - Questionnaire-System
 - hosted at netcup on a dedicated server

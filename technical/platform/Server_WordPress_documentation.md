@@ -50,10 +50,11 @@ See the Configuration-part of this documentation for details.
 
 ### Safety
 #### Automatic Backup
-- enabled in [control panel → Konto → Website sichern → Planen](https://a2efa.webhosting.systems/smb/backup/list/domainId/548)
+- enabled in control panel → Account → Back Up Websites → Schedule
     - create every 24h an incremental Backup
     - create a full backup every seven days
     - store up to three full backups
+    - exclude specific files from backup: `/.trash`, `/.wordpress-backups`
     - content
         - files
         - databases
@@ -71,34 +72,30 @@ See the Configuration-part of this documentation for details.
     - update Themes: Yes
 
 #### Checked Security
-- for WordPress in the [WordPress-Toolkit](https://a2efa.webhosting.systems/modules/wp-toolkit/index.php/domain/list):
-    - ❌ "Skriptverkettung für WordPress-Administrator-Panel deaktivieren" (Disable script chaining for WordPress admin panel)
+- for WordPress in the WordPress-Toolkit:
+    - ❌ Disable scripts concatenation for WordPress admin panel
         - not enabled, because it can cause problems with the AdminPanel in WordPress
-    - ❌ "Autorenscans blockieren" (Block author scans)
+    - ❌ Block author scans
         - not enabled, because this can cause problems on pages with only one author
-    - ✓ "Dateibearbeitung im WordPress-Dashboard deaktivieren" (Disable file editing in WordPress dashboard)
-        - was disabled during setup and test procedure
-    - ✓ "Zugriff auf Dateien und Verzeichnisse einschränken" (Restrict access to files and directories)
-    - ✓ "Sicherheitsschlüssel konfigurieren" (Configure security keys)
-    - ✓ "Verzeichnissuche blockieren" (Block directory scanning)
-    - ✓ "Ausführung von PHP-Skripts im Verzeichnis "wp-includes" nicht erlauben" (Do not allow execution of PHP scripts in "wp-includes" directory)
-    - ✓ "Ausführung von PHP-Skripts im Verzeichnis "wp-content/uploads" nicht erlauben" (Do not allow execution of PHP scripts in "wp-content/uploads" directory)
-    - ✓ "Nicht autorisierten Zugriff auf "wp-config.php" blockieren" (Block unauthorized access to "wp-config.php)
-    - ✓ "Pingbacks deaktivieren" (Disable pingbacks)
-    - ✓ "Schutz vor Hotlinks aktivieren" (Enable hotlink protection)
-    - ✓ "Nicht verwendete Skriptsprachen deaktivieren" (Disable unused scripting languages)
-    - ✓ "PHP-Ausführung in Cache-Verzeichnissen deaktivieren" (Disable PHP execution in cache directories)
-    - ✓ "Standardpräfix von Datenbanktabellen ändern" (Change default prefix of database tables)
-    - ✓ "Schutz vor Bots aktivieren" (Enable protection against bots)
-    - ✓ "Zugriff auf sensible Dateien blockieren" (Block access to sensitive files)
-    - ✓ "Zugriff auf potenziell sensible Dateien blockieren" (Block access to potentially sensitive files)
-    - ✓ "Zugriff auf HTACCESS- und HTPASSWD-Datei blockieren" (Block access to HTACCESS and HTPASSWD file)
-    - ✓ "Standardbenutzername des Administrators ändern" (Change default username of administrator)
+    - ✓ Forbid execution of PHP scripts in the wp-includes directory
+    - ✓ Forbid execution of PHP scripts in the wp-content/uploads directory
+    - ✓ Turn off pingbacks
+    - ✓ Disable file editing in WordPress Dashboard
+    - ✓ Enable bot protection
+    - ✓ Block access to potentially sensitive files
+    - ✓ Block access to .htaccess and .htpasswd
+    - ✓ Restrict access to files and directories
+    - ✓ Configure security keys
+    - ✓ Block directory browsing
+    - ✓ Block unauthorized access to wp-config.php
+    - ✓ Disable PHP execution in cache directories
+    - ✓ Change default database table prefix
+    - ✓ Block access to sensitive files
+    - ✓ Change default administrator's username
 
 # WordPress-internal Installation/Configuration
 ## Overview
-This document gives information about all configurations and installations in the WordPress-Instance.
-For the Server-Configuration, please see the `Server-Installation`.
+This part gives information about all configurations and installations in the WordPress-Instance.
 
 ## WordPress-Configuration
 ### Plugins
@@ -115,7 +112,7 @@ Link the Page with the privacy statement in `Show Avatars` in `Settings → Priv
 ## WordPress-Plugins used
 This is a list of checked and approved plugins used within our website:
 
-- 
+- *TODO; Status: WIP; waiting for the documentation by the partner science4people*
 
 ### WordPress-Plugin-Configuration
 *TODO; Status: WIP; waiting for the documentation by the partner science4people*

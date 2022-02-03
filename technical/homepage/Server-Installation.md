@@ -46,6 +46,7 @@ For the WordPress-internal configuration, please see the `WordPress-Installation
     - create every 24h an incremental Backup
     - create a full backup every seven days
     - store up to three full backups
+    - exclude specific files from backup: `/.trash`, `/.wordpress-backups`
     - content
         - files
         - databases
