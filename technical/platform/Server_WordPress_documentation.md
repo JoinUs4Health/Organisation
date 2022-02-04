@@ -54,7 +54,7 @@ See the Configuration-part of this documentation for details.
     - create every 24h an incremental Backup
     - create a full backup every seven days
     - store up to three full backups
-    - exclude specific files from backup: `/.trash`, `/.wordpress-backups`
+    - exclude specific files from backup: `/.trash`, `/wordpress-backups`
     - content
         - files
         - databases
