@@ -65,6 +65,16 @@ cloud "Internet" {
         i_web .u. wp
         i_mail .u. email
     }
+    node "deepl.com" as deepl #ddbbaa {
+        component "Translator" as deepl_trans {
+            note as n_deepl
+                Deepl is used to translate
+                website public content
+                no user data is sent to Deepl
+            end note
+        }
+    }
+    wp     =(0==     deepl_trans #00aa00
 }
 
 note "DPA" as a_us #aaaaff
