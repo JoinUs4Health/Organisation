@@ -86,7 +86,7 @@
      * Activity Settings > Post Comments:  Allow activity stream commenting on posts and comments: check
    * TODO describe additional fields wt sign up
  
-4. **Fetch locally LudicrousDB from git: (TODO: fork plugin to own hosted repo)**
+4. **Fetch locally LudicrousDB from git**
 * Clone repo by `git clone git@github.com:JoinUs4Health/ludicrousdb-ju4h.git` command or download zip `https://github.com/JoinUs4Health/ludicrousdb-ju4h/archive/refs/heads/master.zip`
 * Copy content of `drop-in` folder to main plafrom folder
 * Edit `wp-config.php` in main wordpress directory, COPY (for later purpouse) and remove first 39 lines, especially definitions:
