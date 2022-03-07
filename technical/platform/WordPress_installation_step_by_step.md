@@ -87,8 +87,9 @@
    * TODO describe additional fields wt sign up
  
 4. **Fetch locally LudicrousDB from git: (TODO: fork plugin to own hosted repo)**
-* `git clone https://github.com/stuttter/ludicrousdb.git` or download zip
-* Edit `wp-config.php` in main wordpress directory, COPY (for later purpouse 4.3) and remove first 39 lines, especially definitions:
+* Clone repo by `git clone git@github.com:JoinUs4Health/ludicrousdb-ju4h.git` command or download zip `https://github.com/JoinUs4Health/ludicrousdb-ju4h/archive/refs/heads/master.zip`
+* Copy content of `drop-in` folder to main plafrom folder
+* Edit `wp-config.php` in main wordpress directory, COPY (for later purpouse) and remove first 39 lines, especially definitions:
 ```php
  define( 'DB_NAME', 'xxxx' );
  define( 'DB_USER', 'xxxx' );
@@ -97,57 +98,9 @@
  define( 'DB_CHARSET', 'xxxx' );
  define( 'DB_COLLATE', 'xxxx' );
  ```
-* Change lines 37-38 in `ludicrousdb.php` file from ludicrousdb folder:
+* Create second database and put to it two tables: `{prefix}_users` & `{prefix}_usermeta`.
+* Edit `db-config.php` from main wordpress catalog. Edit this configurations and fill it with proper auth data. At `xxx_1` & `xxx_2` should be placed credentials database data like database host, user, database password and database name.
 ```php
-require_once dirname( __FILE__ ) . '/ludicrousdb/includes/functions.php';
-require_once dirname( __FILE__ ) . '/ludicrousdb/includes/class-ludicrousdb.php';
-```
-
-to
-
-```php
-require_once dirname( __FILE__ ) . '/includes/functions.php';
-require_once dirname( __FILE__ ) . '/includes/class-ludicrousdb.php';
-```
-* Take file `db-config.php` from drop-ins and copy it to main wordpress catalog. Remove all lines below line 95 and paste this lines:
-```php
-$table_prefix = 'wp_';
-$wpdb->add_table('1', $table_prefix."bp_activity");
-$wpdb->add_table('1', $table_prefix."bp_activity_meta");
-$wpdb->add_table('1', $table_prefix."bp_groups");
-$wpdb->add_table('1', $table_prefix."bp_groups_groupmeta");
-$wpdb->add_table('1', $table_prefix."bp_groups_members");
-$wpdb->add_table('1', $table_prefix."bp_invitations");
-$wpdb->add_table('1', $table_prefix."bp_messages_messages");
-$wpdb->add_table('1', $table_prefix."bp_messages_meta");
-$wpdb->add_table('1', $table_prefix."bp_messages_notices");
-$wpdb->add_table('1', $table_prefix."bp_messages_recipients");
-$wpdb->add_table('1', $table_prefix."bp_notifications");
-$wpdb->add_table('1', $table_prefix."bp_notifications_meta");
-$wpdb->add_table('1', $table_prefix."bp_optouts");
-$wpdb->add_table('1', $table_prefix."bp_xprofile_data");
-$wpdb->add_table('1', $table_prefix."bp_xprofile_fields");
-$wpdb->add_table('1', $table_prefix."bp_xprofile_groups");
-$wpdb->add_table('1', $table_prefix."bp_xprofile_meta");
-$wpdb->add_table('1', $table_prefix."commentmeta");
-$wpdb->add_table('1', $table_prefix."comments");
-$wpdb->add_table('1', $table_prefix."links");
-$wpdb->add_table('1', $table_prefix."options");
-$wpdb->add_table('1', $table_prefix."postmeta");
-$wpdb->add_table('1', $table_prefix."posts");
-$wpdb->add_table('1', $table_prefix."signups");
-$wpdb->add_table('1', $table_prefix."task_breaker_comments");
-$wpdb->add_table('1', $table_prefix."task_breaker_tasks");
-$wpdb->add_table('1', $table_prefix."task_breaker_tasks_user_assignment");
-$wpdb->add_table('1', $table_prefix."task_breaker_task_meta");
-$wpdb->add_table('1', $table_prefix."termmeta");
-$wpdb->add_table('1', $table_prefix."terms");
-$wpdb->add_table('1', $table_prefix."term_relationships");
-$wpdb->add_table('1', $table_prefix."term_taxonomy");
-
-$wpdb->add_table('2', $table_prefix."usermeta");
-$wpdb->add_table('2', $table_prefix."users");
-
 $wpdb->add_database(array(
 	'host'     => "xxx_1",     // If port is other than 3306, use host:port.
 	'user'     => "xxx_1",
@@ -155,8 +108,8 @@ $wpdb->add_database(array(
 	'name'     => "xxx_1",
 	'dataset'  => "1",
 	'write'    => 1,
-    'read'     => 1,
-    'timeout'  => 1.0,
+	'read'     => 1,
+	'timeout'  => 1.0,
 ));
 
 $wpdb->add_database(array(
@@ -166,15 +119,10 @@ $wpdb->add_database(array(
 	'name'     => "xxx_2",
 	'dataset'  => "2",
 	'write'    => 1,
-    'read'     => 1,
-    'timeout'  => 1.0,
+	'read'     => 1,
+	'timeout'  => 1.0,
 ));
 ```
-
-* At `xxx_1` & `xxx_2` should be placed credentials database data like database host, user, database password and database name. For `$table_prefix` put table prefix.
-* Create second database and put to it two tables: `{prefix}_users` & `{prefix}_usermeta`.
-* Copy `db.php` and `db-error.php` from drop-ins to wp-content folder.
-* Copy ludicrousdb folder (without drop-ins) with content: includes folder and `ludicrousdb.php` file to `wp-content/plugins` folder.
 * After install ludicrousdb refresh page, all things should be working.
 
 5. **Install joinus4health plugin**
