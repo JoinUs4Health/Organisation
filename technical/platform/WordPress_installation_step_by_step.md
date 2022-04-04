@@ -1,9 +1,10 @@
 # WordPress installation step by step
 ## Changelog
 
-| date       | editor  | changes                                       |
-| ---------- | ------- | --------------------------------------------- |
-| 04.03.2022 | Jakub   | Created                                       | 
+| date       | editor  | changes                                                |
+| ---------- | ------- | ------------------------------------------------------ |
+| 04.04.2022 | Jakub   | Updates - for detailed changes look at commit          | 
+| 04.03.2022 | Jakub   | Created                                                | 
 
 ## Content
 1. **Install new wordpress instance on netcup**
@@ -12,13 +13,19 @@
    * Install astra theme using search in wordpress
    * Copy astra-child theme to `wp-content/themes`
    * Activate Ju4H theme
-   * Set up title: `Join Us 4 Health`
-   * Set up tagline: like above
-   * Check Membership as: `Anyone can register`
-   * Site language: `English`
-   * Date format: `Y-m-d`
-   * Time format: `H:i`
-   * Week Starts On: `Monday`
+   * Settings > General:
+     * Set up title: `Join Us 4 Health`
+     * Set up tagline: like above
+     * Check Membership as: `Anyone can register`
+     * Site language: `English`
+     * Date format: `Y-m-d`
+     * Time format: `H:i`
+     * Week Starts On: `Monday`
+   * Settings > Discussion:
+     * Avatar Display: disable
+   * Settings > General (again, but now installing languages):
+     * Select one of language which must be installed: Deutsch, English (UK), Nederlands, Polski
+     * Save Changes and repeat step above, till you will have installed all the languages mentioned above on the select box list under 'Installed'
    * Appeareance > Astra options:
      * Header Builder:
        * Primary header settings:
@@ -78,13 +85,41 @@
      * Common Settings > Post Name
    * BuddyPress:
      * Components:
+       * Extended Profiles: Enable
+       * Account Settings: Enable 
        * Private Messaging: Enable
+       * Activity Streams: Enable
+       * Notifications: Enable
+       * User Groups: Enable
      * User Groups: Enable
    * Options:
-     * Main settings > Pack > BuddyPress Legacy
-     * Member Settings > Invitations > Allow registered members to invite people to join this network: check
-     * Activity Settings > Post Comments:  Allow activity stream commenting on posts and comments: check
-   * TODO describe additional fields wt sign up
+     * Main settings:
+       * Toolbar: Enable
+       * Account Deletion: Enable
+       * Template Pack: BuddyPress Legacy
+     * Member Settings:
+       * Profile Photo Uploads: enable
+       * Cover Images Uploads: disable
+       * Invitations: disable
+     * Profile Settings:
+	* Profile Syncing: enable
+     * Groups Settings:
+       * Group Creation: disable
+       * Group Photo Uploads: enable
+       * Group Cover Image Uploads: disable
+     * Activity Settings:
+       * Post Comments: enable
+       * Activity auto-refresh: enable
+   * Go to Users > Profile fields and at Base (Primary) 'Add New Field':
+     * Requirment: Required
+     * Signups: enable
+     * Visibility: Everyone
+     * Autolink: enabled 
+     * Sort Order: Custom
+     * Name: Preferred language
+     * Type: Drop Down Select Box
+     * With options: DE, PL, EN, NL
+     * Set EN as Default Value
  
 4. **Fetch locally LudicrousDB from git**
 * Clone repo by `git clone git@github.com:JoinUs4Health/ludicrousdb-ju4h.git` command or download zip `https://github.com/JoinUs4Health/ludicrousdb-ju4h/archive/refs/heads/master.zip`
@@ -98,7 +133,7 @@
  define( 'DB_CHARSET', 'xxxx' );
  define( 'DB_COLLATE', 'xxxx' );
  ```
-* Create second database and put to it two tables: `{prefix}_users` & `{prefix}_usermeta`.
+* Create second database and put to it two tables: `{prefix}_signups`, `{prefix}_users` & `{prefix}_usermeta`.
 * Edit `db-config.php` from main wordpress catalog. Edit this configurations and fill it with proper auth data. At `xxx_1` & `xxx_2` should be placed credentials database data like database host, user, database password and database name.
 ```php
 $wpdb->add_database(array(
@@ -130,17 +165,29 @@ $wpdb->add_database(array(
    * Copy folder with plugin to `wp-content/plugins` 
    * Activate plugin in wordpress panel
 
-6. **Setup menu & page**
-   * Add pages:
+6. **Install Easy WP SMTP plugin & configure it**
+
+   * From Email Address: created mail on plesk
+   * From Name: Juin us 4 Health
+   * Type of Encryption: SSL/TLS
+   * SMTP Host: host of mail server
+   * SMTP Port: 465
+   * SMTP Authentiaction: YES
+   * SMTP Username & Password: fill-in with data
+   * Encrypt Password: disable
+   * Allow Insecure SSL Certificates: enable
+
+7. **Setup menu & page**
+   * Add pages at Pages > Add New:
      * Activation
      * Activity
-     * Add new suggestion
+     * Add new suggestion at /ju4hsuggestion-new/
      * Event catalog
      * Members
      * Privacy Policy
      * Report repository
-     * Sign up
-     * Working group
+     * Sign up at /sign-up/
+     * Teams at /groups/
    * BuddyPress bind pages:
      * Pages > Directories:
        * Members > Members
@@ -150,10 +197,3 @@ $wpdb->add_database(array(
      * Pages > Registration:
        * Register > Sign up
        * Activate -> Activation
-   * Setup menu in this order:
-     * Custom Links > Navigation Label: Topics; URL: `https://{website url}/ju4htopic/`
-     * Custom Links > Navigation Label: Tasks; URL: `https://{website url}/ju4htask/`
-     * Custom Links > Navigation Label: Suggestions; URL: `https://{website url}/ju4hsuggestion/`
-     * Pages > Working group
-     * Pages > Report repository
-     * Pages > Event catalog
