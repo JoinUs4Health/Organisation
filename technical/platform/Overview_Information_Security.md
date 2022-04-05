@@ -102,9 +102,9 @@ Also other fields then the e-mail-address can contain personal data.
 | password                                                           | yes      | no (not possible, hashed&salted) |
 | consent with terms of conditions and data privacy agreement        | yes      | no                               |
 | e-mail address                                                     | yes      | no                               |
-| main language (DE, EN, PL, NL)                                     | yes      | optional                         |
+| main language (DE, EN, PL, NL)                                     | no       | optional                         |
 | additional languages                                               | optional | optional                         |
-| country                                                            | yes      | yes                              |
+| country                                                            | no       | yes                              |
 | post code of residence                                             | optional | no                               |
 | year of birth (other users only see age group)                     | optional | optional (shows age group)       |
 | gender (male, female, gender-neutral)                              | optional | optional                         |
