@@ -1,8 +1,8 @@
 # Datenschutzerklärung
-Diese Datenschutzerklärung gilt für die Nutzung unseres Online-Angebots `www.joinus4health.eu`.
+Diese Datenschutzerklärung gilt für die Nutzung unseres Online-Angebots `www.joinus4health.eu`, im weiteren kurz "Webseite" genannt.
 Wir möchten Sie hier darüber aufklären, in welcher Weise wir Ihre personenbezogenen Daten (nachfolgend kurz "Daten") verarbeiten und Ihnen Zweck und Umfang darlegen.
 
-Version: 01.09.2021
+Version: 05.04.2022
 
 **Table of Content**
 
@@ -16,7 +16,7 @@ Version: 01.09.2021
         - [Kontaktaufnahme per E-Mail](#kontaktaufnahme-per-e-mail)
         - [Benutzung unserer Webseite](#benutzung-unserer-webseite)
         - [Cookies, Session Storage und Local Storage](#cookies-session-storage-und-local-storage)
-        - [Weitere Funktionen und Angebote auf unserer Website](#weitere-funktionen-und-angebote-auf-unserer-website)
+        - [Weitere Funktionen und Angebote auf unserer Webseite](#weitere-funktionen-und-angebote-auf-unserer-webseite)
         - [Minderjährige](#minderjährige)
     - [Auftragsverarbeiter](#auftragsverarbeiter)
         - [unsere Auftragsverarbeiter](#unsere-auftragsverarbeiter)
@@ -47,7 +47,7 @@ Walther-Rathenau-Strasse 48
 DE-17475 Greifswald, Germany
 
 E-Mail: `birgit.schauer [at] uni-greifswald.de`  
-Website: [https://www2.medizin.uni-greifswald.de/icm/index.php?id=20](https://www2.medizin.uni-greifswald.de/icm/index.php?id=20)
+Webseite: [https://www2.medizin.uni-greifswald.de/icm/index.php?id=20](https://www2.medizin.uni-greifswald.de/icm/index.php?id=20)
 
 ### Datenschutzbeauftragter 
 Prof. Ulf Glende  
@@ -80,7 +80,7 @@ Sind Einstellungen für den Nutzer möglich, so ist stets die datenschutzfreundl
 Wir verzichten auf eine automatische Entscheidungsfindung oder ein Profiling.
 
 ## Information über die Erhebung personenbezogener Daten
-Nachfolgend möchten wir Sie über die Erhebung personenbezogener Daten bei Nutzung unserer Website informieren.
+Nachfolgend möchten wir Sie über die Erhebung personenbezogener Daten bei Nutzung unserer Webseite informieren.
 Personenbezogene Daten sind z.B. Ihr Name, Ihre Anschrift, Ihre E-Mail-Adressen, Ihr Nutzungsverhalten, etc. 
 
 ### Kontaktaufnahme per E-Mail
@@ -102,16 +102,16 @@ Folgende Daten werden beim Versenden von E-Mails übermittelt:
 - E-Mail-Inhalte, die ggf. weitere personenbezogene Daten enthalten können
 
 ### Benutzung unserer Webseite
-Bei der bloß informatorischen Nutzung der Website, also wenn Sie sich nicht registrieren oder uns anderweitig Informationen zur Verfügung stellen, erheben wir nur die personenbezogenen Daten, die Ihr Browser an unseren Server übermittelt.
+Bei der bloß informatorischen Nutzung der Webseite, also wenn Sie sich nicht registrieren oder uns anderweitig Informationen zur Verfügung stellen, erheben wir nur die personenbezogenen Daten, die Ihr Browser an unseren Server übermittelt.
 Die technisch erforderlichen Daten, die Ihr Browser automatisch an unseren Server übermittelt, werden für maximal 14 Tage in sogenannten Server-Log-Dateien gespeichert.
 Eine Zusammenführung personenbezogenen Daten mit anderen Datenquellen wird nicht vorgenommen.
 Wir verwenden Teile der Daten, um vollständig anonyme Statistiken über die Seitennutzung zu erstellen.
-Wenn Sie unsere Website aufrufen, erheben wir die folgenden Daten, die technisch notwendig sind, um Ihnen unsere Website anzuzeigen und deren Stabilität und Sicherheit zu gewährleisten (Rechtsgrundlage ist Art. 6 Abs. 1 S. 1 lit. f DSGVO):
+Wenn Sie unsere Webseite aufrufen, erheben wir die folgenden Daten, die technisch notwendig sind, um Ihnen unsere Webseite anzuzeigen und deren Stabilität und Sicherheit zu gewährleisten (Rechtsgrundlage ist Art. 6 Abs. 1 S. 1 lit. f DSGVO):
 
 - IP-Adresse
-- Browsertyp und Browserversion
+- Browser-Typ und Browser-Version
 - verwendetes Betriebssystem und dessen Version und ggf. Oberfläche
-- Referrer-URL (Website, über die Sie auf unsere Webseite gelangten)
+- Referrer-URL (Webseite, über die Sie auf unsere Webseite gelangten)
 - bevorzugte Sprachen, Encoding und MIME-Typen
 - Datum und Uhrzeit der Anfrage
 - Zeitzonendifferenz zur Greenwich Mean Time (GMT)
@@ -122,14 +122,14 @@ Wenn Sie unsere Website aufrufen, erheben wir die folgenden Daten, die technisch
 #### Cookies
 Cookies sind Textdateien, die maximal 4096 Bytes groß sein können.
 Die Dateien werden von dem von Ihnen verwendeten Browser auf Ihrer Festplatte gespeichert.
-Der Stelle, die das Cookie setzt, kann hier Informationen auf Ihrem System im Web-Browser zwischenspeichern, z.B. damit Sie wiedererkannt werden können.
+Die Stelle, die das Cookie setzt, kann hier Informationen auf Ihrem System im Web-Browser zwischenspeichern, z.B. damit Sie wiedererkannt werden können.
 Cookies können keine Programme ausführen oder Viren auf Ihren Computer übertragen.
 Sie dienen dazu, das Internetangebot insgesamt nutzerfreundlicher und effektiver zu machen.
 
 Sie können Ihre Browser-Einstellungen entsprechend Ihren Wünschen konfigurieren und z.B. das Setzen von bestimmten, oder allen Cookies ablehnen.
 Dadurch kann es allerdings zu einer Einschränkung der Funktionsfähigkeit von Webseiten kommen.
 
-Diese Website kann folgende Arten von First-Party-Cookies nutzen:
+Diese Webseite kann folgende Arten von First-Party-Cookies nutzen:
 
 - Session Cookies (nur technisch notwendige Cookies)
 
@@ -140,7 +140,7 @@ Als "technisch notwendige Cookies" werden Cookies bezeichnet, die für die einwa
 Als "First-Party-Cookies" werden Cookies bezeichnet, die von der Webseite gesetzt werden, die Sie besuchen.  
 
 In "Session Cookies" werden so genannte Session-IDs hinterlegt, die dazu dienen, ihre Anfragen der aktuellen Session zuzuordnen.
-Dadurch kann Ihr Rechner wiedererkannt werden, wenn Sie auf eine Website zurückkehren.
+Dadurch kann Ihr Rechner wiedererkannt werden, wenn Sie auf eine Webseite zurückkehren.
 Session Cookies werden automatisiert gelöscht, wenn Sie den Browser schließen.
 
 Wir verwenden Cookies auf folgender Rechtsgrundlage:
@@ -152,7 +152,7 @@ Dateneinträge können hier bis zu 5MB groß sein.
 
 Im Gegensatz zu Cookies werden die Inhalte nicht automatisch zum Server übertragen und eigenen sich daher mehr dazu lokal Daten abzulegen, die nur lokal benötigt werden, z.B. Nutzereinstellungen.
 
-Das Auslesen von der Informationen ist nur auf der Domain möglich, wo diese Daten auch geschrieben wurden.
+Das Auslesen der Informationen ist nur auf der Domain möglich, wo diese Daten auch geschrieben wurden.
 Auch bei einer Subdomain der schreibenden Domain ist es nicht möglich die Daten auszulesen (z.B.  `subdomain.example.org` ist eine Subdomain von `example.org`).
 
 Daten im Session-Storage werden automatisiert gelöscht, wenn Sie den Browser schließen.
@@ -162,8 +162,8 @@ Sie können die Daten über Ihre Browser-Einstellungen entfernen.
 
 Wir nutzen weder Session- noch Local-Storage.
 
-### Weitere Funktionen und Angebote auf unserer Website
-Neben der rein informatorischen Nutzung unserer Website bieten wir verschiedene Leistungen an, die Sie bei Interesse nutzen können.
+### Weitere Funktionen und Angebote auf unserer Webseite
+Neben der rein informatorischen Nutzung unserer Webseite bieten wir verschiedene Leistungen an, die Sie bei Interesse nutzen können.
 Dazu müssen Sie in der Regel weitere personenbezogene Daten angeben, die wir zur Erbringung der jeweiligen Leistung nutzen und für die die zuvor genannten Grundsätze zur Datenverarbeitung gelten.
 
 Teilweise bedienen wir uns zur Verarbeitung Ihrer Daten externer Dienstleister.
@@ -176,7 +176,7 @@ Unser Angebot richtet sich grundsätzlich an Menschen, die mindestens 16 Jahre a
 Personen unter 16 Jahren sollten ohne Zustimmung der Eltern oder Erziehungsberechtigten keine personenbezogenen Daten an uns übermitteln. 
 
 ## Auftragsverarbeiter
-Wir bedienen uns externen Dienstleister (Auftragsverarbeiter).
+Wir bedienen uns externer Dienstleister (Auftragsverarbeiter).
 Mit dem Dienstleister wurde eine separate Auftragsdatenverarbeitung geschlossen, um den Schutz Ihrer personenbezogenen Daten zu gewährleisten. 
 
 ### unsere Auftragsverarbeiter
@@ -272,6 +272,7 @@ Dieses Recht gilt nicht für eine Verarbeitung, die für die Wahrnehmung einer A
 
 **Das Widerspruchsrecht können Sie jederzeit ausüben, indem Sie sich an den jeweiligen Verantwortlichen wenden.**
 
+
 ### Automatisierte Entscheidungen im Einzelfall einschließlich Profiling
 Sie haben das Recht, nicht einer ausschließlich auf einer automatisierten Verarbeitung – einschließlich Profiling – beruhenden Entscheidung unterworfen zu werden, die Ihnen gegenüber rechtliche Wirkung entfaltet oder Sie in ähnlicher Weise erheblich beeinträchtigt.
 Dies gilt nicht, wenn die Entscheidung:
@@ -288,7 +289,6 @@ Dieses Recht kann die betroffene Person jederzeit ausüben, indem sie sich an de
 Sie haben zudem, unbeschadet eines anderweitigen verwaltungsrechtlichen oder gerichtlichen Rechtsbehelfs, das Recht auf Beschwerde bei einer Aufsichtsbehörde, insbesondere in dem Mitgliedstaat ihres Aufenthaltsorts, ihres Arbeitsplatzes oder des Orts des mutmaßlichen Verstoßes, wenn die betroffene Person der Ansicht ist, dass die Verarbeitung der sie betreffenden personenbezogenen Daten gegen diese Verordnung verstößt.
 
 ### Recht auf wirksamen gerichtlichen Rechtsbehelf
-
 Sie haben unbeschadet eines verfügbaren verwaltungsrechtlichen oder außergerichtlichen Rechtsbehelfs einschließlich des Rechts auf Beschwerde bei einer Aufsichtsbehörde gemäß Artikel 77 DSGVO das Recht auf einen wirksamen gerichtlichen Rechtsbehelf, wenn sie der Ansicht ist, dass Ihre, aufgrund dieser Verordnung zustehenden Rechte, infolge einer nicht im Einklang mit dieser Verordnung stehenden Verarbeitung Ihrer personenbezogenen Daten verletzt wurden.
 
 ## Links
