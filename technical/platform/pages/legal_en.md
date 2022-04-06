@@ -46,9 +46,9 @@ Fax: +49 (0) 3834 86-6684
 Contact: Dr. Birgit Schauer
 
 ## Purpose
-This website provides information about the research project JoinUsForHealth, funded in the EU Horizon2020 funding program.
-The purpose of the website is to inform the general audience about background information of JoinUs4Health and to attract them to the project.
-At the same time, new developments as well as results of the JoinUs4Health project and the cohort studies involved are published.
+This website provides the platform of the research project JoinUsForHealth, funded in the EU Horizon2020 funding program.
+Find the project-website here: https://joinus4health.eu.
+The purpose of the platform is for users to post proposals, vote on others' proposals, and form working groups to exchange ideas on prioritized topics.
 
 Editing and project coordination:  Birgit Schauer and Sabine Schipf (Institute for Community Medicine) in cooperation with the project consortium.
 
