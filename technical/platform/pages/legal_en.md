@@ -50,7 +50,7 @@ This website provides the platform of the research project JoinUsForHealth, fund
 Find the project-website here: https://joinus4health.eu.
 The purpose of the platform is for users to post proposals, vote on others' proposals, and form working groups to exchange ideas on prioritized topics.
 
-Editing and project coordination:  Birgit Schauer and Sabine Schipf (Institute for Community Medicine) in cooperation with the project consortium.
+Editing and project coordination: Birgit Schauer (Institute for Community Medicine) in cooperation with the project consortium.
 
 ## Implementation
 - Design and development - science4people

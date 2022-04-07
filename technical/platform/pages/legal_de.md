@@ -50,7 +50,7 @@ Diese Webseite enthält eine Plattform zum im EU-Förderprogramm Horizon2020 fin
 Die Projektwebseite finden Sie unter https://joinus4health.eu.
 Ziel der Plattform ist, dass Nutzer:innen Vorschläge einstellen, über Vorschläge anderer abstimmen und Arbeitsgruppen bilden, um sich zu priorisierten Themen auszutauschen.
 
-Redaktion und Projektkoordination: Birgit Schauer und Sabine Schipf (Institut für Community Medicine) in Kooperation mit dem Projektkonsortium.
+Redaktion und Projektkoordination: Birgit Schauer (Institut für Community Medicine) in Kooperation mit dem Projektkonsortium.
 
 ## Gestaltung
 - Design und Entwicklung: science4people

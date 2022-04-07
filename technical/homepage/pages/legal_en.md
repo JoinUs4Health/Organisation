@@ -50,7 +50,7 @@ This website provides information about the research project JoinUsForHealth, fu
 The purpose of the website is to inform the general audience about background information of JoinUs4Health and to attract them to the project.
 At the same time, new developments as well as results of the JoinUs4Health project and the cohort studies involved are published.
 
-Editing and project coordination:  Birgit Schauer and Sabine Schipf (Institute for Community Medicine) in cooperation with the project consortium.
+Editing and project coordination: Birgit Schauer (Institute for Community Medicine) in cooperation with the project consortium.
 
 ## Implementation
 - Design and development - science4people

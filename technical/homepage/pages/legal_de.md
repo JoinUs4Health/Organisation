@@ -50,7 +50,7 @@ Diese Webseite enthält Informationen zum im EU-Förderprogramm Horizon2020 fina
 Ziel der Webseite ist, ein allgemeines Publikum zu Hintergrundinformationen zu JoinUs4Health zu informieren und für das Projekt zu gewinnen.
 Gleichzeitig werden neue Entwicklungen sowie Ergebnisse des Projekts JoinUs4Health und der beteiligten Kohortenstudien publiziert.
 
-Redaktion und Projektkoordination: Birgit Schauer und Sabine Schipf (Institut für Community Medicine) in Kooperation mit dem Projektkonsortium.
+Redaktion und Projektkoordination: Birgit Schauer (Institut für Community Medicine) in Kooperation mit dem Projektkonsortium.
 
 ## Gestaltung
 - Design und Entwicklung: science4people
