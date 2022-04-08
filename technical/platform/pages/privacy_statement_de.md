@@ -2,7 +2,7 @@
 Diese Datenschutzerklärung gilt für die Nutzung unseres Online-Angebots `platform.joinus4health.eu`, im weiteren kurz "Plattform" genannt.
 Wir möchten Sie hier darüber aufklären, in welcher Weise wir Ihre personenbezogenen Daten (nachfolgend kurz "Daten") verarbeiten und Ihnen Zweck und Umfang darlegen.
 
-Version: 31.03.2022
+Version: 08.04.2022
 
 **Table of Content**
 
@@ -122,7 +122,7 @@ Wenn Sie unsere Plattform aufrufen, erheben wir die folgenden Daten, die technis
 #### Nutzung mit Registrierung bzw. Login
 Registrieren Sie sich auf unserer Plattform um zum Projekt beitragen zu können, erheben wir mit Ihrer Zustimmung zusätzlich zu den oben genannten Angaben folgende Daten, um Ihnen die Nutzung zu ermöglichen (Rechtsgrundlage ist Art. 6 Abs. 1 S. 1 lit. a DSGVO):
 
-- Nutzername (nutzen Sie gern ein Pseudonym)
+- Username (nutzen Sie gern ein Pseudonym)
 - Passwort
 - E-Mail-Adresse
 
@@ -139,9 +139,9 @@ In Ihrem Profil können Sie optional weitere Angaben zu folgenden Themen machen:
 - Erfahrungen
 - spezifische Interessen
 
-Eine Verknüpfung der anonymen Nutzungsdaten (Browser-Typ,…) mit den zusätzlichen Daten, die bei der Registrierung anfallen, findet nicht statt.
+Eine Verknüpfung der anonymen Nutzungsdaten (Browser-Typ,…) mit den Daten Ihres Accounts, findet nicht statt.
 Ihre personenbezogenen Daten (Passwort, E-Mail-Adresse) werden ausschließlich zur Sicherstellung der technischen Funktion zur Nutzung unserer Plattform verwendet und in keiner Weise weitergegeben.  
-Ihr Nutzername und das Land werden öffentlich angezeigt und können von allen Nutzer:innen unserer Plattform gesehen werden.
+Ihr Username wird öffentlich angezeigt und kann von allen anderen Besucher:innen unserer Plattform gesehen werden.
 
 ##### E-Mail-Adresse
 Von Ihnen wird eine E-Mail-Adresse benötigt, damit wir Ihren Account bestätigen können, Sie über Aktivitäten in den von Ihnen gewählten Gruppen informieren können und um Ihnen ein neues Passwort zusenden zu können.
@@ -151,6 +151,15 @@ Passwörter werden grundsätzlich nach höchstem Sicherheitsstandard gespeichert
 Hierbei wird das Passwort vor dem Speichern in der Datenbank mit mathematischen Methoden in soweit verändert, dass es auch nicht von uns ausgelesen werden kann (hashed, salted).
 Dies stellt sicher, dass selbst bei einem erfolgreichen Angriff keine Passwörter in falsche Hände gelangen können.  
 Allgemein gilt jedoch: bitte nutzen Sie kein Passwort, welches Sie auch an anderer Stelle verwenden.
+
+##### optionale Daten und Inhalte
+Wenn Sie optionale Angaben in Ihrem Profil bereitstellen (Land, Postleitzahl, Geschlecht…), unterstützen Sie uns, diese wissenschaftlich innerhalb des Projekts JoinUs4Health zu nutzen.
+Wenn wir diese Daten verwenden, werden wir verhindern, dass diese zu Ihnen zurückverfolgt werden können, d.h. es werden die Daten bei der Verwendung nur getrennt verfügbar gemacht, z.B. eine summarische Statistik über die ersten drei Ziffern der verwendeten Postleitzahlen oder über das Geschlechterverhältnis insgesamt, aber niemals eine Statistik über eine Kombination von mehr als drei solcher Informationen.
+Wir verwenden die Daten ausschließlich anonym bzw. in der Zusammenfassung über mehrere User hinweg (aggregiert).
+Die Rechtsgrundlage ist Art. 6 Abs. 1 S. 1 lit. a DSGVO.
+
+Ebenso verhält es sich mit den Daten, die Sie im Rahmen der Teams beitragen (Kommentare, Vorschläge,…).
+Sollte es dennoch vorkommen, dass Sie unzufrieden sind, kommen Sie gern über `contact@joinus4health.eu` mit uns ins Gespräch und wir finden eine Lösung.
 
 ### Cookies, Session Storage und Local Storage
 #### Cookies
