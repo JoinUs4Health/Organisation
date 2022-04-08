@@ -35,9 +35,10 @@
 
 | date       | editor  | changes                                                    |
 | ---------- | ------- | ---------------------------------------------------------- |
+| 07.04.2022 | winterb | added PHP Settings                                         | 
 | 06.04.2022 | winterb | general update to the current state, merged server install |
 | 04.04.2022 | Jakub   | updated Step-By-Step-Installation                          |
-| 04.03.2022 | Jakub   | started Step-By-Step-Installation                          | 
+| 04.03.2022 | Jakub   | started Step-By-Step-Installation                          |
 | 28.01.2022 | winterb | added general configuration and plugin checks              |
 | 19.01.2022 | winterb | started documentation                                      |
 
@@ -58,6 +59,8 @@ The "WordPress-Toolkit" provides further possibilities to simplify certain WordP
 See the Configuration-part of this documentation for details.
 
 ## Server-Configuration
+- `post_max_size` → `16M`
+- `upload_max_filesize` → `10M`
 
 ### Safety
 #### Automatic Backup

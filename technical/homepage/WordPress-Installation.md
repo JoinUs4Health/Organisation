@@ -221,7 +221,7 @@ General Information about Privacy Policy for WordPress plugins:
     - Version: `3.1.4`
     - privacy checked: ✓ ok
         - ⚠ "Shared Usage Data" (https://elementor.com/help/share-usage-data/)
-            - Data: `Server software & version; MySQL version; PHP settings & version; WordPress version; WordPress debug mode; WordPress memory limit; WordPress max upload size; WordPress settings (permalink structure, multisite, language, theme, plugins); Site URL; Admin Email; Elementor plugin usage data`
+            - Data: `Server software & version; MariaDB version; PHP settings & version; WordPress version; WordPress debug mode; WordPress memory limit; WordPress max upload size; WordPress settings (permalink structure, multisite, language, theme, plugins); Site URL; Admin Email; Elementor plugin usage data`
             - Disable data usage in: `Dashboard → Elementor → Settings and unchecking "Usage Data Tracking"`
     - terms checked: ✓ `GPLv3`
         - https://github.com/elementor/elementor

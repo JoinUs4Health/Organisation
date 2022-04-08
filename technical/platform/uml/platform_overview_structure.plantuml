@@ -42,20 +42,20 @@ cloud "Internet" {
                     component "TODO???"
                 }
                 folder "WordPress-Files" as wpfolder
-                database "DBMS MySQL" as dbms {
+                database "DBMS MariaDB" as dbms {
                     database "platform data" <<database>> as db_plattform
                 }
                 wp --> dbms     #black
                 wp --> wpfolder #black
             }
             node "Database-Server" <<Server>> as db_server {
-                database "DBMS MySQL" as dbms_p {
+                database "DBMS MariaDB" as dbms_p {
                     database "user data" <<database>> as db_user
                 }
             }
             node "Questionnaire-Server" <<Server>> as lime_server {
                 component "LimeSurvey" <<Web-Framework>> as lime
-                database "MySQL" <<database>> as lime_db
+                database "MariaDB" <<database>> as lime_db
                 
                 lime    -->     lime_db #black
             }
