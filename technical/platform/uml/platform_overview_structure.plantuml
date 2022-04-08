@@ -44,14 +44,10 @@ cloud "Internet" {
                 folder "WordPress-Files" as wpfolder
                 database "DBMS MariaDB" as dbms {
                     database "platform data" <<database>> as db_plattform
+                    database "user data" <<database>> as db_user
                 }
                 wp --> dbms     #black
                 wp --> wpfolder #black
-            }
-            node "Database-Server" <<Server>> as db_server {
-                database "DBMS MariaDB" as dbms_p {
-                    database "user data" <<database>> as db_user
-                }
             }
             node "Questionnaire-Server" <<Server>> as lime_server {
                 component "LimeSurvey" <<Web-Framework>> as lime
@@ -60,7 +56,6 @@ cloud "Internet" {
                 lime    -->     lime_db #black
             }
             
-            wp      -u->    dbms_p  #black
             wp      =(0=    lime    #00aa00
         }
     }
