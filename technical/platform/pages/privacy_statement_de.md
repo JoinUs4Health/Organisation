@@ -120,7 +120,7 @@ Wenn Sie unsere Plattform aufrufen, erheben wir die folgenden Daten, die technis
 - jeweils übertragene Datenmenge
 
 #### Nutzung mit Registrierung bzw. Login
-Registrieren Sie sich auf unserer Plattform um zum Projekt beitragen zu können, erheben wir mit Ihrer Zustimmung zusätzlich zu den oben genannten Angaben folgende Daten, um Ihnen die Nutzung zu ermöglichen (Rechtsgrundlage ist Art. 6 Abs. 1 S. 1 lit. a DSGVO):
+Wenn Sie sich auf unserer Plattform registrieren, um zum Projekt beitragen zu können, erheben wir mit Ihrer Zustimmung zusätzlich zu den oben genannten Angaben folgende Daten, um Ihnen die Nutzung zu ermöglichen (Rechtsgrundlage ist Art. 6 Abs. 1 S. 1 lit. a DSGVO):
 
 - Username (nutzen Sie gern ein Pseudonym)
 - Passwort
@@ -147,7 +147,7 @@ Ihr Username wird öffentlich angezeigt und kann von allen anderen Besucher:inne
 Von Ihnen wird eine E-Mail-Adresse benötigt, damit wir Ihren Account bestätigen können, Sie über Aktivitäten in den von Ihnen gewählten Gruppen informieren können und um Ihnen ein neues Passwort zusenden zu können.
 
 ##### Passwörter
-Passwörter werden grundsätzlich nach höchstem Sicherheitsstandard gespeichert.
+Passwörter werden grundsätzlich nach Sicherheitsstandard gespeichert.
 Hierbei wird das Passwort vor dem Speichern in der Datenbank mit mathematischen Methoden in soweit verändert, dass es auch nicht von uns ausgelesen werden kann (hashed, salted).
 Dies stellt sicher, dass selbst bei einem erfolgreichen Angriff keine Passwörter in falsche Hände gelangen können.  
 Allgemein gilt jedoch: bitte nutzen Sie kein Passwort, welches Sie auch an anderer Stelle verwenden.
@@ -309,6 +309,7 @@ Dieses Recht gilt nicht für eine Verarbeitung, die für die Wahrnehmung einer A
 **Werden personenbezogene Daten verarbeitet, um Direktwerbung zu betreiben, so haben Sie das Recht, jederzeit Widerspruch gegen die Verarbeitung Sie betreffender personenbezogener Daten zum Zwecke derartiger Werbung einzulegen; dies gilt auch für das Profiling, soweit es mit solcher Direktwerbung in Verbindung steht.**
 **Widersprechen Sie der Verarbeitung für Zwecke der Direktwerbung, so werden die personenbezogenen Daten nicht mehr für diese Zwecke verarbeitet.**
 
+
 **Im Zusammenhang mit der Nutzung von Diensten der Informationsgesellschaft könne Sie ungeachtet der Richtlinie 2002/58/EG Ihr Widerspruchsrecht mittels automatisierter Verfahren ausüben, bei denen technische Spezifikationen verwendet werden.**
 
 **Sie haben das Recht, aus Gründen, die sich aus Ihrer besonderen Situation ergeben, gegen die Sie betreffende Verarbeitung Sie betreffender personenbezogener Daten, die zu wissenschaftlichen oder historischen Forschungszwecken oder zu statistischen Zwecken gemäß Artikel 89 Absatz 1 erfolgt, Widerspruch einzulegen, es sei denn, die Verarbeitung ist zur Erfüllung einer im öffentlichen Interesse liegenden Aufgabe erforderlich.**
@@ -411,4 +412,3 @@ Rechtsgrundlage für die Verarbeitung können gemäß Artikel 6 Abs. 1 lit. a �
 - d. die Verarbeitung ist erforderlich, um lebenswichtige Interessen der betroffenen Person oder einer anderen natürlichen Person zu schützen;
 - e. die Verarbeitung ist für die Wahrnehmung einer Aufgabe erforderlich, die im öffentlichen Interesse liegt oder in Ausübung öffentlicher Gewalt erfolgt, die dem Verantwortlichen übertragen wurde;
 - f. die Verarbeitung ist zur Wahrung der berechtigten Interessen des Verantwortlichen oder eines Dritten erforderlich, sofern nicht die Interessen oder Grundrechte und Grundfreiheiten der betroffenen Person, die den Schutz personenbezogener Daten erfordern, überwiegen, insbesondere dann, wenn es sich bei der betroffenen Person um ein Kind handelt.
-
