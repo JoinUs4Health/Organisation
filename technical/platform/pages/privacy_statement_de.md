@@ -2,7 +2,7 @@
 Diese Datenschutzerklärung gilt für die Nutzung unseres Online-Angebots `platform.joinus4health.eu`, im weiteren kurz "Plattform" genannt.
 Wir möchten Sie hier darüber aufklären, in welcher Weise wir Ihre personenbezogenen Daten (nachfolgend kurz "Daten") verarbeiten und Ihnen Zweck und Umfang darlegen.
 
-Version: 08.04.2022
+Version: 12.04.2022
 
 **Table of Content**
 
@@ -103,9 +103,9 @@ Folgende Daten werden beim Versenden von E-Mails übermittelt:
 
 ### Benutzung unserer Plattform
 #### Nutzung ohne Registrierung und Login
-Bei der bloß informatorischen Nutzung der Plattform, also wenn Sie sich nicht registrieren oder uns anderweitig Informationen zur Verfügung stellen, erheben wir nur die personenbezogenen Daten, die Ihr Browser an unseren Server übermittelt.
+Bei der rein informatorischen Nutzung der Plattform, also wenn Sie sich nicht registrieren oder uns anderweitig Informationen zur Verfügung stellen, erheben wir nur die personenbezogenen Daten, die Ihr Browser an unseren Server übermittelt.
 Die technisch erforderlichen Daten, die Ihr Browser automatisch an unseren Server übermittelt, werden für maximal 14 Tage in sogenannten Server-Log-Dateien gespeichert.
-Eine Zusammenführung personenbezogenen Daten mit anderen Datenquellen wird nicht vorgenommen.
+Eine Zusammenführung personenbezogener Daten mit anderen Datenquellen wird nicht vorgenommen.
 Wir verwenden Teile der Daten, um vollständig anonyme Statistiken über die Seitennutzung zu erstellen.
 Wenn Sie unsere Plattform aufrufen, erheben wir die folgenden Daten, die technisch notwendig sind, um Ihnen unsere Internetpräsenz anzuzeigen und deren Stabilität und Sicherheit zu gewährleisten (Rechtsgrundlage ist Art. 6 Abs. 1 S. 1 lit. f DSGVO):
 
@@ -215,7 +215,7 @@ Diese wurden von uns sorgfältig ausgewählt und beauftragt, sind an unsere Weis
 Soweit unsere Dienstleister oder Partner ihren Sitz in einem Staat außerhalb des Europäischen Wirtschaftsraums (EWR) haben, werden wir Sie in der Beschreibung des Angebotes über die Folgen informieren.
 
 ### Minderjährige
-Unser Angebot richtet sich grundsätzlich an Menschen, die mindestens 16 Jahre alt sind.
+Unser Angebot richtet sich grundsätzlich an Personen, die mindestens 16 Jahre alt sind.
 Personen unter 16 Jahren sollten ohne Zustimmung der Eltern oder Erziehungsberechtigten keine personenbezogenen Daten an uns übermitteln. 
 
 ## Auftragsverarbeiter
@@ -235,11 +235,11 @@ Durch den Widerruf der Einwilligung wird die Rechtmäßigkeit der aufgrund der E
 Für die Ausübung des Widerrufsrechts können Sie sich jederzeit an uns wenden.
 
 ### Recht auf Bestätigung
-Sie haben das Recht, von dem Verantwortlichen eine Bestätigung darüber zu verlangen, ob wir sie betreffende personenbezogene Daten verarbeiten.
+Sie haben das Recht, von dem Verantwortlichen eine Bestätigung darüber zu verlangen, ob wir die betreffende personenbezogene Daten verarbeiten.
 Die Bestätigung können Sie jederzeit unter den oben genannten Kontaktdaten verlangen.
 
 ### Auskunftsrecht
-Sofern personenbezogene Daten verarbeitet werden, können Sie jederzeit Auskunft über diese personenbezogenen Daten und über folgenden Informationen verlangen:
+Sofern personenbezogene Daten verarbeitet werden, können Sie jederzeit Auskunft über diese personenbezogenen Daten und über folgende Informationen verlangen:
 
 - die Verarbeitungszwecke
 - den Kategorien personenbezogener Daten, die verarbeitet werden
@@ -252,8 +252,8 @@ Sofern personenbezogene Daten verarbeitet werden, können Sie jederzeit Auskunft
 
 Werden personenbezogene Daten an ein Drittland oder an eine internationale Organisation übermittelt, so haben Sie das Recht, über die geeigneten Garantien gemäß Artikel 46 DSGVO im Zusammenhang mit der Übermittlung unterrichtet zu werden.
 Wir stellen eine Kopie der personenbezogenen Daten, die Gegenstand der Verarbeitung sind, zur Verfügung.
-Für alle weiteren Kopien, die Sie Person beantragen, können wir ein angemessenes Entgelt auf der Grundlage der Verwaltungskosten verlangen.
-Stellen Sie den Antrag elektronisch, so sind die Informationen in einem gängigen elektronischen Format zur Verfügung zu stellen, sofern er nichts anderes angibt.
+Für alle weiteren Kopien, die Sie als Person beantragen, können wir ein angemessenes Entgelt auf der Grundlage der Verwaltungskosten verlangen.
+Stellen Sie den Antrag elektronisch, so sind die Informationen in einem gängigen elektronischen Format zur Verfügung zu stellen, sofern nichts anderes angegeben wird.
 Das Recht auf Erhalt einer Kopie gemäß Absatz 3 darf die Rechte und Freiheiten anderer Personen nicht beeinträchtigen.
 
 ### Recht auf Berichtigung  
@@ -310,7 +310,7 @@ Dieses Recht gilt nicht für eine Verarbeitung, die für die Wahrnehmung einer A
 **Widersprechen Sie der Verarbeitung für Zwecke der Direktwerbung, so werden die personenbezogenen Daten nicht mehr für diese Zwecke verarbeitet.**
 
 
-**Im Zusammenhang mit der Nutzung von Diensten der Informationsgesellschaft könne Sie ungeachtet der Richtlinie 2002/58/EG Ihr Widerspruchsrecht mittels automatisierter Verfahren ausüben, bei denen technische Spezifikationen verwendet werden.**
+**Im Zusammenhang mit der Nutzung von Diensten der Informationsgesellschaft können Sie ungeachtet der Richtlinie 2002/58/EG Ihr Widerspruchsrecht mittels automatisierter Verfahren ausüben, bei denen technische Spezifikationen verwendet werden.**
 
 **Sie haben das Recht, aus Gründen, die sich aus Ihrer besonderen Situation ergeben, gegen die Sie betreffende Verarbeitung Sie betreffender personenbezogener Daten, die zu wissenschaftlichen oder historischen Forschungszwecken oder zu statistischen Zwecken gemäß Artikel 89 Absatz 1 erfolgt, Widerspruch einzulegen, es sei denn, die Verarbeitung ist zur Erfüllung einer im öffentlichen Interesse liegenden Aufgabe erforderlich.**
 
@@ -396,7 +396,7 @@ Die Verarbeitung dieser Daten durch die genannten Behörden erfolgt im Einklang 
 
 **Einwilligung**
 
-Eine "Einwilligung" der betroffenen Person ist jede freiwillig für den bestimmten Fall, in informierter Weise und unmissverständlich abgegebene Willensbekundung in Form einer Erklärung oder einer sonstigen eindeutigen bestätigenden Handlung, mit der die betroffene Person zu verstehen gibt, dass sie mit der Verarbeitung der sie betreffenden personenbezogenen Daten einverstanden ist.
+Eine "Einwilligung" der betroffenen Person ist jede freiwillig für den bestimmten Fall, in informierter Weise und unmissverständlich abgegebene Willensbekundung in Form einer Erklärung oder einer sonstigen eindeutig bestätigenden Handlung, mit der die betroffene Person zu verstehen gibt, dass sie mit der Verarbeitung der sie betreffenden personenbezogenen Daten einverstanden ist.
 
 **Aufsichtsbehörde**
 
@@ -406,9 +406,9 @@ Eine "Aufsichtsbehörde" ist eine von einem Mitgliedstaat gemäß Artikel 51 DSG
 Die Verarbeitung personenbezogener Daten ist nur rechtmäßig, wenn für die Verarbeitung eine Rechtsgrundlage besteht.
 Rechtsgrundlage für die Verarbeitung können gemäß Artikel 6 Abs. 1 lit. a – f DSGVO insbesondere sein:
 
-- a. Die betroffene Person hat ihre Einwilligung zu der Verarbeitung der sie betreffenden personenbezogenen Daten für einen oder mehrere bestimmte Zwecke gegeben;
-- b. die Verarbeitung ist für die Erfüllung eines Vertrags, dessen Vertragspartei die betroffene Person ist, oder zur Durchführung vorvertraglicher Maßnahmen erforderlich, die auf Anfrage der betroffenen Person erfolgen;
-- c. die Verarbeitung ist zur Erfüllung einer rechtlichen Verpflichtung erforderlich, der der Verantwortliche unterliegt;
-- d. die Verarbeitung ist erforderlich, um lebenswichtige Interessen der betroffenen Person oder einer anderen natürlichen Person zu schützen;
-- e. die Verarbeitung ist für die Wahrnehmung einer Aufgabe erforderlich, die im öffentlichen Interesse liegt oder in Ausübung öffentlicher Gewalt erfolgt, die dem Verantwortlichen übertragen wurde;
-- f. die Verarbeitung ist zur Wahrung der berechtigten Interessen des Verantwortlichen oder eines Dritten erforderlich, sofern nicht die Interessen oder Grundrechte und Grundfreiheiten der betroffenen Person, die den Schutz personenbezogener Daten erfordern, überwiegen, insbesondere dann, wenn es sich bei der betroffenen Person um ein Kind handelt.
+- a: Die betroffene Person hat ihre Einwilligung zu der Verarbeitung der sie betreffenden personenbezogenen Daten für einen oder mehrere bestimmte Zwecke gegeben;
+- b: die Verarbeitung ist für die Erfüllung eines Vertrags, dessen Vertragspartei die betroffene Person ist, oder zur Durchführung vorvertraglicher Maßnahmen erforderlich, die auf Anfrage der betroffenen Person erfolgen;
+- c: die Verarbeitung ist zur Erfüllung einer rechtlichen Verpflichtung erforderlich, der der Verantwortliche unterliegt;
+- d: die Verarbeitung ist erforderlich, um lebenswichtige Interessen der betroffenen Person oder einer anderen natürlichen Person zu schützen;
+- e: die Verarbeitung ist für die Wahrnehmung einer Aufgabe erforderlich, die im öffentlichen Interesse liegt oder in Ausübung öffentlicher Gewalt erfolgt, die dem Verantwortlichen übertragen wurde;
+- f: die Verarbeitung ist zur Wahrung der berechtigten Interessen des Verantwortlichen oder eines Dritten erforderlich, sofern nicht die Interessen oder Grundrechte und Grundfreiheiten der betroffenen Person, die den Schutz personenbezogener Daten erfordern, überwiegen, insbesondere dann, wenn es sich bei der betroffenen Person um ein Kind handelt.

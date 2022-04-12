@@ -2,7 +2,7 @@
 This privacy statement applies to the use of our online offer `platform.joinus4health.eu`, in the following referred to as "platform".
 We would like to inform you here about the way in which we process your personal data (hereinafter referred to as "data") and explain the purpose and scope.
 
-Version: 08.04.2022
+Version: 12.04.2022
 
 **Table of Content**
 
@@ -406,9 +406,9 @@ A "supervisory authority" is an independent public entity, established by a Memb
 The processing of personal data is only lawful if there is a legal basis for such processing.
 Pursuant to Article 6 (1) (a) – (f) of the GDPR, the legal basis for the processing may be in particular:
 
-- a. The data subject has given consent to the processing of his or her personal data for one or more specific purposes
-- b. Processing is necessary for the performance of a contract to which the data subject is party or in order to take steps at the request of the data subject prior to entering into a contract
-- c. Processing is necessary for compliance with a legal obligation to which the controller is subject
-- d. Processing is necessary in order to protect the vital interests of the data subject or of another natural person
-- e. Processing is necessary for the performance of a task carried out in the public interest or in the exercise of official authority vested in the controller
-- f. Processing is necessary for the purposes of the legitimate interests pursued by the controller or by a third party, except where such interests are overridden by the interests or fundamental rights and freedoms of the data subject which require protection of personal data, in particular where the data subject is a child.
+- a: The data subject has given consent to the processing of his or her personal data for one or more specific purposes
+- b: Processing is necessary for the performance of a contract to which the data subject is party or in order to take steps at the request of the data subject prior to entering into a contract
+- c: Processing is necessary for compliance with a legal obligation to which the controller is subject
+- d: Processing is necessary in order to protect the vital interests of the data subject or of another natural person
+- e: Processing is necessary for the performance of a task carried out in the public interest or in the exercise of official authority vested in the controller
+- f: Processing is necessary for the purposes of the legitimate interests pursued by the controller or by a third party, except where such interests are overridden by the interests or fundamental rights and freedoms of the data subject which require protection of personal data, in particular where the data subject is a child.
