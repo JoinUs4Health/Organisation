@@ -2,7 +2,7 @@
 Diese Datenschutzerklärung gilt für die Nutzung unseres Online-Angebots `platform.joinus4health.eu`, im weiteren kurz "Plattform" genannt.
 Wir möchten Sie hier darüber aufklären, in welcher Weise wir Ihre personenbezogenen Daten (nachfolgend kurz "Daten") verarbeiten und Ihnen Zweck und Umfang darlegen.
 
-Version: 12.04.2022
+Version: 02.05.2022
 
 **Table of Content**
 
@@ -17,6 +17,7 @@ Version: 12.04.2022
         - [Benutzung unserer Plattform](#benutzung-unserer-plattform)
         - [Cookies, Session Storage und Local Storage](#cookies-session-storage-und-local-storage)
         - [Weitere Funktionen und Angebote auf unserer Plattform](#weitere-funktionen-und-angebote-auf-unserer-plattform)
+        - [Nutzung unseres Angebots zur Audio- und Videokonferenz](#nutzung-unseres-angebots-zur-audio--und-videokonferenz)
         - [Minderjährige](#minderjährige)
     - [Auftragsverarbeiter](#auftragsverarbeiter)
         - [unsere Auftragsverarbeiter](#unsere-auftragsverarbeiter)
@@ -214,6 +215,28 @@ Diese wurden von uns sorgfältig ausgewählt und beauftragt, sind an unsere Weis
 
 Soweit unsere Dienstleister oder Partner ihren Sitz in einem Staat außerhalb des Europäischen Wirtschaftsraums (EWR) haben, werden wir Sie in der Beschreibung des Angebotes über die Folgen informieren.
 
+### Nutzung unseres Angebots zur Audio- und Videokonferenz
+Im Rahmen der Nutzung unserer Plattform haben Sie die Möglichkeit, synchon in INteraktion zu treten.
+Nutzen Sie hierzu das von uns bereitgestellte BigBlueButton-System.
+
+Wir möchten daraf hinweisen, dass die Nutzung der Videofunktion unter allen Umständen rein optional ist.
+Eine Übertragung von Ihnen und ggf. Teilen Ihrer Räumlichkeiten kann von anderen Teilnehmenden missbräuchlich verwendet werden, auch wenn dies streng verboten ist.
+Bitte machen auch Sie keine Bildschirmfotos oder leiten andere Daten widerrechtlich aus Videokonferenzen.
+
+Bei der Nutzung des Konferenzsystems fallen die gleichen technischen Daten an, wie sie auch unter "Nutzung ohne Registrierung und Login" beschrieben sind.
+Diese Daten werden von uns weder überwacht noch mit anderen Daten kombiniert, sie werden allein für die Behebung technischer Schwierigkeiten aufgenommen.
+
+Inhaltlich können Sie optional folgende Daten in der Konferenz angeben:
+
+- Nutzername
+- Audio-Daten Ihrer Stimme bei Mikrophonnutzung
+- Bild-Daten Kameranutzung
+- Chat-Inhalte
+- Pad-Inhalte
+- Präsentationsfolien
+
+Daten, die während einer Sitzung anfallen, werden nach der Beendigung umgehend gelöscht.
+
 ### Minderjährige
 Unser Angebot richtet sich grundsätzlich an Personen, die mindestens 16 Jahre alt sind.
 Personen unter 16 Jahren sollten ohne Zustimmung der Eltern oder Erziehungsberechtigten keine personenbezogenen Daten an uns übermitteln. 
@@ -224,6 +247,10 @@ Mit dem Dienstleister wurde eine separate Auftragsdatenverarbeitung geschlossen,
 
 ### unsere Auftragsverarbeiter
 Das Hosting von der Domains [https://platform.joinus4health.eu](https://platform.joinus4health.eu) und [https://joinus4health.eu](https://joinus4health.eu), mit allen dazugehörigen Komponenten (z.B. Platform, E-Mail, Webseite) wird von der netcup GmbH, Daimlerstraße 25, D-76185 Karlsruhe für uns durchgeführt.
+
+Das Hosting des Kommunikationssystems BigBlueButton wird von der werk21 GmbH; Krausnickstraße 3; D-10115 Berlin für uns durchgeführt.
+
+Die Übersetzungsfunktion für Inhalte wird von DeepL SE; Maarweg 165; D-50825 Köln für uns durchgeführt.
 
 ## Rechte der betroffenen Personen
 Ihnen stehen nach der DSGVO verschiedene Rechte zu, die sich insbesondere aus Art. 15 bis 21 DSGVO ergeben:
