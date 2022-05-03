@@ -160,7 +160,13 @@ Wir verwenden die Daten ausschließlich anonym bzw. in der Zusammenfassung über
 Die Rechtsgrundlage ist Art. 6 Abs. 1 S. 1 lit. a DSGVO.
 
 Ebenso verhält es sich mit den Daten, die Sie im Rahmen der Teams beitragen (Kommentare, Vorschläge,…).
+Bitte geben Sie keine personenbezogenen Daten über sich oder andere in Kommentaren oder anderen beiträgen an.
 Sollte es dennoch vorkommen, dass Sie unzufrieden sind, kommen Sie gern über `contact@joinus4health.eu` mit uns ins Gespräch und wir finden eine Lösung.
+
+#### Übersetzung von Inhalten
+Um unser Angebot einem möglicht großen Spektrum von Besucher:innen nahezubringen, behalten wir uns vor, Inhalte automatisiert in andere Sprachen übersetzen zu lassen.
+Dies betrifft ausschließlich Inhalte von Beiträgen aller Art.
+Unter keinen Umständen betrifft es Ihre bei uns gespeicherten personenbezogenen Daten.
 
 ### Cookies, Session Storage und Local Storage
 #### Cookies
