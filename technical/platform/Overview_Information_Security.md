@@ -7,7 +7,8 @@
     - [Technical Infrastructure Overview](#technical-infrastructure-overview)
         - [Partner science4people](#partner-science4people)
         - [Provider netcup - Platform](#provider-netcup---platform)
-        - [Provider ??? - Conference-System](#provider----conference-system)
+        - [Provider werk21 - Conference-System](#provider-werk21---conference-system)
+        - [Service Provider DeepL](#service-provider-deepl)
     - [Software](#software)
         - [WordPress - Base Platform](#wordpress---base-platform)
         - [LimeSurvey - Questionnaire-System](#limesurvey---questionnaire-system)
@@ -68,8 +69,14 @@ The provider https://netcup.de (netcup GmbH; Daimlerstraße 25; D-76185 Karlsruh
 Also the WordPress-Website https://joinus4health.eu runs on a netcup server but is strictly separated from the platform.
 Please see the data processing agreement/Auftragsverarbeitungsvertrag (DPA/AVV) with netcup for details about the contract and netcups TOMs.
 
-#### Provider ??? - Conference-System
-*TODO; Status: planning; to be implemented; details following*
+#### Provider werk21 - Conference-System
+The provider https://www.werk21.de/ (werk21 GmbH; Krausnickstraße 3; D-10115) provides the Conference-System BigBlueButton used in the JoinUs4Health-Project.
+The platform and BigBlueButton are connected via the BigBlueButton-API in the background.
+
+#### Service Provider DeepL
+The provider https://deepl.com/ (DeepL SE; Maarweg 165; D-50825 Köln) provides a translation service running in the background of the platform.
+It is used to translate content of the platform automatically.
+Requests are done by the WordPress instance via the DeepL-API.
 
 ### Software
 #### WordPress - Base Platform
@@ -85,9 +92,11 @@ For details on the WordPress-configuration and all Plugins used, please see the 
 - *TODO; Status: planning; to be implemented; details following*
 
 #### BigBlueButton - Conference-System
-- hosted at ???
+- hosted at werk21
 - purpose: to enhance team communication, we provide a conference system for virtual meetings
-- *TODO; Status: planning; to be implemented; details following*
+
+BigBlueButton provides easy to use and privacy friedly audio- and video-communication.
+Other features are a Whiteboard, Slide-Share function, Breakout-Rooms, Chat, Pad.
 
 ## Data processed in the Components of the JoinUs4Healt-Platform
 

@@ -18,6 +18,8 @@ legend
 - DPA "Data Processing Agreement" - Auftragsverarbeitungsvertrag (AVV)
 end legend
 
+!define DPA(_name)   note "DPA" as _name #aaaaff
+
 actor "User" as user
 
 rectangle "UMG\ncoordinator" as umg #ffcccc {
@@ -28,18 +30,20 @@ rectangle "UMG\ncoordinator" as umg #ffcccc {
 }
 
 rectangle "science4people.eu" <<Partner>> as s4p {
+    DPA(dpa_s4p)
     actor "science4people\nPartner" as s4p_partner
 }
 
 cloud "Internet" {
     rectangle "netcup" <<Provider>> as netcup {
+        DPA(dpa_netcup)
         node "Managed Private Server" <<Server>> as mps {
             node "Platform-Server" <<Server>> as platform_server {
                 component "WordPress" <<Web-Framework>> as wp {
                     component "bbPress"
                     component "BuddyPress*"
                     component "TaskBreaker"
-                    component "TODO???"
+                    component "own Development"
                 }
                 folder "WordPress-Files" as wpfolder
                 database "DBMS MariaDB" as dbms {
@@ -49,17 +53,18 @@ cloud "Internet" {
                 wp --> dbms     #black
                 wp --> wpfolder #black
             }
-            node "Questionnaire-Server" <<Server>> as lime_server {
-                component "LimeSurvey" <<Web-Framework>> as lime
-                database "MariaDB" <<database>> as lime_db
-                
-                lime    -->     lime_db #black
-            }
-            
-            wp      =(0=    lime    #00aa00
+'            node "Questionnaire-Server" <<Server>> as lime_server {
+'                component "LimeSurvey" <<Web-Framework>> as lime
+'                database "MariaDB" <<database>> as lime_db
+'                
+'                lime    -->     lime_db #black
+'            }
+'            
+'            wp      =(0=    lime    #00aa00
         }
     }
-    rectangle "????" <<Provider>> as bbb_provider {
+    rectangle "werk21" <<Provider>> as bbb_provider {
+        DPA(dpa_bbb)
         node "Conference-Server" <<Server>> as bbb_server {
             component "BigBlueButton" <<Web-Framework>> as bbb
             
@@ -69,33 +74,30 @@ cloud "Internet" {
 
     interface "Conference" as i_bbb
     interface "Platform" as i_web
-    interface "Questionnaire" as i_lime
+'    interface "Questionnaire" as i_lime
 
     i_web   .u.     wp
-    i_lime  .u.     lime
+'    i_lime  .u.     lime
     i_bbb   .u.     bbb
-}
 
-note "DPA" as a_us #aaaaff
-umg .. a_us
-a_us ..> s4p
-note "DPA" as a_un #aaaaff
-umg .. a_un
-a_un ..> netcup
-note "DPA" as a_ub #aaaaff
-umg .. a_ub
-a_ub ..> bbb_provider
+    node "deepl.com" as deepl #ddbbaa {
+        DPA(dpa_deepl)
+        component "Translator" as deepl_trans
+    }
+    wp     =(0==     deepl_trans #00aa00
+}
 
 ship        -->     mps         : Adminis-\ntration
 ship        -->     bbb_server  : Adminis-\ntration
+ship        -->     deepl       : Adminis-\ntration
 s4p_partner -->     wp          : Adminis-\ntration
-s4p_partner -->     lime        : Adminis-\ntration
+'s4p_partner -->     lime        : Adminis-\ntration
 
 i_web   -[hidden]-  i_bbb
-i_bbb   -[hidden]-  i_lime
+'i_bbb   -[hidden]-  i_lime
 
-user    -u-> i_web
-user    -u-> i_bbb
-user    -u->  i_lime
+user    --> i_web
+user    --> i_bbb
+'user    -u->  i_lime
 
 @enduml
