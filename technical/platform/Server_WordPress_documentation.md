@@ -17,7 +17,6 @@
         - [Disable Avatars](#disable-avatars)
         - [Privacy Statement](#privacy-statement)
     - [WordPress-Plugins used](#wordpress-plugins-used)
-        - [WordPress-Plugin-Configuration](#wordpress-plugin-configuration)
 - [WordPress Step-By-Step-Installation](#wordpress-step-by-step-installation)
     - [Install new wordpress instance on netcup](#install-new-wordpress-instance-on-netcup)
     - [Installing theme](#installing-theme)
@@ -28,6 +27,9 @@
     - [Setup menu & page](#setup-menu--page)
 - [Attachments](#attachments)
     - [Attachment: WordPress-Plugins-Checks](#attachment-wordpress-plugins-checks)
+        - [bbPress](#bbpress)
+        - [BuddyPress](#buddypress)
+        - [TaskBreaker - Group Project Management](#taskbreaker---group-project-management)
         - [Mind maps](#mind-maps)
 <!-- TOC END -->
 
@@ -35,7 +37,8 @@
 
 | date       | editor  | changes                                                    |
 | ---------- | ------- | ---------------------------------------------------------- |
-| 07.04.2022 | winterb | added PHP Settings                                         | 
+| 12.04.2022 | winterb | added WordPress-plugins used an plugin-checks              | 
+| 07.04.2022 | winterb | added PHP Settings                                         |
 | 06.04.2022 | winterb | general update to the current state, merged server install |
 | 04.04.2022 | Jakub   | updated Step-By-Step-Installation                          |
 | 04.03.2022 | Jakub   | started Step-By-Step-Installation                          |
@@ -123,12 +126,11 @@ To disable the use of Avatars disable `Show Avatars` in `Settings → Discussion
 Link the Page with the privacy statement in `Show Avatars` in `Settings → Privacy`.
 
 ## WordPress-Plugins used
-This is a list of checked and approved plugins used within our website:
+This is a list of checked and approved extenal plugins used within our website:
 
-- *TODO; Status: WIP; waiting for the documentation by the partner science4people*
-
-### WordPress-Plugin-Configuration
-*TODO; Status: WIP; waiting for the documentation by the partner science4people*
+- bbPress
+- BuddyPress
+- TaskBreaker - Group Project Management
 
 ---
 
@@ -345,6 +347,57 @@ General Information about Privacy Policy for WordPress plugins:
     - all information, what data is processed, can only be read somewhere in the documents of the plugins - if the developer made a good documentation
 - https://developer.wordpress.org/plugins/privacy/
     - WordPress privacy guidelines
+
+### bbPress
+- description
+    - this plugin provides the functionality of a discussion board
+- check
+    - last checked: `12.04.2022, winterb`
+    - version: `2.6.9`
+    - privacy checked: ✓ `ok`
+      - no explicit information found, seems to run locally only
+      - officially developed by the WordPress founders and community
+    - terms checked: ✓ `GPLv2 or later`
+      - https://plugins.svn.wordpress.org/bbpress/
+    - conclusion: ✓ ok
+- links
+    - https://wordpress.org/plugins/bbpress/
+    - https://bbpress.org/
+
+### BuddyPress
+- description
+    - this plugin provides the functionality of a locally running social network software
+    - handles registration and user interactions
+- check
+    - last checked: `12.04.2022, winterb`
+    - version: `10.2.0`
+    - privacy checked: ✓ `ok`
+      - no explicit information found, seems to run locally only
+      - officially developed by the WordPress community
+    - terms checked: ✓ `GPLv2 or later`
+      - https://plugins.svn.wordpress.org/buddypress/
+    - conclusion: ✓ ok
+- links
+    - https://wordpress.org/plugins/buddypress/
+    - https://buddypress.org/
+
+### TaskBreaker - Group Project Management
+- description
+    - TaskBreaker is project management plugin for WordPress.
+    - TaskBreaker is integrated with BuddyPress.
+- check
+    - last checked: `12.04.2022, winterb`
+    - version: `1.5.1`
+        - ⚠ version is four years old!
+    - privacy checked: ✓ `ok`
+      - no explicit information found, seems to run locally only
+      - officially developed by the WordPress community
+    - terms checked: ✓ `GPLv2 or later`
+      - https://plugins.svn.wordpress.org/taskbreaker-project-management/
+    - conclusion: ✓ ok
+- links
+    - https://wordpress.org/plugins/taskbreaker-project-management/
+    - https://github.com/codehaiku/taskbreaker-project-management
 
 ### Mind maps
 - description

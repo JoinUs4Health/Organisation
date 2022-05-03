@@ -15,6 +15,8 @@ legend
 - DPA "Data Processing Agreement" - Auftragsverarbeitungsvertrag (AVV)
 end legend
 
+!define DPA(_name)   note "DPA" as _name #aaaaff
+
 actor "User" as user
 
 rectangle "UMG\ncoordinator" as umg #ffcccc {
@@ -24,20 +26,29 @@ rectangle "UMG\ncoordinator" as umg #ffcccc {
     }
 }
 
+rectangle "Website Editors" <<Partner>> as editors {
+    DPA(dpa_editors)
+    actor "Project Partners\nwith editing-rights only" as editor_partner
+}
+
 rectangle "science4people.eu" <<Partner>> as s4p {
+    DPA(dpa_s4p)
     actor "science4people\nPartner" as s4p_partner
 }
 
 rectangle "Medical University\nof Bialystok" <<Partner>> as bi {
+    DPA(dpa_bia)
     actor "Bialystok\nPartner" as bi_partner
 }
 
 rectangle "Medical Center of the\nErasmus University Rotterdamm" <<Partner>> as erasmus {
+    DPA(dpa_era)
     actor "Erasmus\nPartner" as erasmus_partner
 }
 
 cloud "Internet" {
     node "netcup.de" <<Provider>> as netcup #ddbbaa {
+        DPA(dpa_netcup)
         rectangle "Domain joinus4health.eu" as webspace #ffccaa {
             component "WordPress" <<Web-Framework>> as wp {
                 component "Elementor"
@@ -66,38 +77,26 @@ cloud "Internet" {
         i_mail .u. email
     }
     node "deepl.com" as deepl #ddbbaa {
-        component "Translator" as deepl_trans {
-            note as n_deepl
-                Deepl is used to translate
-                website public content
-                no user data is sent to Deepl
-            end note
-        }
+        DPA(dpa_deepl)
+        component "Translator" as deepl_trans
     }
     wp     =(0==     deepl_trans #00aa00
 }
 
-note "DPA" as a_us #aaaaff
-umg .. a_us
-a_us ..> s4p
-note "DPA" as a_ub #aaaaff
-umg .. a_ub
-a_ub ..> bi
-note "DPA" as a_ue #aaaaff
-umg .. a_ue
-a_ue ..> erasmus
-note "DPA" as a_un #aaaaff
-umg .. a_un
-a_un ..> netcup
+umg -[hidden]-  editors
+umg -[hidden]-  s4p
+umg -[hidden]-  bi
+umg -[hidden]-  erasmus
 
-ship        -->     webspace    : Adminis-\ntration
-s4p_partner -->     wp          : Adminis-\ntration
+ship            -->     webspace    : Adminis-\ntration
+s4p_partner     -->     wp          : Adminis-\ntration
+editor_partner  -->     wp          : Content-\nediting
 
 umg_team        --> e_de
 bi_partner      --> e_pl
 erasmus_partner --> e_nl
 
-user    -u-> i_web
-user    -u-> i_mail
+user    -u-> i_web      : use
+user    -u-> i_mail     : send
 
 @enduml
