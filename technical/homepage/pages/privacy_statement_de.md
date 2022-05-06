@@ -4,7 +4,7 @@ Wir möchten Sie hier darüber aufklären, in welcher Weise wir Ihre personenbez
 
 Version: 12.04.2022
 
-**Table of Content**
+**Inhalt**
 
 <!-- TOC START min:1 max:3 link:true asterisk:false update:true -->
 - [Datenschutzerklärung](#datenschutzerklärung)
