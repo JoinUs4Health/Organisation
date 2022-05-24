@@ -1,8 +1,7 @@
 # Aufklärung und Einverständniserklärung zur Teilnahme an der Befragung im Rahmen des JoinUs4Health-Projektes
 Sehr geehrte Teilnehmerin, sehr geehrter Teilnehmer,
 
-mit der im Fragebogen hinterlegten Einverständniserklärung legen Sie fest, dass Sie mit der Speicherung der aus der Befragung gewonnenen Daten in einer Forschungsdatenbank und der Datenverarbeitung einverstanden sind. 
-Die Teilnahme an der Befragung ist freiwillig und Ihnen entstehen keine Kosten. Sofern Sie nicht teilnehmen, entstehen Ihnen keine Nachteile.
+mit der im Fragebogen hinterlegten Einverständniserklärung legen Sie fest, dass Sie mit der Speicherung der aus der Befragung gewonnenen Daten in einer Forschungsdatenbank und der Datenverarbeitung einverstanden sind.
 
 Ihre Fragen zum Inhalt beantworten wir sehr gerne.
 
@@ -108,7 +107,7 @@ Personen unter 16 Jahren sollten ohne Zustimmung der Eltern oder Erziehungsberec
 Wir bedienen uns externer Dienstleister (Auftragsverarbeiter).
 Mit dem Dienstleister wurde eine separate Auftragsdatenverarbeitung geschlossen, um den Schutz Ihrer personenbezogenen Daten zu gewährleisten. 
 
-### unsere Auftragsverarbeiter
+### Unsere Auftragsverarbeiter
 Das Hosting von der Umfrage-Software "LimeSurvey" wird von der LimeSurvey GmbH, Papenreye 63, D-22453 Hamburg für uns durchgeführt.
 
 ## Rechte der betroffenen Personen
