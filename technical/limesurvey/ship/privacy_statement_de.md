@@ -16,7 +16,7 @@ Wir möchten Sie hier darüber aufklären, in welcher Weise wir Ihre personenbez
 ## Kurzfassung
 Im Rahmen dieser anonymen Umfrage erheben wir keine personenbezogenen Daten.
 
-Identifizierende Daten, die bei der Nutzung anfallen, werden weder von uns nicht gespeichert.
+Identifizierende Daten, die bei der Nutzung anfallen, werden von uns nicht gespeichert.
 
 ## Name und Kontakt des Verantwortlichen gemäß Artikel 4 Abs. 7 DSGVO
 Dr. med. Birgit Schauer  
@@ -129,7 +129,7 @@ Sofern personenbezogene Daten verarbeitet werden, können Sie jederzeit Auskunft
 - die Verarbeitungszwecke
 - den Kategorien personenbezogener Daten, die verarbeitet werden
 - die Empfänger oder Kategorien von Empfängern, gegenüber denen die personenbezogenen Daten offengelegt worden sind oder noch offengelegt werden, insbesondere bei Empfängern in Drittländern oder bei internationalen Organisationen
-- falls möglich, die geplante Dauer, für die die personenbezogenen Daten gespeichert werden, oder, falls dies nicht möglich ist, die Kriterien für die Festlegung dieser Dauer
+- falls möglich, die geplante Dauer, für die die personenbezogenen Daten gespeichert werden oder falls dies nicht möglich ist, die Kriterien für die Festlegung dieser Dauer
 - das Bestehen eines Rechts auf Berichtigung oder Löschung der Sie betreffenden personenbezogenen Daten oder auf Einschränkung der Verarbeitung durch den Verantwortlichen oder eines Widerspruchsrechts gegen diese Verarbeitung
 - das Bestehen eines Beschwerderechts bei einer Aufsichtsbehörde;
 - wenn die personenbezogenen Daten nicht bei der betroffenen Person erhoben werden, alle verfügbaren Informationen über die Herkunft der Daten
