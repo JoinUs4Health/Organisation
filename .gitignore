@@ -1,2 +1,8 @@
 /technical/homepage/pages/*.html
+
 /technical/platform/pages/*.html
+
+/technical/limesurvey/ship/*.html
+/technical/limesurvey/ship/*.pdf
+/technical/limesurvey/ship/*.docx
+
