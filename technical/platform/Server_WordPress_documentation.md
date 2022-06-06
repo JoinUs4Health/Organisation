@@ -413,3 +413,30 @@ General Information about Privacy Policy for WordPress plugins:
     - conclusion: ✓ ok
 - links
     - https://wordpress.org/plugins/mind-maps/
+
+### JoinUs4Health
+- description
+    - this plugin provides mainly functionality for Suggestions, Tasks and Topics. And gives customization for installed plugins. More details below
+    - adding Suggestion post type
+    - adding Topic post type
+    - adding Task post type
+    - adding Slide post type (for carousel on home page)
+    - adding routing for 'New idea/suggestion'
+    - adding routing for home page of wordpress
+    - adding custom archive page for 'Suggestion' post type
+    - adding custom archive page for 'Topic' post type
+    - adding custom archive page for 'Task' post type
+    - implements functions for formatting/displaying time
+    - adds custom JavaScript scripts
+    - handles changing language of webpage firstly based on browser language and secondly if user choosed any custom language by yourself displaying webpage in language stored in cookie
+    - implements functions for displaying custom fields of posts based on selected current language
+    - handles redirecting to any child page based on its language. If invoked page has child page with selected current language page will be redirected to this child page
+    - rewrites username at sign up page to username from BuddyPress forum plugin, and does the same on profile update page
+    - hides profile page from BuddyPress (only visible for owner and administrator)
+    - hides members list from BuddyPress
+    - changes e-mail recipient to contact@joinus4health.eu
+    - changes e-mail content of notify about new comment for user and other users removing all of sensitive data like e-mail addresses and IP addresses
+    - turns off WordPress API and BuddyPress API
+    - removes IP and e-mail address from comment table list at WordPress panel
+- check
+    - last checked: `??`
