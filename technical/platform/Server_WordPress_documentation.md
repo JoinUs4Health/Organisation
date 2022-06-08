@@ -1,15 +1,11 @@
-<!-- TOC START min:1 max:4 link:true asterisk:false update:true -->
+<!-- TOC START min:1 max:3 link:true asterisk:false update:true -->
 - [WordPress-Server-Installation for the Platform of the Project JoinUs4Health](#wordpress-server-installation-for-the-platform-of-the-project-joinus4health)
     - [Overview](#overview)
     - [Server-Installation](#server-installation)
         - [WordPress installation](#wordpress-installation)
     - [Server-Configuration](#server-configuration)
         - [Safety](#safety)
-            - [Automatic Backup](#automatic-backup)
-            - [Offsite Backup](#offsite-backup)
         - [Security](#security)
-            - [Automatic Updates](#automatic-updates)
-            - [Checked Security](#checked-security)
 - [WordPress-internal Installation/Configuration](#wordpress-internal-installationconfiguration)
     - [Overview](#overview-1)
     - [WordPress-Configuration](#wordpress-configuration)
@@ -31,13 +27,15 @@
         - [BuddyPress](#buddypress)
         - [TaskBreaker - Group Project Management](#taskbreaker---group-project-management)
         - [Mind maps](#mind-maps)
+        - [JoinUs4Health](#joinus4health)
 <!-- TOC END -->
 
 **Changelog**
 
 | date       | editor  | changes                                                    |
 | ---------- | ------- | ---------------------------------------------------------- |
-| 12.04.2022 | winterb | added WordPress-plugins used an plugin-checks              | 
+| 06.06.2022 | Jakub   | added information on 'JoinUs4Health'-Plugins               | 
+| 12.04.2022 | winterb | added WordPress-plugins used an plugin-checks              |
 | 07.04.2022 | winterb | added PHP Settings                                         |
 | 06.04.2022 | winterb | general update to the current state, merged server install |
 | 04.04.2022 | Jakub   | updated Step-By-Step-Installation                          |
@@ -416,7 +414,9 @@ General Information about Privacy Policy for WordPress plugins:
 
 ### JoinUs4Health
 - description
-    - this plugin provides mainly functionality for Suggestions, Tasks and Topics. And gives customization for installed plugins. More details below
+    - this plugin provides mainly functionality for Suggestions, Tasks and Topics and gives customization for installed plugins
+    - this plugin was developed in this project
+- details
     - adding Suggestion post type
     - adding Topic post type
     - adding Task post type
@@ -438,5 +438,4 @@ General Information about Privacy Policy for WordPress plugins:
     - changes e-mail content of notify about new comment for user and other users removing all of sensitive data like e-mail addresses and IP addresses
     - turns off WordPress API and BuddyPress API
     - removes IP and e-mail address from comment table list at WordPress panel
-- check
-    - last checked: `??`
+
