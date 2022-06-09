@@ -387,6 +387,7 @@ General Information about Privacy Policy for WordPress plugins:
     - last checked: `12.04.2022, winterb`
     - version: `1.5.1`
         - ⚠ version is four years old!
+        - we scheduled this in the IT-Meeting on 10.05.2022, unfortunately TaskBreaker seems to be the best possible option (RK, DNFP-13)
     - privacy checked: ✓ `ok`
       - no explicit information found, seems to run locally only
       - officially developed by the WordPress community
