@@ -27,7 +27,17 @@ We do not tolerate
 Actions intended to damage these no-tolerance policies may lead to immediate account suspension.
 Content that is illegal in Germany will be deleted and may lead to immediate account suspension.
 
-Furthermore, we do not post contents, which do not comply with the data privacy and data protection regulations.
+Furthermore, we do not post contents, which do not comply with the data privacy, data protection als legal regulations.
+
+# Using other peoples work
+Do not upload or use any work you do not own and you have no license for.
+If you use other peoples work, the license and the license holder must be provided as well.
+Also please provide the source as reference.
+
+Do not use Images directly from any search engine.
+
+Check, if the license complies with our standards.
+Usually you want to have a free license as [Creative Commons](https://creativecommons.org/), [GPL](https://www.gnu.org/licenses/gpl.html) or [Public Domain](https://en.wikipedia.org/wiki/Public_domain) for example.
 
 # Implementation of these rules
 Reviewers are prompted to verify that these rules are followed when reviewing submitted suggestions or topics and facilitators and moderators when coordinating working or study teams or events.
