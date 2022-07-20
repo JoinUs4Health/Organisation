@@ -12,8 +12,6 @@
             - [Configuration Elementor and Elementor Pro](#configuration-elementor-and-elementor-pro)
             - [Configuration TranslatePress](#configuration-translatepress)
             - [Configuration Email Subscribers & Newsletters](#configuration-email-subscribers--newsletters)
-            - [Configuration Polylang](#configuration-polylang)
-            - [Configuration WP Event Manager](#configuration-wp-event-manager)
             - [Configuration Yoast SEO](#configuration-yoast-seo)
 - [Attachments](#attachments)
     - [Attachment: WordPress-Plugins-Checks](#attachment-wordpress-plugins-checks)
@@ -37,7 +35,8 @@
 
 | date       | editor  | changes                                                             |
 | ---------- | ------- | ------------------------------------------------------------------- |
-| 09.11.2021 | winterb | TranslatePress added and configured DeepL-Addon                     | 
+| 20.07.2022 | winterb | Newsletter documentation                                            | 
+| 09.11.2021 | winterb | TranslatePress added and configured DeepL-Addon                     |
 | 22.10.2021 | winterb | TranslatePress configuration                                        |
 | 30.09.2021 | winterb | checked Yoast SEO Plugin                                            |
 | 23.09.2021 | winterb | checked TranslatePress-Base-Plugin, rechecked Polylang              |
@@ -71,7 +70,7 @@ This is a list of checked and approved plugins used within our website:
 - Elementor-Plugins
     - Elementor
     - Elementor Pro
-- *Planned: Email Subscribers & Newsletters*
+- Email Subscribers & Newsletters
 - One Click Accessibility
 - TranslatePress
 - Yoast SEO
@@ -152,14 +151,34 @@ This is a list of checked and approved plugins used within our website:
     - Limit machine translation per day: 100'000
 
 #### Configuration Email Subscribers & Newsletters
-- TODO with double-opt-in
-- TODO without any third-party service
-
-#### Configuration Polylang
-- TODO no auto-translate used
-
-#### Configuration WP Event Manager
-- TODO not synced to any third-party-service
+- requirements overview
+    - data needed: E-Mail-Address only
+    - sign up with double-opt-in (validate E-Mail-Address)
+    - no tracking
+    - no third-party service
+- Email Subscribers → Settings
+    - Opt-in type: `Double Opt In`
+    - Track opens: `disabled`
+    - Track clicks: `disabled`
+    - Google Analytics UTM tracking: `disabled`
+    - Plugin usage tracking: `disabled`
+    - Nudge people to subscribe while leaving a comment or placing an order?: `disabled`
+- Email Subscribers → Campaigns
+    - add legal part to all newsletter templates
+- Email Subscribers → Forms
+    - require E-Mail-Address
+    - Name is not required
+    - require consent in subscribe-form
+- Email Subscribers → Workflows
+    - add Workflows for the following topics
+        - Send confirmation email
+            - E-Mail with the activation token for new subscribers
+        - Send welcome email when someone subscribes
+            - E-Mail with Hello-Message for validated E-Mail-Addresses
+        - Delete personal data if somebody unsubscribes
+            - if a user unsubscribes, the personal data must be deleted
+        - Notify admin when campaign is sent
+            - Information to tech. Admin on sent newsletter, add count of recipients 
 
 #### Configuration Yoast SEO
 - SEO
