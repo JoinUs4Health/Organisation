@@ -28,13 +28,15 @@
         - [TaskBreaker - Group Project Management](#taskbreaker---group-project-management)
         - [Mind maps](#mind-maps)
         - [JoinUs4Health](#joinus4health)
+        - [WPBruiser aka Goodbye-Captcha and WPBruiser BuddyPress Extension](#wpbruiser-aka-goodbye-captcha-and-wpbruiser-buddypress-extension)
 <!-- TOC END -->
 
 **Changelog**
 
 | date       | editor  | changes                                                    |
 | ---------- | ------- | ---------------------------------------------------------- |
-| 06.06.2022 | Jakub   | added information on 'JoinUs4Health'-Plugins               | 
+| 22.07.2022 | winterb | checked WPBruiser-Plugin + Extension                       |
+| 06.06.2022 | Jakub   | added information on 'JoinUs4Health'-Plugins               |
 | 12.04.2022 | winterb | added WordPress-plugins used an plugin-checks              |
 | 07.04.2022 | winterb | added PHP Settings                                         |
 | 06.04.2022 | winterb | general update to the current state, merged server install |
@@ -440,3 +442,34 @@ General Information about Privacy Policy for WordPress plugins:
     - turns off WordPress API and BuddyPress API
     - removes IP and e-mail address from comment table list at WordPress panel
 
+### WPBruiser aka Goodbye-Captcha and WPBruiser BuddyPress Extension
+- description
+    - WPBruiser is a local running Captcha Plugin for human validation (stop bots).
+    - WPBruiser BuddyPress Extension integrates WPBruiser in the running BuddyPress system.
+- check
+    - WPBruiser
+        - last checked: `22.07.2022, winterb`
+        - version: `3.1.43`
+        - privacy checked: ✓ `ok`
+            - ⚠ current version is two years old!
+            - no explicit information found, seems to run locally only
+        - terms checked: ✓ `GPLv2 or later`
+            - https://plugins.svn.wordpress.org/goodbye-captcha
+        - other infos
+            - ❌ WordPress claims: "This plugin hasn’t been tested with the latest 3 major releases of WordPress. It may no longer be maintained or supported and may have compatibility issues when used with more recent versions of WordPress.""
+            - ❌ seems not to be maintained anymore: https://wordpress.org/plugins/goodbye-captcha/#reviews
+        - conclusion: ✓ ok
+    - WPBruiser BuddyPress Extension
+        - last checked: `22.07.2022, winterb`
+        - version: `3.1.39`
+            - ⚠ current version is two years old! last update May 4, 2020.
+        - privacy checked: ✓ `ok`
+          - no explicit information found, seems to run locally only
+        - terms checked: ❌ `proprietary`
+          - https://plugins.svn.wordpress.org/taskbreaker-project-management/
+        - conclusion: ✓ ok
+- links
+    - WPBruiser
+        - https://wordpress.org/plugins/goodbye-captcha/
+    - WPBruiser BuddyPress Extension
+        - https://wpbruiser.com/downloads/buddypress/
