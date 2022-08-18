@@ -1,6 +1,9 @@
 /technical/homepage/pages/*.html
+/technical/homepage/uml/*.png
 
 /technical/platform/pages/*.html
+/technical/platform/uml/*.png
+/technical/platform/uml/platform_overview_structure_*.svg
 
 /technical/limesurvey/ship/*.html
 /technical/limesurvey/ship/*.pdf
