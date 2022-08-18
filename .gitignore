@@ -1,5 +1,6 @@
 /technical/homepage/pages/*.html
 /technical/homepage/uml/*.png
+/technical/homepage/uml/homepage_overview_data_flow_*.svg
 
 /technical/platform/pages/*.html
 /technical/platform/uml/*.png
