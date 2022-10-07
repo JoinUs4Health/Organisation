@@ -22,6 +22,7 @@
             - [Elementor Addon Elements](#elementor-addon-elements)
         - [Email Subscribers & Newsletters](#email-subscribers--newsletters)
         - [GDPR Cookie Consent](#gdpr-cookie-consent)
+        - [JoinUs4Health newsletter consents](#joinus4health-newsletter-consents)
         - [Matomo Analytics Ethical Stats](#matomo-analytics-ethical-stats)
         - [Newsletter](#newsletter)
         - [One Click Accessibility](#one-click-accessibility)
@@ -35,7 +36,8 @@
 
 | date       | editor  | changes                                                             |
 | ---------- | ------- | ------------------------------------------------------------------- |
-| 20.07.2022 | winterb | Newsletter documentation                                            | 
+| 07.10.2022 | winterb | added "JoinUs4Health newsletter" plugin description consents        | 
+| 20.07.2022 | winterb | Newsletter documentation                                            |
 | 09.11.2021 | winterb | TranslatePress added and configured DeepL-Addon                     |
 | 22.10.2021 | winterb | TranslatePress configuration                                        |
 | 30.09.2021 | winterb | checked Yoast SEO Plugin                                            |
@@ -71,6 +73,7 @@ This is a list of checked and approved plugins used within our website:
     - Elementor
     - Elementor Pro
 - Email Subscribers & Newsletters
+- JoinUs4Health newsletter consents
 - One Click Accessibility
 - TranslatePress
 - Yoast SEO
@@ -333,6 +336,11 @@ General Information about Privacy Policy for WordPress plugins:
     - https://wordpress.org/plugins/cookie-law-info/
     - https://www.webtoffee.com/product/gdpr-cookie-consent/
     - [Issue in Jira](https://join-us-4-health.atlassian.net/browse/HP-64)
+
+### JoinUs4Health newsletter consents
+- description
+    - this plugin provides consent-saving, what is legally necessary for the newsletter-plugin
+    - this plugin was developed in this project
 
 ### Matomo Analytics Ethical Stats
 - description
