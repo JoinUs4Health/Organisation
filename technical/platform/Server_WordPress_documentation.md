@@ -25,6 +25,7 @@
     - [Attachment: WordPress-Plugins-Checks](#attachment-wordpress-plugins-checks)
         - [bbPress](#bbpress)
         - [BuddyPress](#buddypress)
+        - [BuddyPress-Docs](#buddypress-docs)
         - [TaskBreaker - Group Project Management](#taskbreaker---group-project-management)
         - [Mind maps](#mind-maps)
         - [JoinUs4Health](#joinus4health)
@@ -35,6 +36,7 @@
 
 | date       | editor  | changes                                                    |
 | ---------- | ------- | ---------------------------------------------------------- |
+| 17.11.2022 | winterb | added BuddPreess-Docs Check; small formatting changes      |
 | 22.07.2022 | winterb | checked WPBruiser-Plugin + Extension                       |
 | 06.06.2022 | Jakub   | added information on 'JoinUs4Health'-Plugins               |
 | 12.04.2022 | winterb | added WordPress-plugins used an plugin-checks              |
@@ -355,11 +357,11 @@ General Information about Privacy Policy for WordPress plugins:
     - last checked: `12.04.2022, winterb`
     - version: `2.6.9`
     - privacy checked: ✓ `ok`
-      - no explicit information found, seems to run locally only
-      - officially developed by the WordPress founders and community
+        - no explicit information found, seems to run locally only
+        - officially developed by the WordPress founders and community
     - terms checked: ✓ `GPLv2 or later`
-      - https://plugins.svn.wordpress.org/bbpress/
-    - conclusion: ✓ ok
+        - https://plugins.svn.wordpress.org/bbpress/
+    - conclusion: ✓ `ok`
 - links
     - https://wordpress.org/plugins/bbpress/
     - https://bbpress.org/
@@ -372,14 +374,31 @@ General Information about Privacy Policy for WordPress plugins:
     - last checked: `12.04.2022, winterb`
     - version: `10.2.0`
     - privacy checked: ✓ `ok`
-      - no explicit information found, seems to run locally only
-      - officially developed by the WordPress community
+        - no explicit information found, seems to run locally only
+        - officially developed by the WordPress community
     - terms checked: ✓ `GPLv2 or later`
-      - https://plugins.svn.wordpress.org/buddypress/
-    - conclusion: ✓ ok
+        - https://plugins.svn.wordpress.org/buddypress/
+    - conclusion: ✓ `ok`
 - links
     - https://wordpress.org/plugins/buddypress/
     - https://buddypress.org/
+
+### BuddPreess-Docs
+- description
+    - BuddyPress Docs adds collaborative work spaces to your BuddyPress, i.e. editing texts together
+- check
+    - last checked: `17.11.2022, winterb`
+    - version: `2.1.7`
+    - privacy checked: ✓ `ok`
+        - no explicit information found, seems to run locally only
+    - terms checked: ✓ `GPL v3.0`
+        - https://plugins.svn.wordpress.org/buddypress-docs/
+        - https://github.com/boonebgorges/buddypress-docs/issues/718
+            - they added the license on Nov. 11th 2022
+    - conclusion: ✓ `ok`
+- links
+    - https://wordpress.org/plugins/buddypress-docs/
+    - https://github.com/boonebgorges/buddypress-docs
 
 ### TaskBreaker - Group Project Management
 - description
@@ -391,11 +410,11 @@ General Information about Privacy Policy for WordPress plugins:
         - ⚠ version is four years old!
         - we scheduled this in the IT-Meeting on 10.05.2022, unfortunately TaskBreaker seems to be the best possible option (RK, DNFP-13)
     - privacy checked: ✓ `ok`
-      - no explicit information found, seems to run locally only
-      - officially developed by the WordPress community
+        - no explicit information found, seems to run locally only
+        - officially developed by the WordPress community
     - terms checked: ✓ `GPLv2 or later`
-      - https://plugins.svn.wordpress.org/taskbreaker-project-management/
-    - conclusion: ✓ ok
+        - https://plugins.svn.wordpress.org/taskbreaker-project-management/
+    - conclusion: ✓ `ok`
 - links
     - https://wordpress.org/plugins/taskbreaker-project-management/
     - https://github.com/codehaiku/taskbreaker-project-management
@@ -408,10 +427,10 @@ General Information about Privacy Policy for WordPress plugins:
     - last checked: `13.01.2022, winterb`
     - version: `2.18.0`
     - privacy checked: ✓ `ok`
-      - no explicit information found, seems to run locally only
+        - no explicit information found, seems to run locally only
     - terms checked: ✓ `GPLv2 or later`
-      - https://plugins.svn.wordpress.org/email-subscribers/
-    - conclusion: ✓ ok
+        - https://plugins.svn.wordpress.org/email-subscribers/
+    - conclusion: ✓ `ok`
 - links
     - https://wordpress.org/plugins/mind-maps/
 
@@ -458,7 +477,7 @@ General Information about Privacy Policy for WordPress plugins:
         - other infos
             - ❌ WordPress claims: "This plugin hasn’t been tested with the latest 3 major releases of WordPress. It may no longer be maintained or supported and may have compatibility issues when used with more recent versions of WordPress.""
             - ❌ seems not to be maintained anymore: https://wordpress.org/plugins/goodbye-captcha/#reviews
-        - conclusion: ✓ ok
+        - conclusion: ✓ `ok`
     - WPBruiser BuddyPress Extension
         - last checked: `22.07.2022, winterb`
         - version: `3.1.39`
@@ -467,7 +486,7 @@ General Information about Privacy Policy for WordPress plugins:
           - no explicit information found, seems to run locally only
         - terms checked: ❌ `proprietary`
           - https://plugins.svn.wordpress.org/taskbreaker-project-management/
-        - conclusion: ✓ ok
+        - conclusion: ✓ `ok`
 - links
     - WPBruiser
         - https://wordpress.org/plugins/goodbye-captcha/
