@@ -27,7 +27,18 @@ Folgendes wird nicht toleriert:
 Handlungen, die diese Nulltoleranzstrategie verletzen, können zur sofortigen Sperrung des Kontos führen.
 Inhalte, die in Deutschland illegal sind, werden gelöscht und können zu einer sofortigen Sperrung des Kontos führen.
 
-Des Weiteren werden keine Inhalte gepostet, die nicht mit den Datenschutzbestimmungen übereinstimmen.
+Des Weiteren werden keine Inhalte gepostet, die nicht mit den Datenschutz- und anderen rechtlichen Bestimmungen übereinstimmen.
+
+# Verwendung von Werken anderer Personen
+Laden Sie keine Werke hoch, die Sie nicht besitzen und für die Sie keine Lizenz haben.
+Wenn Sie ein fremdes Werk verwenden, müssen Sie auch die Lizenz und den Lizenzinhaber angeben.
+Bitte geben Sie auch die Quelle als Referenz an.
+
+Verwenden Sie keine Bilder direkt aus einer Suchmaschine.
+
+Prüfen Sie, ob die Lizenz mit unseren Standards übereinstimmt.
+In der Regel verwenden Sie eine freie Lizenz wie zum Beispiel [Creative Commons](https://creativecommons.org/), [GPL](https://www.gnu.org/licenses/gpl.html) oder [Public Domain](https://en.wikipedia.org/wiki/Public_domain).
+Im Zweifelsfall kontaktieren Sie uns bitte (`contact@joinus4health.eu`).
 
 # Umsetzung dieser Regeln
 Gutachter:innen werden aufgefordert, die Einhaltung dieser Regeln zu überprüfen, wenn sie eingereichte Vorschläge oder Themen begutachten, und Moderator:innen, wenn sie Arbeits- oder Studienteams oder Veranstaltungen koordinieren.
