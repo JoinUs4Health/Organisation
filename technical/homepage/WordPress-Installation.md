@@ -301,6 +301,7 @@ General Information about Privacy Policy for WordPress plugins:
 ### Email Subscribers & Newsletters
 - description
     - provides a simple locally hosted newsletter plugin without data transfer
+    - renamed to "Icegram Express Pro"
 - check
     - last checked: `26.05.2021, winterb`
     - version: `4.7.3`
