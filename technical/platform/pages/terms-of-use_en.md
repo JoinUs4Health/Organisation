@@ -30,14 +30,11 @@ Content that is illegal in Germany will be deleted and may lead to immediate acc
 Furthermore, we do not post contents, which do not comply with the data privacy, data protection and legal regulations.
 
 # Using other peoples work
-Do not upload or use any work you do not own and you have no license for.
-If you use other peoples work, the license and the license holder must be provided as well.
-Also please provide the source as reference.
-
-Do not use Images directly from any search engine.
+Do not upload or use any work you do not own, and you have no license for, also do not use images directly from any search engine.
+If you use other people's work, the license and the license holder must be provided, as well as the source as reference.
 
 Check, if the license complies with our standards.
-Usually you want to have a free license as [Creative Commons](https://creativecommons.org/), [GPL](https://www.gnu.org/licenses/gpl.html) or [Public Domain](https://en.wikipedia.org/wiki/Public_domain) for example.
+Please use a free license for your uploads, as [Creative Commons](https://creativecommons.org/), [GPL](https://www.gnu.org/licenses/gpl.html) or [Public Domain](https://en.wikipedia.org/wiki/Public_domain) for example.
 In case of doubt, please contact us (`contact@joinus4health.eu`).
 
 # Implementation of these rules
