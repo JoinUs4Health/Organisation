@@ -25,9 +25,19 @@ Folgendes wird nicht toleriert:
 - Verschwörungserzählungen oder andere reaktionäre Mythen, die das oben genannte (und/oder ähnliche) Verhalten unterstützen oder dazu führen
 
 Handlungen, die diese Nulltoleranzstrategie verletzen, können zur sofortigen Sperrung des Kontos führen.
-Inhalte, die in Deutschland illegal sind, werden gelöscht und können zu einer sofortigen Sperrung des Kontos führen.
+Inhalte, die in Deutschland illegal sind, werden gelöscht und können zu einer sofortigen Sperrung des Kontos führen.  
+Der Betreiber distanziert sich ausdrücklich von solchen Inhalten und behält sich eine strafrechtliche Verfolgung vor.
 
-Des Weiteren werden keine Inhalte gepostet, die nicht mit den Datenschutz- und anderen rechtlichen Bestimmungen übereinstimmen.
+Des Weiteren werden keine Inhalte gepostet, die nicht mit den Datenschutzbestimmungen übereinstimmen.
+Konkret bedeutet das, dass persönliche Informationen über Sie ausschließlich in Ihrem Profil enthalten sein dürfen.
+In Projektdaten sollen Sie keine personenbezogenen Daten von sich oder anderen preisgeben.
+Wenn Sie von Ihrem Widerspruchs- und Löschrecht im Rahmen der Wahrnehmung Ihrer Betroffenenrechte Gebrauch machen, werden wir Ihre personenbezogenen Daten DSGVO-konform löschen, insbesondere Ihre Profildaten.
+Bei Projektdaten ist ein Löschen gegebenenfalls nicht möglich, da hier neben der DSGVO auch wissenschaftliche Grundsätze und gesetzliche Rechtsgrundlagen beachtet werden müssen und vor allem die Belastbarkeit der Projektdaten gewährleistet werden muss.
+Das beinhaltet auch, dass der Forschungszweck durch eine Löschung nicht gefährdet werden darf.
+Deshalb bitten wir Sie keine personenbezogenen/persönlichen Daten im Rahmen der Projekte offen zu legen.
+
+
+
 
 # Verwendung von Werken anderer Personen
 Laden Sie keine Werke hoch, die Sie nicht besitzen, über deren Lizenz Sie nicht verfügen und verwenden Sie keine Bilder direkt aus einer Suchmaschine.
@@ -45,7 +55,7 @@ In schweren Fällen kann ein Konto vorübergehend oder auf unbestimmte Zeit gesp
 Darüber hinaus sind Nutzer:innen der JoinUs4Health-Plattform und Mitwirkende eingeladen, Verhaltensweisen zu melden, die sie stören.
 Die Berichte werden vertraulich behandelt.
 
-# Bewährte Verfahren¶
+# Bewährte Verfahren
 Die folgende Liste ist eine Sammlung von Verhaltensweisen, die wir von unseren Nutzer:innen erwarten.
 Wenn Sie sehen, dass ein User gegen diese bewährten Praktiken verstößt, melden Sie dies bitte, und wir werden mit dem Mitglied sprechen.
 Während diese bewährten Praktiken als Richtlinien für eine gute kommunale Instanz gedacht sind, wird die wiederholte böswillige Nichtbefolgung der bewährten Praktiken wie ein Regelverstoß betrachtet.
@@ -53,9 +63,12 @@ Während diese bewährten Praktiken als Richtlinien für eine gute kommunale Ins
 Generell sollten Sie die in JoinUs4Health zur Verfügung gestellten Möglichkeiten nutzen, um eine rücksichtsvolle und offene Atmosphäre zu schaffen.
 
 Beiträge und Inhalte, die nicht von Ihnen stammen müssen mit Verweis auf Lizenz, Lizenzinhaber und Quelle angegeben werden.
+Beiträge und Inhalte, an denen Sie nicht die nötigen Rechte besitzen, weil diese beispielsweise von einem Dritten stammen und sie keine Lizenz zur Veröffentlichung haben, dürfen nicht hochgeladen bzw. erstellt und mit anderen geteilt werden.
+Der Betreiber prüft nicht, ob Rechte Dritter durch einen Beitrag und Inhalte verletzt werden und übernimmt entsprechend keine Haftung für Ihre Beiträge und Inhalte.
+Wenn Ihnen eine Schutzrechtsverletzung Dritter bekannt wird, nehmen Sie bitte sofort Kontakt mit uns auf.
 
 Unaufgeforderte Kommentare über die persönlichen Entscheidungen, den Lebensstil oder die Familie anderer Benutzer:innen sind strengstens untersagt und können als Belästigung angesehen werden.
-Unangemessene sexuelle Aufmerksamkeit, Kommentare über das Aussehen und die Andeutung von Körperkontakt werden gegenüber nicht einwilligenden Benutzer:innen nicht geduldet.
+Unangemessene sexuelle Aufmerksamkeit, Kommentare über das Aussehen und die Andeutung von Körperkontakt werden nicht geduldet.
 
 Bleiben Sie in Diskussionen bitte höflich und beleidigen Sie Ihre Gesprächspartner nicht.
 Beachten Sie, dass Ironie, Sarkasmus oder ähnliche Ausdrucksweisen sich nicht gut in die Schriftsprache übertragen lassen und dazu neigen, Diskussionen oder Missverständnisse zu eskalieren.
