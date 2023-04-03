@@ -2,7 +2,7 @@
 Diese Datenschutzerklärung gilt für die Nutzung unseres Online-Angebots `www.joinus4health.eu`, im weiteren kurz "Webseite" genannt.
 Wir möchten Sie hier darüber aufklären, in welcher Weise wir Ihre personenbezogenen Daten (nachfolgend kurz "Daten") verarbeiten und Ihnen Zweck und Umfang darlegen.
 
-Version: 12.04.2022
+Version: 07.10.2022
 
 **Table of Content**
 
@@ -15,6 +15,7 @@ Version: 12.04.2022
     - [Information über die Erhebung personenbezogener Daten](#information-über-die-erhebung-personenbezogener-daten)
         - [Kontaktaufnahme per E-Mail](#kontaktaufnahme-per-e-mail)
         - [Benutzung unserer Webseite](#benutzung-unserer-webseite)
+        - [Benutzung unseres Newsletters](#benutzung-unseres-newsletters)
         - [Cookies, Session Storage und Local Storage](#cookies-session-storage-und-local-storage)
         - [Weitere Funktionen und Angebote auf unserer Webseite](#weitere-funktionen-und-angebote-auf-unserer-webseite)
         - [Minderjährige](#minderjährige)
@@ -117,6 +118,17 @@ Wenn Sie unsere Webseite aufrufen, erheben wir die folgenden Daten, die technisc
 - Zeitzonendifferenz zur Greenwich Mean Time (GMT)
 - Zugriffsstatus/HTTP-Statuscode
 - jeweils übertragene Datenmenge
+
+### Benutzung unseres Newsletters
+Der Newsletter ist für Sie eine einfache Möglichkeit, sich regelmäßig über das Projekt informieren zu lassen.
+Wir verarbeiten hierzu Ihre E-Mail-Adresse, die für die Nutzung des Newsletters bestätigt werden muss.
+
+Ihre personenbezogenen Daten werden nicht weitergegeben und ohne weitere Einwilligung ihrerseits, nur für die Zwecke des Newsletters verwendet.
+
+Sie haben jederzeit die Möglichkeit, sich vom Newsletter abzumelden.
+Dadurch werden alle diesbezüglichen Daten über Sie aus unserem System gelöscht.
+
+Wir verwenden den Newsletter auf Grundlage Ihrer expliziten Einwilligung nach Artikel 6 Absatz 1 Buchstabe a DSGVO.
 
 ### Cookies, Session Storage und Local Storage
 #### Cookies

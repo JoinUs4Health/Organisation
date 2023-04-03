@@ -2,7 +2,7 @@
 This privacy statement applies to the use of our online offer `www.joinus4health.eu`, in the following referred to as "website".
 We would like to inform you here about the way in which we process your personal data (hereinafter referred to as "data") and explain the purpose and scope.
 
-Version: 12.04.2022
+Version: 07.10.2022
 
 **Table of Content**
 
@@ -15,6 +15,7 @@ Version: 12.04.2022
     - [Information on the collection of personal data](#information-on-the-collection-of-personal-data)
         - [Contact by e-mail](#contact-by-e-mail)
         - [Use of our website](#use-of-our-website)
+        - [Use of our newsletter](#use-of-our-newsletter)
         - [Cookies, session storage and local storage](#cookies-session-storage-and-local-storage)
         - [More features and offerings on our website](#more-features-and-offerings-on-our-website)
         - [Minors](#minors)
@@ -117,6 +118,17 @@ If you wish to view our website, we collect the following data which is technica
 - time-zone difference to Greenwich Mean Time (GMT)
 - access status/HTTP status code
 - amount of data transferred in each case
+
+### Use of our newsletter
+The newsletter is an easy way for you to receive regular information about the project.
+For this purpose, we process your e-mail-address, which must be confirmed in order to use the newsletter.
+
+Your personal data will not be shared and without further consent on your part, used only for the purposes of the newsletter.
+
+You have the option to unsubscribe from the newsletter at any time.
+This will delete all relevant data about you from our system.
+
+We use the newsletter on the basis of your explicit consent pursuant to Article 6 (1) (a) GDPR.
 
 ### Cookies, session storage and local storage
 #### Cookies
