@@ -163,11 +163,6 @@ Ebenso verhält es sich mit den Daten, die Sie im Rahmen der Teams beitragen (Ko
 Bitte geben Sie keine personenbezogenen Daten über sich oder andere in Kommentaren oder anderen beiträgen an.
 Sollte es dennoch vorkommen, dass Sie unzufrieden sind, kommen Sie gern über `contact@joinus4health.eu` mit uns ins Gespräch und wir finden eine Lösung.
 
-#### Übersetzung von Inhalten
-Um unser Angebot einem möglicht großen Spektrum von Besucher:innen nahezubringen, behalten wir uns vor, Inhalte automatisiert in andere Sprachen übersetzen zu lassen.
-Dies betrifft ausschließlich Inhalte von Beiträgen aller Art.
-Unter keinen Umständen betrifft es Ihre bei uns gespeicherten personenbezogenen Daten.
-
 ### Cookies, Session Storage und Local Storage
 #### Cookies
 Cookies sind Textdateien, die maximal 4096 Bytes groß sein können.
@@ -255,8 +250,6 @@ Mit dem Dienstleister wurde eine separate Auftragsdatenverarbeitung geschlossen,
 Das Hosting von der Domains [https://platform.joinus4health.eu](https://platform.joinus4health.eu) und [https://joinus4health.eu](https://joinus4health.eu), mit allen dazugehörigen Komponenten (z.B. Platform, E-Mail, Webseite) wird von der netcup GmbH, Daimlerstraße 25, D-76185 Karlsruhe für uns durchgeführt.
 
 Das Hosting des Kommunikationssystems BigBlueButton wird von der werk21 GmbH; Krausnickstraße 3; D-10115 Berlin für uns durchgeführt.
-
-Die Übersetzungsfunktion für Inhalte wird von DeepL SE; Maarweg 165; D-50825 Köln für uns durchgeführt.
 
 ## Rechte der betroffenen Personen
 Ihnen stehen nach der DSGVO verschiedene Rechte zu, die sich insbesondere aus Art. 15 bis 21 DSGVO ergeben:
