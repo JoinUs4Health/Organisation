@@ -36,9 +36,6 @@ Bei Projektdaten ist ein Löschen gegebenenfalls nicht möglich, da hier neben d
 Das beinhaltet auch, dass der Forschungszweck durch eine Löschung nicht gefährdet werden darf.
 Deshalb bitten wir Sie keine personenbezogenen/persönlichen Daten im Rahmen der Projekte offen zu legen.
 
-
-
-
 # Verwendung von Werken anderer Personen
 Laden Sie keine Werke hoch, die Sie nicht besitzen, über deren Lizenz Sie nicht verfügen und verwenden Sie keine Bilder direkt aus einer Suchmaschine.
 Geben Sie bei der Verwendung eines fremden Werks die Lizenz und den Lizenzinhaber sowie die Quelle als Referenz an.

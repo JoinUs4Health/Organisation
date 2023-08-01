@@ -25,9 +25,16 @@ We do not tolerate
 - conspiracy narratives or other reactionary myths supporting or leading to the above-mentioned (and/or similar) behaviour
 
 Actions intended to damage these no-tolerance policies may lead to immediate account suspension.
-Content that is illegal in Germany will be deleted and may lead to immediate account suspension.
+Content that is illegal in Germany will be deleted and may lead to immediate account suspension.  
+The provider expressly distances itself from such content and reserves the right to prosecute.
 
-Furthermore, we do not post contents, which do not comply with the data privacy, data protection and legal regulations.
+Furthermore, no content will be posted that does not comply with the privacy policy.
+Specifically, this means that personal information about you may only be contained in your profile.
+You should not disclose any personal data about yourself or others in project data.
+If you exercise your right to object and delete as part of exercising your data subject rights, we will delete your personal data in compliance with the GDPR, in particular your profile data.
+In the case of project data, deletion may not be possible because, in addition to the GDPR, scientific principles and statutory legal bases must be observed here and, above all, the resilience of the project data must be ensured.
+This also includes that the research purpose must not be jeopardized by a deletion.
+Therefore, we ask you not to disclose any personal/individual data within the scope of the projects.
 
 # Using other peoples work
 Do not upload or use any work you do not own, and you have no license for, also do not use images directly from any search engine.
@@ -45,7 +52,7 @@ In severe cases, an account may be temporarily or indefinitely suspended.
 Furthermore, any JoinUs4Health platform user or contributor is invited to report behaviour that bothers them.
 Reports will be kept confidential.
 
-# Best practices¶
+# Best practices
 The list below is a collection of behaviour that we expect to see from our users.
 If you see a user go against these best practices in a way that bothers you, please file a report, and we will talk to them.
 While these best practices are designed to be guidelines for a good communal instance, repeated malicious unwillingness to follow the best practices will be considered just like breaking a rule.
@@ -53,9 +60,12 @@ While these best practices are designed to be guidelines for a good communal ins
 In general, use the tools provided in JoinUs4Health to foster a considerate and accessible atmosphere.
 
 Contributions that do not originate from you must be credited with reference to the license, license holder and source.
+Contributions and content to which you do not have the necessary rights, for example because they originate from a third party and they do not have a license to publish, may not be uploaded or created and shared with others.
+The provider does not check whether third party rights are violated by a contribution and content and accordingly assumes no liability for your contributions and content.
+If you become aware of an infringement of third party rights, please contact us immediately.
 
 Uninvited comments about another user's personal choices, lifestyle or family are strongly discouraged and may be considered harassment.
-Inappropriate sexual attention, comments about appearance and implication of physical contact will not be tolerated toward any non-consenting user.
+Inappropriate sexual attention, comments about appearance and implication of physical contact will not be tolerated.
 
 In discussions, please remain civil, do not insult the people you're talking to.
 Note that irony, sarcasm, or similar modes of language don't translate well to written language and tend to escalate discussions or misunderstandings.
