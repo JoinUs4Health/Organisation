@@ -1,6 +1,6 @@
 # Nutzungsbedingungen
 
-Version: 08.04.2022
+Version: 24.08.2023
 
 ## Allgemeine Richtlinie
 "Seien Sie freundlich, verantwortungsbewusst und offen für andere Meinungen" ist eine übergeordnete Botschaft an alle, die sich bei JoinUs4Health engagieren oder die verschiedenen Ergebnisse und Möglichkeiten nutzen, die sich unserer Erwartung nach entwickeln werden.

@@ -1,6 +1,6 @@
 # Terms of Use
 
-Version: 08.04.2022
+Version: 24.08.2023
 
 ## General guideline
 "Be kind, responsible and open to different perspective" is an overruling message to anybody engaging in JoinUs4Health or enjoying the various outputs and opportunities that we envisage will emerge.
