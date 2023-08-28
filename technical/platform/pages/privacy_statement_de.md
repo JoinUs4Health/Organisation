@@ -226,10 +226,10 @@ Personen unter 16 Jahren sollten ohne Zustimmung der Eltern oder Erziehungsberec
 Wir bedienen uns externer Dienstleister (Auftragsverarbeiter).
 Mit dem Dienstleister wurde eine separate Auftragsdatenverarbeitung geschlossen, um den Schutz Ihrer personenbezogenen Daten zu gewährleisten. 
 
-Die Übersetzungsfunktion für Inhalte wird von DeepL SE; Maarweg 165; D-50825 Köln für uns durchgeführt.
-
 ### unsere Auftragsverarbeiter
 Das Hosting von der Domains [https://platform.joinus4health.eu](https://platform.joinus4health.eu) und [https://joinus4health.eu](https://joinus4health.eu), mit allen dazugehörigen Komponenten (z.B. Platform, E-Mail, Webseite) wird von der netcup GmbH, Daimlerstraße 25, D-76185 Karlsruhe für uns durchgeführt.
+
+Die Übersetzungsfunktion für Inhalte wird von DeepL SE; Maarweg 165; D-50825 Köln für uns durchgeführt.
 
 ## Rechte der betroffenen Personen
 Ihnen stehen nach der DSGVO verschiedene Rechte zu, die sich insbesondere aus Art. 15 bis 21 DSGVO ergeben:

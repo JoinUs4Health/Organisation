@@ -161,6 +161,10 @@ The legal basis is Article 6 (1) (a) GDPR.
 The same applies to the data that you contribute in the context of the teams (comments, suggestions,...).
 If it still happens that you are dissatisfied, please feel free to contact us via `contact@joinus4health.eu` and we will find a solution.
 
+#### Translation of content
+In order to make our offer accessible to as wide a range of visitors as possible, we reserve the right to have content automatically translated into other languages.
+This exclusively concerns content of contributions (Art. 6 (1) (f) GDPR).
+
 ### Cookies, session storage and local storage
 #### Cookies
 Cookies are text files that can be a maximum of 4096 bytes in size.
@@ -224,6 +228,8 @@ A separate order data processing agreement has been concluded with the service p
 
 ### Our processors
 The hosting of the domains [https://platform.joinus4health.eu](https://platform.joinus4health.eu) and [https://joinus4health.eu](https://joinus4health.eu), with all associated components (e.g. platform, e-mail, website) is carried out for us by netcup GmbH, Daimlerstraße 25, D-76185 Karlsruhe.
+
+The content translation function is performed for us by DeepL SE; Maarweg 165; D-50825 Cologne.
 
 ## Rights of data subjects
 According to the GDPR, you are entitled to various rights, which result in particular from Art. 15 to 21 GDPR:
