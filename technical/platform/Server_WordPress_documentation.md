@@ -24,6 +24,7 @@
 - [Attachments](#attachments)
     - [Attachment: WordPress-Plugins-Checks](#attachment-wordpress-plugins-checks)
         - [bbPress](#bbpress)
+        - [bbPress - GD bbPress Attachments](#bbpress---gd-bbpress-attachments)
         - [BuddyPress](#buddypress)
         - [BuddyPress-Docs](#buddypress-docs)
         - [TaskBreaker - Group Project Management](#taskbreaker---group-project-management)
@@ -365,6 +366,20 @@ General Information about Privacy Policy for WordPress plugins:
 - links
     - https://wordpress.org/plugins/bbpress/
     - https://bbpress.org/
+
+### bbPress - GD bbPress Attachments
+- description
+    - implements file-upload for bbPress Forums topics and replies
+- check
+    - last checked: `26.06.2023, winterb`
+    - version: `4.5.0.1`
+    - privacy checked: ✓ `ok`
+        - no explicit information found, seems to run locally only
+    - terms checked: ✓ `GPL v3.0`
+        - https://plugins.svn.wordpress.org/gd-bbpress-attachments/
+    - conclusion: ✓ `ok`
+- links
+    - https://wordpress.org/plugins/gd-bbpress-attachments/
 
 ### BuddyPress
 - description
