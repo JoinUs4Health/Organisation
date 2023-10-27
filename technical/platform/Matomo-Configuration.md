@@ -30,17 +30,52 @@ The server installation, security and safety configuration is not part of this d
 
 Basically our Matomo runs on a stable Debian system in an Apache environment with a MariaDB.
 
-#### Matomo-Configuration on the Matomo Server
-- `Administration` → `Privacy` → `Anonimyze data`
-    - `Anonymize Tracking Data`
-        - [Anonymise IP Address](https://matomo.org/faq/general/configure-privacy-settings-in-matomo/#step-1-automatically-anonymise-visitor-ips-and-replace-user-ids) by setting *at least* 2 bytes to be anonymised (i.e. `192.168.xxx.xxx`)
+Matomo provides GDPR-Tools to process subject rights in terms of GDPR-requests.
+Find it on the Matomo Server under `Administration` → `Privacy` → `GDPR Tools`.
 
+#### Matomo-Configuration on the Matomo Server
+- `Administration`
+    - `System`
+        - `General settings`
+            - `Email server settings`
+                - enter SMTP configuration to get e-mails by Matomo
+            - [Live](https://matomo.org/faq/how-to/how-do-i-disable-the-visits-log-or-the-visitor-profile-feature/)
+                - `Turn off visits log and the visitor profile` - *Yes*
+            - [PrivacyManager](https://matomo.org/faq/general/configure-privacy-settings-in-matomo/#step-10-optional-privacy-preferences)
+                - add Platform-Links to privacy statement, terms of use and legal notice
+        - `Geolocation`
+            - [Location provider](https://matomo.org/faq/how-to/setting-up-accurate-visitors-geolocation/) - DBIP/GeoIP 2 (PHP)
+                - Important: use a local provider running on the server
+    - `Privacy`
+        - `Anonimyze data`
+            - `Anonymize Tracking Data`
+                - [Anonymize Tracking Data](https://matomo.org/faq/general/configure-privacy-settings-in-matomo/#step-1-automatically-anonymise-visitor-ips-and-replace-user-ids)
+                    - `Select how many bytes of the visitors' IPs should be masked.` - *at least* 2 bytes to be anonymised (i.e. `192.168.xxx.xxx`)
+                    - `Also use the Anonymized IP addresses when enriching visits.` - *No*
+                        - Important: The full IP-Address is only used for Geolocation and not stored on our server. Do not change the Geolocation-Provider to an external one!
+                    - `Replace User ID with a pseudonym` - *Yes*
+                    - `Anonymize Order ID` - *Yes*
+                    - `Force tracking without cookies` - *Yes*
+                    - `Anonymize Referrer` - *Remove query parameters from referrer URL*
+                - [Regularly delete old raw visitor data](https://matomo.org/faq/general/configure-privacy-settings-in-matomo/#step-2-regularly-delete-old-raw-visitor-data)
+                    - `Regularly delete old raw data from the database` - *Yes*
+                    - `Delete logs older then (days)` - *180*
+                - [Delete old aggregated report data](https://matomo.org/faq/troubleshooting/faq_42/#delete-old-reports-data)
+                    - `Regularly delete old reports from the database` - *Yes*
+                    - `Delete reports older than (months)` - *12*
+                    - `Keep basic metrocs` - *Yes*
+                    - `Keep all data for` - Monthly reports, Yearly reports
+        - `Users opt-out`
+            - `Support Do Not Track preference`
+                - `Enable Do Not Track support` - *Yes*
 
 
 ### Matomo Client Configuration
-- Configure in `Settings` → `Connect Matomo`
+- `Settings` → `Connect Matomo`
     - Tab `Enable Tracking`
         - [Disable Cookies](https://matomo.org/faq/general/faq_157/) by *enabling* `Disable cookies`
             - check: `_paq.push(["disableCookies"]);` will be added to Tracking code
-
+- [Add information about the Matomo usage to the privacy statement](https://matomo.org/faq/general/configure-privacy-settings-in-matomo/#step-5-create-a-privacy-policy-page-on-your-websites)
+- [Add Opt-Out-Option to the privacy statement](https://matomo.org/faq/general/configure-privacy-settings-in-matomo/#step-3-include-a-web-analytics-opt-out-feature-on-your-site)
+    - get the HTML code on the Matomo Server under `Administration` → `Privacy` → `Users opt-out` → `Let users opt-out of tracking`
 
