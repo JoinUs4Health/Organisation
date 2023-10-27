@@ -1,6 +1,7 @@
 <!-- TOC START min:1 max:3 link:true asterisk:false update:true -->
 - [WordPress-Server-Installation for the Platform of the Project JoinUs4Health](#wordpress-server-installation-for-the-platform-of-the-project-joinus4health)
     - [Overview](#overview)
+    - [Matomo Analytics](#matomo-analytics)
     - [Server-Installation](#server-installation)
         - [WordPress installation](#wordpress-installation)
     - [Server-Configuration](#server-configuration)
@@ -53,6 +54,9 @@
 ## Overview
 This document gives information about all configurations and installations in the Platform-Server.
 The WordPress-internal configuration can be found in the second chapter.
+
+## Matomo Analytics
+[The whole documentation of our Matomo-Configuration is stored here](Matomo-Configuration.md).
 
 ## Server-Installation
 The Installation of the backend is done by the netcup GmbH.
