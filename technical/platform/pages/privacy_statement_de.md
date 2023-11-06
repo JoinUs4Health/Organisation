@@ -18,6 +18,7 @@ Version: 28.08.2023
         - [Cookies, Session Storage und Local Storage](#cookies-session-storage-und-local-storage)
         - [Weitere Funktionen und Angebote auf unserer Plattform](#weitere-funktionen-und-angebote-auf-unserer-plattform)
         - [Minderjährige](#minderjährige)
+    - [Einsatz von Matomo](#einsatz-von-matomo)
     - [Auftragsverarbeiter](#auftragsverarbeiter)
         - [unsere Auftragsverarbeiter](#unsere-auftragsverarbeiter)
     - [Rechte der betroffenen Personen](#rechte-der-betroffenen-personen)
@@ -221,6 +222,72 @@ Soweit unsere Dienstleister oder Partner ihren Sitz in einem Staat außerhalb de
 ### Minderjährige
 Unser Angebot richtet sich grundsätzlich an Personen, die mindestens 16 Jahre alt sind.
 Personen unter 16 Jahren sollten ohne Zustimmung der Eltern oder Erziehungsberechtigten keine personenbezogenen Daten an uns übermitteln. 
+
+## Einsatz von Matomo
+Wir nutzen Matomo auf dieser Website, um das Surfverhalten der Besucher dieser Website zu analysieren.
+Matomo ist eine Opensource-Software, die ausschließlich auf den Servern des Verantwortlichen betrieben wird.
+Besuchen Sie einzelne Seiten unserer Präsentation, werden insbesondere die folgenden Daten gespeichert:
+
+```
+- Ihre IP-Adresse;
+- Eckdaten rund um die Nutzer (z.B. Herkunftsland, Gerätetyp, Betriebssystem, verwendeter Browser, Bildschirmauflösung);
+- Anzahl der Seitenabrufe;
+- Unique Visits (wiederkehrende Besucher im Verlauf einer bestimmten Zeitspanne);
+- verbrachte Zeit auf der Website;
+- Bounce Rate (Besucher einer Website, die nur einen einzigen Seitenaufruf erzeugen);
+- Zugriffszeiten;
+- am häufigsten besuchte Seiten;
+- Eingangs- und Absprungseiten;
+- ausgehende Verweise;
+- Referrer (Direktzugriff, Suchmaschinen, Website); und
+- verwendete Suchbegriffe.
+```
+
+Wir setzt für die Auswertung keine Cookies ein, sondern analysiert Ihr Besucherverhalten anhand von Logfiles und anhand einer errechneten Besucher-ID (also dem Geräte-Fingerabdruck), die durch die oben genannten Informationen ermittelt wird.
+Matomo vergleicht dabei den technischen Fingerabdruck von Ihnen mit den zuvor von allen Besuchern gespeicherten Fingerprints.
+Der Vergleich erfolgt jedoch nur für den Fingerabdruck aus den vergangenen 30 Minuten.
+Zusätzlich ändert sich die Berechnung des Fingerabdrucks alle 24 Stunden. 
+
+Es findet keine Übermittlung dieser Daten an Dritte statt.
+
+Nach der Erhebung Ihrer IP-Adresse wird diese anonymisiert.
+Auf diese Weise kann die IP-Adresse ihnen nicht mehr zugeordnet werden.
+Die anderen personenbezogenen Daten werden aggregiert durch die Kompilierung in Berichten weiterverarbeitet.
+
+```
+Über Matomo messen wir wiederkehrende Besucher in der in folgenden Statistiken so, als wären es jeweils neue Besucher:
+
+- Besuche nach Besuchsanzahl (Engagement-Statistik);
+- Besuche nach Tage seit letztem Besuch (Engagement-Statistik);
+- Besuche bis zur Konversion (Ziele-Statistik);
+- Tage bis zur Konversion (Ziele-Statistik).
+```
+
+Rechtsgrundlage des Einsatzes von Matomo ist Art. 6 Abs. 1 lit. f DSGVO - die Verarbeitung aufgrund unseres berechtigten Interesses unsere Website benutzerfreundlicher zu gestalten und zu verbessern, indem wir die Besucherzahlen unserer Website beobachten.
+Insbesondere durch die Anonymisierung Ihrer IP-Adresse und dem Verzicht des Einsatzes von Cookies wird Ihren Interessen ausreichend Rechnung getragen.
+
+Wir löschen Ihre Daten, sobald wir diese nicht mehr zur Gestaltung und Verbesserung unserer Website benötigen.
+Dies ist in der Regel sofort nach Anonymisierung Ihrer IP-Adresse der Fall.
+Die weiteren Daten werden spätestens nach `14 Tagen` kompiliert und verlieren dadurch den Personenbezug oder werden nach `30 Tagen` gelöscht.
+
+Die Bereitstellung der personenbezogenen Daten ist weder gesetzlich noch vertraglich vorgeschrieben.
+Jedoch ist die Bereitstellung dieser Daten notwendig, um unsere Website zu besuchen. 
+
+Wenn Sie mit der Speicherung und Auswertung dieser Daten aus Ihrem Besuch nicht einverstanden sind, dann können Sie der Speicherung und Nutzung nachfolgend per Mausklick jederzeit widersprechen oder die "Do Not Track"-Anforderung in Ihrem Browser aktivieren.
+Bei der Nutzung der "Do Not Track"-Voreinstellung erkennt unser System dies automatisch.
+Sie müssen nicht aktiv widersprechen.
+
+Falls Sie aktiv widersprechen, wird in Ihrem Browser ein sog. Opt-Out-Cookie (ein technisch notwendiger Cookie) abgelegt, was zur Folge hat, dass Matomo keinerlei Sitzungsdaten erhebt.
+Bitte beachten Sie, dass die vollständige Löschung Ihrer Cookies zur Folge hat, dass auch das Opt-Out-Cookie gelöscht wird und ggf. von Ihnen erneut aktiviert werden muss.
+Ihnen entstehen aus der Nichtbereitstellung keine rechtlichen Nachteile.
+
+```
+Sie haben die Möglichkeit zu verhindern, dass von Ihnen hier getätigte Aktionen analysiert und verknüpft werden.
+Dies wird Ihre Privatsphäre schützen, aber wird auch den Besitzer daran hindern, aus Ihren Aktionen zu lernen und die Bedienbarkeit für Sie und andere Benutzer zu verbessern. 
+
+Ihr Besuch dieser Webseite wird aktuell von der Matomo Webanalyse erfasst.
+Diese Checkbox abwählen für Opt-Out.
+```
 
 ## Auftragsverarbeiter
 Wir bedienen uns externer Dienstleister (Auftragsverarbeiter).
