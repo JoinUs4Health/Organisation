@@ -271,7 +271,7 @@ Bitte beachten Sie, dass die vollständige Löschung Ihrer Cookies zur Folge hat
 Ihnen entstehen aus der Nichtbereitstellung keine rechtlichen Nachteile.
 
 <div id="matomo-opt-out"></div>
-<script src="https://stats.joinus4health.eu/matomo/index.php?module=CoreAdminHome&action=optOutJS&divId=matomo-opt-out&language=auto&showIntro=1"></script>
+<script src="https://stats.joinus4health.eu/matomo/index.php?module=CoreAdminHome&action=optOutJS&divId=matomo-opt-out&language=de&showIntro=1&backgroundColor=efe733"></script>
 
 ## Auftragsverarbeiter
 Wir bedienen uns externer Dienstleister (Auftragsverarbeiter).

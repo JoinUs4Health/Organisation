@@ -18,6 +18,7 @@ Version: 28.08.2023
         - [Cookies, session storage and local storage](#cookies-session-storage-and-local-storage)
         - [More features and offerings on our platform](#more-features-and-offerings-on-our-platform)
         - [Minors](#minors)
+    - [Use of Matomo](#use-of-matomo)
     - [Order processors](#order-processors)
         - [Our processors](#our-processors)
     - [Rights of data subjects](#rights-of-data-subjects)
@@ -270,7 +271,7 @@ Please note that the complete deletion of your cookies means that the opt-out co
 You will not suffer any legal disadvantages from the non-provision.
 
 <div id="matomo-opt-out"></div>
-<script src="https://stats.joinus4health.eu/matomo/index.php?module=CoreAdminHome&action=optOutJS&divId=matomo-opt-out&language=auto&showIntro=1"></script>
+<script src="https://stats.joinus4health.eu/matomo/index.php?module=CoreAdminHome&action=optOutJS&divId=matomo-opt-out&language=en&showIntro=1&backgroundColor=efe733"></script>
 
 ## Order processors
 We use external service providers (order processors).
