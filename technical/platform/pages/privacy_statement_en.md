@@ -222,6 +222,56 @@ Insofar as our service providers or partners are based in a country outside the 
 Our offer is basically aimed at people who have reached the age of 16.
 Persons under the age of 16 should not submit any personal information to us without the consent of their parent or legal guardian.
 
+## Use of Matomo
+We use Matomo on this platform to analyze the surfing behavior of visitors to this website.
+Matomo is a free, open-source software that is operated exclusively on our own servers.
+When you visit our website, the following data in particular is stored:
+
+- Your IP address
+- Key user data (e.g. country of origin, device type, operating system, browser used, screen resolution)
+- Number of page views
+- Unique visits (returning visitors over a certain period of time)
+- Time spent on the website
+- Bounce rate (visitors to a website who only generate a single page view)
+- access times
+- most frequently visited pages
+- entry and exit pages
+- outgoing referrals
+- Referrer (direct access, search engines, website)
+- search terms used
+
+We do not use cookies for the evaluation, but analyze your visitor behavior using log files and a calculated visitor ID (i.e. the device fingerprint), which is determined by the above-mentioned information.
+Matomo compares your technical fingerprint with the fingerprints previously saved by all visitors.
+However, the comparison is only made for the fingerprint from the last 30 minutes.
+In addition, the calculation of the fingerprint changes every 24 hours.
+
+This data is not transmitted to third parties.
+
+After the collection of your IP address, it is anonymised.
+In this way, the IP address can no longer be assigned to you.
+The other personal data is further processed in aggregated form by compiling it into reports.
+
+The legal basis for the use of Matomo is Art. 6 para. 1 lit. f GDPR - processing based on our legitimate interest in making our website more user-friendly and improving it by monitoring the number of visitors to our website.
+In particular, your interests are sufficiently taken into account by anonymising your IP address and not using cookies.
+
+We delete your data as soon as we no longer need it to design and improve our website.
+This is usually the case immediately after your IP address has been anonymised.
+The other data is compiled after 14 days at the latest and thus loses its personal reference or is deleted after 30 days.
+
+The provision of personal data is neither legally nor contractually required.
+However, the provision of this data is necessary in order to visit our website.
+
+If you do not agree to the storage and analysis of this data from your visit, you can object to the storage and use of this data at any time by clicking below or by activating the "Do Not Track" request in your browser.
+Our system automatically recognises this when you use the "Do Not Track" default setting.
+You do not have to actively object.
+
+If you actively object, a so-called opt-out cookie (a technically necessary cookie) will be stored in your browser, which means that Matomo will not collect any session data.
+Please note that the complete deletion of your cookies means that the opt-out cookie will also be deleted and may have to be reactivated by you.
+You will not suffer any legal disadvantages from the non-provision.
+
+<div id="matomo-opt-out"></div>
+<script src="https://stats.joinus4health.eu/matomo/index.php?module=CoreAdminHome&action=optOutJS&divId=matomo-opt-out&language=auto&showIntro=1"></script>
+
 ## Order processors
 We use external service providers (order processors).
 A separate order data processing agreement has been concluded with the service provider to ensure the protection of your personal data.

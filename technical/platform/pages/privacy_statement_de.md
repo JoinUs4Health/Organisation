@@ -224,9 +224,9 @@ Unser Angebot richtet sich grundsätzlich an Personen, die mindestens 16 Jahre a
 Personen unter 16 Jahren sollten ohne Zustimmung der Eltern oder Erziehungsberechtigten keine personenbezogenen Daten an uns übermitteln. 
 
 ## Einsatz von Matomo
-Wir nutzen Matomo auf dieser Website, um das Surfverhalten der Besucher dieser Website zu analysieren.
-Matomo ist eine freie, quelloffene Software, die ausschließlich auf den Servern des Verantwortlichen betrieben wird.
-Besuchen Sie unsere Plafform, werden insbesondere die folgenden Daten gespeichert:
+Wir nutzen Matomo auf dieser Plattform, um das Surfverhalten der Besucher dieser Website zu analysieren.
+Matomo ist eine freie, quelloffene Software, die ausschließlich auf unseren Servern betrieben wird.
+Beim Besuchen unserer Plafform, werden insbesondere die folgenden Daten gespeichert:
 
 - Ihre IP-Adresse
 - Eckdaten rund um die Nutzer (z.B. Herkunftsland, Gerätetyp, Betriebssystem, verwendeter Browser, Bildschirmauflösung)
@@ -241,14 +241,14 @@ Besuchen Sie unsere Plafform, werden insbesondere die folgenden Daten gespeicher
 - Referrer (Direktzugriff, Suchmaschinen, Website)
 - verwendete Suchbegriffe
 
-Wir setzt für die Auswertung keine Cookies ein, sondern analysiert Ihr Besucherverhalten anhand von Logfiles und anhand einer errechneten Besucher-ID (also dem Geräte-Fingerabdruck), die durch die oben genannten Informationen ermittelt wird.
-Matomo vergleicht dabei den technischen Fingerabdruck von Ihnen mit den zuvor von allen Besuchern gespeicherten Fingerprints.
+Wir setzen für die Auswertung keine Cookies ein, sondern analysieren Ihr Besucherverhalten anhand von Logfiles und anhand einer errechneten Besucher-ID (also dem Geräte-Fingerabdruck), die durch die oben genannten Informationen ermittelt wird.
+Matomo vergleicht dabei den technischen Fingerabdruck von Ihnen mit den zuvor von allen Besuchern gespeicherten Fingerabdrücken.
 Der Vergleich erfolgt jedoch nur für den Fingerabdruck aus den vergangenen 30 Minuten.
-Zusätzlich ändert sich die Berechnung des Fingerabdrucks alle 24 Stunden. 
+Zusätzlich ändert sich die Berechnung des Fingerabdrucks alle 24 Stunden.
 
 Es findet keine Übermittlung dieser Daten an Dritte statt.
 
-Nach der Erhebung und lokaler Geolokalisation Ihrer IP-Adresse wird diese anonymisiert.
+Nach der Erhebung Ihrer IP-Adresse wird diese anonymisiert.
 Auf diese Weise kann die IP-Adresse ihnen nicht mehr zugeordnet werden.
 Die anderen personenbezogenen Daten werden aggregiert durch die Kompilierung in Berichten weiterverarbeitet.
 
@@ -260,7 +260,7 @@ Dies ist in der Regel sofort nach Anonymisierung Ihrer IP-Adresse der Fall.
 Die weiteren Daten werden spätestens nach 14 Tagen kompiliert und verlieren dadurch den Personenbezug oder werden nach 30 Tagen gelöscht.
 
 Die Bereitstellung der personenbezogenen Daten ist weder gesetzlich noch vertraglich vorgeschrieben.
-Jedoch ist die Bereitstellung dieser Daten notwendig, um unsere Website zu besuchen. 
+Jedoch ist die Bereitstellung dieser Daten notwendig, um unsere Website zu besuchen.
 
 Wenn Sie mit der Speicherung und Auswertung dieser Daten aus Ihrem Besuch nicht einverstanden sind, dann können Sie der Speicherung und Nutzung nachfolgend per Mausklick jederzeit widersprechen oder die "Do Not Track"-Anforderung in Ihrem Browser aktivieren.
 Bei der Nutzung der "Do Not Track"-Voreinstellung erkennt unser System dies automatisch.
