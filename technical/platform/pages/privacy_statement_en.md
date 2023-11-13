@@ -228,18 +228,20 @@ We use Matomo on this platform to analyze the surfing behavior of visitors to th
 Matomo is a free, open-source software that is operated exclusively on our own servers.
 When you visit our website, the following data in particular is stored:
 
-- Your IP address
-- Key user data (e.g. country of origin, device type, operating system, browser used, screen resolution)
-- Number of page views
-- Unique visits (returning visitors over a certain period of time)
-- Time spent on the website
-- Bounce rate (visitors to a website who only generate a single page view)
+- your IP address
+- key user data (e.g. country of origin, device type, operating system, browser used, screen resolution, main Language of the browser being used)
+- number of page views
+- unique visits (returning visitors over a certain period of time)
+- time spent on the website
+- bounce rate (visitors to a website who only generate a single page view)
+- date and time of the requests
 - access times
 - most frequently visited pages
-- entry and exit pages
+- entry and exit pages (e.g. title, url)
 - outgoing referrals
-- Referrer (direct access, search engines, website)
+- referrer (direct access, search engines, website)
 - search terms used
+- files that were clicked and downloaded
 
 We do not use cookies for the evaluation, but analyze your visitor behavior using log files and a calculated visitor ID (i.e. the device fingerprint), which is determined by the above-mentioned information.
 Matomo compares your technical fingerprint with the fingerprints previously saved by all visitors.

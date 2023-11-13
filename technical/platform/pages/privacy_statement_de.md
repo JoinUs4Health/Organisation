@@ -229,17 +229,19 @@ Matomo ist eine freie, quelloffene Software, die ausschließlich auf unseren Ser
 Beim Besuchen unserer Plafform, werden insbesondere die folgenden Daten gespeichert:
 
 - Ihre IP-Adresse
-- Eckdaten rund um die Nutzer (z.B. Herkunftsland, Gerätetyp, Betriebssystem, verwendeter Browser, Bildschirmauflösung)
+- Eckdaten rund um die Nutzer (z.B. Herkunftsland, Gerätetyp, Betriebssystem, verwendeter Browser, Bildschirmauflösung, Hauptsprache des Web-Browsers)
 - Anzahl der Seitenabrufe
 - Unique Visits (wiederkehrende Besucher im Verlauf einer bestimmten Zeitspanne)
 - verbrachte Zeit auf der Website
 - Bounce Rate (Besucher einer Website, die nur einen einzigen Seitenaufruf erzeugen)
+- Datum und Uhrzeit der Zugriffe
 - Zugriffszeiten
 - am häufigsten besuchte Seiten
-- Eingangs- und Absprungseiten
+- Eingangs- und Absprungseiten (z.B. Titel, URL)
 - ausgehende Verweise
 - Referrer (Direktzugriff, Suchmaschinen, Website)
 - verwendete Suchbegriffe
+- Dateien die angewählt und heruntergeladen wurden
 
 Wir setzen für die Auswertung keine Cookies ein, sondern analysieren Ihr Besucherverhalten anhand von Logfiles und anhand einer errechneten Besucher-ID (also dem Geräte-Fingerabdruck), die durch die oben genannten Informationen ermittelt wird.
 Matomo vergleicht dabei den technischen Fingerabdruck von Ihnen mit den zuvor von allen Besuchern gespeicherten Fingerabdrücken.
