@@ -6,17 +6,17 @@ This document gives a step-by-step-guide to change any *legal document* on the J
     - Privacy Statement
     - Terms Of Use
 
-All versions of all *legal docuemnt* can be fount in this repository in the *pages*-folder.
+All versions of all *legal document* can be found in this repository in the *pages*-folder.
 
 # Prepare Legal Document
 
 1. Work on changes in the legal document.
     - To update a *legal document*, the new version must be updated in this repository fist. This happens in a *branch* usually.
 1. Merge to the *main*.
-    - As soon as the document editin is finished, a new version will be set and the *branch* is merged to the *main*.
+    - As soon as the document editing is finished, a new version will be set and the *branch* is merged to the *main*.
 1. *Tag* the new version.
     - Then the new version in the *main* is *tagged* with the version number (document + date timestamp), i.e. `terms_of_use_platform_20220408` or `privacy_statement_platform_20220412`
-    - The *timstamp* must match the version stated in the document!
+    - The *timestamp* must match the version stated in the document!
 1. Convert to HTML for use on the platform.
     - To create the HTML-Version of the *legal documents*, a script `create_html.sh` is prepared in the *pages*-folder.
 
