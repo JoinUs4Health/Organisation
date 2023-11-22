@@ -37,6 +37,9 @@ Find it on the Matomo Server under `Administration` → `Privacy` → `GDPR Tool
 - `Administration`
     - `System`
         - `General settings`
+            - `Archiving settings`
+                - `Archive reports when viewed from the browser` - *no*
+                    - as we are using a cron job
             - `Email server settings`
                 - enter SMTP configuration to get e-mails by Matomo
             - `Update settings`
@@ -76,6 +79,7 @@ Find it on the Matomo Server under `Administration` → `Privacy` → `GDPR Tool
 ### Matomo Client Configuration
 - `Settings` → `Connect Matomo`
     - Tab `Enable Tracking`
+        - set `Default tracking`
         - [Disable Cookies](https://matomo.org/faq/general/faq_157/) by *enabling* `Disable cookies`
             - check: `_paq.push(["disableCookies"]);` will be added to Tracking code
 - [Add information about the Matomo usage to the privacy statement](https://matomo.org/faq/general/configure-privacy-settings-in-matomo/#step-5-create-a-privacy-policy-page-on-your-websites)

@@ -22,7 +22,7 @@ All versions of all *legal document* can be found in this repository in the *pag
 
 # Add the Legal Document to the Platform and get Consent from the Users
 
-1. Change the text of the document on the page
+1. Change the text of the document on the page - **make sure to use the *Code editor*, not the ~~Visual Editor~~**
     1. Privacy Policy:
         - EN: `https://platform.joinus4health.eu/privacy-policy/privacy-policy/`
         - DE: `https://platform.joinus4health.eu/privacy-policy/datenschutzerklarung/`
@@ -30,10 +30,12 @@ All versions of all *legal document* can be found in this repository in the *pag
         - EN: `https://platform.joinus4health.eu/terms-of-use/terms-of-use/`
         - DE: `https://platform.joinus4health.eu/terms-of-use/nutzungsbedingungen/`
 1. In the "Agreements" tab - create a new version
-    1. Give it a name
+    1. Give it a name, i.e.
+        - `Privacy statement 28.08.2023 16:17`
+        - `Terms of use 24.08.2023 19:43`
     1. select which document was updated - one version can update one type of document  
         ![](./add_new_agreement.png)
-1. Publish new "Agreements"
+    1. Publish new "Agreements"
 1. Each user will be informed when a new document needs to be approved  
     ![](./consent.png)
 
