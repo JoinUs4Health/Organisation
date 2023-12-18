@@ -1,61 +1,38 @@
+# Aufklärung und Einverständniserklärung zur Teilnahme an der Befragung im Rahmen des JoinUs4Health-Projektes
+Sehr geehrte Teilnehmerin, sehr geehrter Teilnehmer,
+
+mit der im Fragebogen hinterlegten Einverständniserklärung legen Sie fest, dass Sie mit der Speicherung der aus der Befragung gewonnenen Daten in einer Forschungsdatenbank und der Datenverarbeitung einverstanden sind.
+
+Ihre Fragen zum Inhalt beantworten wir sehr gerne.
+
+Ihr JoinUs4Helth-Team  
+https://joinus4health.eu  
+contact@joinus4health.eu
+
+*Version: 25.05.2022*
+
 # Datenschutzerklärung
-Diese Datenschutzerklärung gilt für die Nutzung unseres Online-Angebots `www.joinus4health.eu`, im weiteren kurz "Webseite" genannt.
+Diese Datenschutzerklärung gilt für die Nutzung unseres Online-Fragebogens auf `https://ship.limequery.org`, im weiteren kurz "Umfrage" genannt.
 Wir möchten Sie hier darüber aufklären, in welcher Weise wir Ihre personenbezogenen Daten (nachfolgend kurz "Daten") verarbeiten und Ihnen Zweck und Umfang darlegen.
 
-Version: 07.10.2022
+## Kurzfassung
+Im Rahmen dieser anonymen Umfrage erheben wir keine personenbezogenen Daten.
 
-**Inhalt**
-
-<!-- TOC START min:1 max:3 link:true asterisk:false update:true -->
-- [Datenschutzerklärung](#datenschutzerklärung)
-    - [Name und Kontakt des Verantwortlichen gemäß Artikel 4 Abs. 7 DSGVO](#name-und-kontakt-des-verantwortlichen-gemäß-artikel-4-abs-7-dsgvo)
-        - [Datenschutzbeauftragter](#datenschutzbeauftragter)
-    - [Sicherheit und Schutz Ihrer personenbezogenen Daten](#sicherheit-und-schutz-ihrer-personenbezogenen-daten)
-        - [Sicherheitsstandards](#sicherheitsstandards)
-    - [Information über die Erhebung personenbezogener Daten](#information-über-die-erhebung-personenbezogener-daten)
-        - [Kontaktaufnahme per E-Mail](#kontaktaufnahme-per-e-mail)
-        - [Benutzung unserer Webseite](#benutzung-unserer-webseite)
-        - [Benutzung unseres Newsletters](#benutzung-unseres-newsletters)
-        - [Cookies, Session Storage und Local Storage](#cookies-session-storage-und-local-storage)
-        - [Weitere Funktionen und Angebote auf unserer Webseite](#weitere-funktionen-und-angebote-auf-unserer-webseite)
-        - [Minderjährige](#minderjährige)
-    - [Auftragsverarbeiter](#auftragsverarbeiter)
-        - [unsere Auftragsverarbeiter](#unsere-auftragsverarbeiter)
-    - [Rechte der betroffenen Personen](#rechte-der-betroffenen-personen)
-        - [Widerruf der Einwilligung](#widerruf-der-einwilligung)
-        - [Recht auf Bestätigung](#recht-auf-bestätigung)
-        - [Auskunftsrecht](#auskunftsrecht)
-        - [Recht auf Berichtigung](#recht-auf-berichtigung)
-        - [Recht auf Löschung ("Recht auf vergessen werden")](#recht-auf-löschung-recht-auf-vergessen-werden)
-        - [Recht auf Einschränkung der Verarbeitung](#recht-auf-einschränkung-der-verarbeitung)
-        - [Recht auf Datenübertragbarkeit](#recht-auf-datenübertragbarkeit)
-        - [Widerspruchsrecht](#widerspruchsrecht)
-        - [Automatisierte Entscheidungen im Einzelfall einschließlich Profiling](#automatisierte-entscheidungen-im-einzelfall-einschließlich-profiling)
-        - [Recht auf Beschwerde bei einer Aufsichtsbehörde](#recht-auf-beschwerde-bei-einer-aufsichtsbehörde)
-        - [Recht auf wirksamen gerichtlichen Rechtsbehelf](#recht-auf-wirksamen-gerichtlichen-rechtsbehelf)
-    - [Links](#links)
-    - [Änderung unserer Datenschutzbestimmungen](#änderung-unserer-datenschutzbestimmungen)
-    - [Definitionen und Erklärungen](#definitionen-und-erklärungen)
-        - [Begriffsdefinitionen](#begriffsdefinitionen)
-        - [Rechtmäßigkeit der Verarbeitung](#rechtmäßigkeit-der-verarbeitung)
-<!-- TOC END -->
+Identifizierende Daten, die bei der Nutzung anfallen, werden von uns nicht gespeichert.
 
 ## Name und Kontakt des Verantwortlichen gemäß Artikel 4 Abs. 7 DSGVO
 Dr. med. Birgit Schauer  
 Institut für Community Medicine, Abteilung SHIP-KEF  
 Universitätsmedizin Greifswald (UMG)  
 Walther-Rathenau-Strasse 48  
-DE-17475 Greifswald, Germany
-
-E-Mail: `birgit.schauer [at] uni-greifswald.de`  
-Webseite: [https://www2.medizin.uni-greifswald.de/icm/index.php?id=20](https://www2.medizin.uni-greifswald.de/icm/index.php?id=20)
+DE-17475 Greifswald, Germany  
+E-Mail: `birgit.schauer [at] uni-greifswald.de`
 
 ### Datenschutzbeauftragter 
 Prof. Ulf Glende  
 Konzerndatenschutzbeauftragter der UMG  
 Walther-Rathenau-Straße 49  
-DE-17475 Greifswald
-
+DE-17475 Greifswald  
 Telefon: `+49 (0)3834 86-5124`  
 E-Mail: `datenschutz-umg [at] med.uni-greifswald.de`
 
@@ -66,12 +43,8 @@ Die Erhebung und Verarbeitung Ihrer personenbezogenen Daten geschieht unter Beac
 Wir haben technische und organisatorische Maßnahmen getroffen, die sicherstellen, dass die Vorschriften über den Datenschutz sowohl von uns, als auch von unseren externen Dienstleistern beachtet werden.
 
 ### Sicherheitsstandards
-Bei der Entwicklung und Bereitstellung unserer Webseite berücksichtigen wir bereits im Vorfeld Sicherheitsaspekte (Privacy by Design).
-
-Die Nutzung unserer Webseite ist nur über TLS-verschlüsselte Kanäle möglich.
+Die Nutzung der Umfrage ist nur über TLS-verschlüsselte Kanäle möglich.
 Hierdurch wird sichergestellt, dass Dritte keine Inhalte aus den übertragenen Daten extrahieren können.
-
-Die sicherheitsrelevanten Angaben zu Plugins, die wir nutzen, werden sorgfältig geprüft, bevor sie zur Anwendung kommen.
 
 Wir erheben und speichern keine unnötigen Daten (Datensparsamkeit).
 
@@ -81,56 +54,26 @@ Sind Einstellungen für den Nutzer möglich, so ist stets die datenschutzfreundl
 Wir verzichten auf eine automatische Entscheidungsfindung oder ein Profiling.
 
 ## Information über die Erhebung personenbezogener Daten
-Nachfolgend möchten wir Sie über die Erhebung personenbezogener Daten bei Nutzung unserer Webseite informieren.
+Nachfolgend möchten wir Sie über die Erhebung personenbezogener Daten bei Nutzung unserer Umfrage informieren.
 Personenbezogene Daten sind z.B. Ihr Name, Ihre Anschrift, Ihre E-Mail-Adressen, Ihr Nutzungsverhalten, etc. 
 
-### Kontaktaufnahme per E-Mail
-Bei einer Kontaktaufnahme per E-Mail werden die von Ihnen mitgeteilten Daten (z.B: Ihre E-Mail-Adresse, ggf. Ihr Name und Telefonnummer) von uns gespeichert, um Ihre E-Mail zu beantworten (Rechtsgrundlage ist Art. 6 Abs. 1 S. 1 lit. f DSGVO).
-Die in diesem Zusammenhang anfallenden personenbezogenen Daten löschen wir, nachdem die Speicherung nicht mehr erforderlich ist, oder die Verarbeitung wird eingeschränkt, falls gesetzliche Aufbewahrungspflichten bestehen.
-
-Wir weisen darauf hin, dass E-Mails in aller Regel unverschlüsselt, also im Klartext, übertragen werden.
-Auch wenn eine Verbindungsverschlüsselung bestehen kann, ist eine Ende-zu-Ende-Verschlüsselung nicht gegeben.
-Senden Sie daher bitte keine sensiblen Daten per E-Mail.
-Bei Bedarf kontaktieren Sie uns gern, um eine sichere Übertragung in die Wege leiten zu können.
-
-Folgende Daten werden beim Versenden von E-Mails übermittelt:
-
-- Absenderadresse, die ggf. weitere personenbezogene Daten enthalten kann, wie Name oder Geburtsjahr
-- Informationen über den Weg, den die E-Mail genommen hat
-- ggf. verwendeter E-Mail-Client und dessen Version
-- ggf. verwendetes Betriebssystem und dessen Version und ggf. Oberfläche
-- ggf. Referenzen zu früheren E-Mails
-- E-Mail-Inhalte, die ggf. weitere personenbezogene Daten enthalten können
-
-### Benutzung unserer Webseite
-Bei der rein informatorischen Nutzung der Webseite, also wenn Sie sich nicht registrieren oder uns anderweitig Informationen zur Verfügung stellen, erheben wir nur die personenbezogenen Daten, die Ihr Browser an unseren Server übermittelt.
+### Benutzung unserer Umfrage
 Die technisch erforderlichen Daten, die Ihr Browser automatisch an unseren Server übermittelt, werden für maximal 14 Tage in sogenannten Server-Log-Dateien gespeichert.
-Eine Zusammenführung personenbezogener Daten mit anderen Datenquellen wird nicht vorgenommen.
-Wir verwenden Teile der Daten, um vollständig anonyme Statistiken über die Seitennutzung zu erstellen.
-Wenn Sie unsere Webseite aufrufen, erheben wir die folgenden Daten, die technisch notwendig sind, um Ihnen unsere Webseite anzuzeigen und deren Stabilität und Sicherheit zu gewährleisten (Rechtsgrundlage ist Art. 6 Abs. 1 S. 1 lit. f DSGVO):
 
 - IP-Adresse
 - Browser-Typ und Browser-Version
 - verwendetes Betriebssystem und dessen Version und ggf. Oberfläche
-- Referrer-URL (Webseite, über die Sie auf unsere Webseite gelangten)
+- Referrer-URL (Webseite, über die Sie auf unsere Umfrage gelangten)
 - bevorzugte Sprachen, Encoding und MIME-Typen
 - Datum und Uhrzeit der Anfrage
 - Zeitzonendifferenz zur Greenwich Mean Time (GMT)
 - Zugriffsstatus/HTTP-Statuscode
 - jeweils übertragene Datenmenge
 
-### Benutzung unseres Newsletters
-Der Newsletter ist für Sie eine einfache Möglichkeit, sich regelmäßig über das Projekt informieren zu lassen.
-Wir verarbeiten hierzu Ihre E-Mail-Adresse, die für die Nutzung des Newsletters bestätigt werden muss.
+Eine Auswertung dieser Daten findet durch uns nicht statt.
+Eine Zusammenführung personenbezogener Daten mit anderen Datenquellen wird nicht vorgenommen.
 
-Ihre personenbezogenen Daten werden nicht weitergegeben und ohne weitere Einwilligung ihrerseits, nur für die Zwecke des Newsletters verwendet.
-
-Sie haben jederzeit die Möglichkeit, sich vom Newsletter abzumelden.
-Dadurch werden alle diesbezüglichen Daten über Sie aus unserem System gelöscht.
-
-Wir verwenden den Newsletter auf Grundlage Ihrer expliziten Einwilligung nach Artikel 6 Absatz 1 Buchstabe a DSGVO.
-
-### Cookies, Session Storage und Local Storage
+### Cookies
 #### Cookies
 Cookies sind Textdateien, die maximal 4096 Bytes groß sein können.
 Die Dateien werden von dem von Ihnen verwendeten Browser auf Ihrer Festplatte gespeichert.
@@ -158,31 +101,6 @@ Session Cookies werden automatisiert gelöscht, wenn Sie den Browser schließen.
 Wir verwenden Cookies auf folgender Rechtsgrundlage:
 - Session Cookies – Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f. DSGVO)
 
-#### Local-Storage und Session-Storage
-Als "local storage" und "session storage" wird eine Technik bezeichnet, die ähnlich wie Cookies Daten lokal in Ihrem Browser speichert.
-Dateneinträge können hier bis zu 5MB groß sein.
-
-Im Gegensatz zu Cookies werden die Inhalte nicht automatisch zum Server übertragen und eigenen sich daher mehr dazu lokal Daten abzulegen, die nur lokal benötigt werden, z.B. Nutzereinstellungen.
-
-Das Auslesen der Informationen ist nur auf der Domain möglich, wo diese Daten auch geschrieben wurden.
-Auch bei einer Subdomain der schreibenden Domain ist es nicht möglich die Daten auszulesen (z.B.  `subdomain.example.org` ist eine Subdomain von `example.org`).
-
-Daten im Session-Storage werden automatisiert gelöscht, wenn Sie den Browser schließen.
-
-Daten im Local-Storage verbleiben auf Ihrer Festplatte, wenn Sie den Browser schließen.
-Sie können die Daten über Ihre Browser-Einstellungen entfernen.
-
-Wir nutzen weder Session- noch Local-Storage.
-
-### Weitere Funktionen und Angebote auf unserer Webseite
-Neben der rein informatorischen Nutzung unserer Webseite bieten wir verschiedene Leistungen an, die Sie bei Interesse nutzen können.
-Dazu müssen Sie in der Regel weitere personenbezogene Daten angeben, die wir zur Erbringung der jeweiligen Leistung nutzen und für die die zuvor genannten Grundsätze zur Datenverarbeitung gelten.
-
-Teilweise bedienen wir uns zur Verarbeitung Ihrer Daten externer Dienstleister.
-Diese wurden von uns sorgfältig ausgewählt und beauftragt, sind an unsere Weisungen gebunden und werden regelmäßig kontrolliert.
-
-Soweit unsere Dienstleister oder Partner ihren Sitz in einem Staat außerhalb des Europäischen Wirtschaftsraums (EWR) haben, werden wir Sie in der Beschreibung des Angebotes über die Folgen informieren.
-
 ### Minderjährige
 Unser Angebot richtet sich grundsätzlich an Personen, die mindestens 16 Jahre alt sind.
 Personen unter 16 Jahren sollten ohne Zustimmung der Eltern oder Erziehungsberechtigten keine personenbezogenen Daten an uns übermitteln. 
@@ -191,8 +109,8 @@ Personen unter 16 Jahren sollten ohne Zustimmung der Eltern oder Erziehungsberec
 Wir bedienen uns externer Dienstleister (Auftragsverarbeiter).
 Mit dem Dienstleister wurde eine separate Auftragsdatenverarbeitung geschlossen, um den Schutz Ihrer personenbezogenen Daten zu gewährleisten. 
 
-### unsere Auftragsverarbeiter
-Das Hosting von der Domain [https://joinus4health.eu](https://joinus4health.eu), mit allen dazugehörigen Komponenten (z.B. Webseite, E-Mail) wird von der netcup GmbH, Daimlerstraße 25, D-76185 Karlsruhe für uns durchgeführt.
+### Unsere Auftragsverarbeiter
+Das Hosting von der Umfrage-Software "LimeSurvey" wird von der LimeSurvey GmbH, Papenreye 63, D-22453 Hamburg für uns durchgeführt.
 
 ## Rechte der betroffenen Personen
 Ihnen stehen nach der DSGVO verschiedene Rechte zu, die sich insbesondere aus Art. 15 bis 21 DSGVO ergeben:
@@ -278,12 +196,12 @@ Dieses Recht gilt nicht für eine Verarbeitung, die für die Wahrnehmung einer A
 **Werden personenbezogene Daten verarbeitet, um Direktwerbung zu betreiben, so haben Sie das Recht, jederzeit Widerspruch gegen die Verarbeitung Sie betreffender personenbezogener Daten zum Zwecke derartiger Werbung einzulegen; dies gilt auch für das Profiling, soweit es mit solcher Direktwerbung in Verbindung steht.**
 **Widersprechen Sie der Verarbeitung für Zwecke der Direktwerbung, so werden die personenbezogenen Daten nicht mehr für diese Zwecke verarbeitet.**
 
+
 **Im Zusammenhang mit der Nutzung von Diensten der Informationsgesellschaft können Sie ungeachtet der Richtlinie 2002/58/EG Ihr Widerspruchsrecht mittels automatisierter Verfahren ausüben, bei denen technische Spezifikationen verwendet werden.**
 
 **Sie haben das Recht, aus Gründen, die sich aus Ihrer besonderen Situation ergeben, gegen die Sie betreffende Verarbeitung Sie betreffender personenbezogener Daten, die zu wissenschaftlichen oder historischen Forschungszwecken oder zu statistischen Zwecken gemäß Artikel 89 Absatz 1 erfolgt, Widerspruch einzulegen, es sei denn, die Verarbeitung ist zur Erfüllung einer im öffentlichen Interesse liegenden Aufgabe erforderlich.**
 
 **Das Widerspruchsrecht können Sie jederzeit ausüben, indem Sie sich an den jeweiligen Verantwortlichen wenden.**
-
 
 ### Automatisierte Entscheidungen im Einzelfall einschließlich Profiling
 Sie haben das Recht, nicht einer ausschließlich auf einer automatisierten Verarbeitung – einschließlich Profiling – beruhenden Entscheidung unterworfen zu werden, die Ihnen gegenüber rechtliche Wirkung entfaltet oder Sie in ähnlicher Weise erheblich beeinträchtigt.

@@ -1,15 +1,12 @@
-<!-- TOC START min:1 max:4 link:true asterisk:false update:true -->
+<!-- TOC START min:1 max:3 link:true asterisk:false update:true -->
 - [WordPress-Server-Installation for the Platform of the Project JoinUs4Health](#wordpress-server-installation-for-the-platform-of-the-project-joinus4health)
     - [Overview](#overview)
+    - [Matomo Analytics](#matomo-analytics)
     - [Server-Installation](#server-installation)
         - [WordPress installation](#wordpress-installation)
     - [Server-Configuration](#server-configuration)
         - [Safety](#safety)
-            - [Automatic Backup](#automatic-backup)
-            - [Offsite Backup](#offsite-backup)
         - [Security](#security)
-            - [Automatic Updates](#automatic-updates)
-            - [Checked Security](#checked-security)
 - [WordPress-internal Installation/Configuration](#wordpress-internal-installationconfiguration)
     - [Overview](#overview-1)
     - [WordPress-Configuration](#wordpress-configuration)
@@ -28,16 +25,23 @@
 - [Attachments](#attachments)
     - [Attachment: WordPress-Plugins-Checks](#attachment-wordpress-plugins-checks)
         - [bbPress](#bbpress)
+        - [bbPress - GD bbPress Attachments](#bbpress---gd-bbpress-attachments)
         - [BuddyPress](#buddypress)
+        - [BuddyPress-Docs](#buddypress-docs)
         - [TaskBreaker - Group Project Management](#taskbreaker---group-project-management)
         - [Mind maps](#mind-maps)
+        - [JoinUs4Health](#joinus4health)
+        - [WPBruiser aka Goodbye-Captcha and WPBruiser BuddyPress Extension](#wpbruiser-aka-goodbye-captcha-and-wpbruiser-buddypress-extension)
 <!-- TOC END -->
 
 **Changelog**
 
 | date       | editor  | changes                                                    |
 | ---------- | ------- | ---------------------------------------------------------- |
-| 12.04.2022 | winterb | added WordPress-plugins used an plugin-checks              | 
+| 17.11.2022 | winterb | added BuddPreess-Docs Check; small formatting changes      |
+| 22.07.2022 | winterb | checked WPBruiser-Plugin + Extension                       |
+| 06.06.2022 | Jakub   | added information on 'JoinUs4Health'-Plugins               |
+| 12.04.2022 | winterb | added WordPress-plugins used an plugin-checks              |
 | 07.04.2022 | winterb | added PHP Settings                                         |
 | 06.04.2022 | winterb | general update to the current state, merged server install |
 | 04.04.2022 | Jakub   | updated Step-By-Step-Installation                          |
@@ -50,6 +54,9 @@
 ## Overview
 This document gives information about all configurations and installations in the Platform-Server.
 The WordPress-internal configuration can be found in the second chapter.
+
+## Matomo Analytics
+[The whole documentation of our Matomo-Configuration is stored here](Matomo-Configuration.md).
 
 ## Server-Installation
 The Installation of the backend is done by the netcup GmbH.
@@ -355,14 +362,28 @@ General Information about Privacy Policy for WordPress plugins:
     - last checked: `12.04.2022, winterb`
     - version: `2.6.9`
     - privacy checked: ✓ `ok`
-      - no explicit information found, seems to run locally only
-      - officially developed by the WordPress founders and community
+        - no explicit information found, seems to run locally only
+        - officially developed by the WordPress founders and community
     - terms checked: ✓ `GPLv2 or later`
-      - https://plugins.svn.wordpress.org/bbpress/
-    - conclusion: ✓ ok
+        - https://plugins.svn.wordpress.org/bbpress/
+    - conclusion: ✓ `ok`
 - links
     - https://wordpress.org/plugins/bbpress/
     - https://bbpress.org/
+
+### bbPress - GD bbPress Attachments
+- description
+    - implements file-upload for bbPress Forums topics and replies
+- check
+    - last checked: `26.06.2023, winterb`
+    - version: `4.5.0.1`
+    - privacy checked: ✓ `ok`
+        - no explicit information found, seems to run locally only
+    - terms checked: ✓ `GPL v3.0`
+        - https://plugins.svn.wordpress.org/gd-bbpress-attachments/
+    - conclusion: ✓ `ok`
+- links
+    - https://wordpress.org/plugins/gd-bbpress-attachments/
 
 ### BuddyPress
 - description
@@ -372,14 +393,31 @@ General Information about Privacy Policy for WordPress plugins:
     - last checked: `12.04.2022, winterb`
     - version: `10.2.0`
     - privacy checked: ✓ `ok`
-      - no explicit information found, seems to run locally only
-      - officially developed by the WordPress community
+        - no explicit information found, seems to run locally only
+        - officially developed by the WordPress community
     - terms checked: ✓ `GPLv2 or later`
-      - https://plugins.svn.wordpress.org/buddypress/
-    - conclusion: ✓ ok
+        - https://plugins.svn.wordpress.org/buddypress/
+    - conclusion: ✓ `ok`
 - links
     - https://wordpress.org/plugins/buddypress/
     - https://buddypress.org/
+
+### BuddPreess-Docs
+- description
+    - BuddyPress Docs adds collaborative work spaces to your BuddyPress, i.e. editing texts together
+- check
+    - last checked: `17.11.2022, winterb`
+    - version: `2.1.7`
+    - privacy checked: ✓ `ok`
+        - no explicit information found, seems to run locally only
+    - terms checked: ✓ `GPL v3.0`
+        - https://plugins.svn.wordpress.org/buddypress-docs/
+        - https://github.com/boonebgorges/buddypress-docs/issues/718
+            - they added the license on Nov. 11th 2022
+    - conclusion: ✓ `ok`
+- links
+    - https://wordpress.org/plugins/buddypress-docs/
+    - https://github.com/boonebgorges/buddypress-docs
 
 ### TaskBreaker - Group Project Management
 - description
@@ -389,12 +427,13 @@ General Information about Privacy Policy for WordPress plugins:
     - last checked: `12.04.2022, winterb`
     - version: `1.5.1`
         - ⚠ version is four years old!
+        - we scheduled this in the IT-Meeting on 10.05.2022, unfortunately TaskBreaker seems to be the best possible option (RK, DNFP-13)
     - privacy checked: ✓ `ok`
-      - no explicit information found, seems to run locally only
-      - officially developed by the WordPress community
+        - no explicit information found, seems to run locally only
+        - officially developed by the WordPress community
     - terms checked: ✓ `GPLv2 or later`
-      - https://plugins.svn.wordpress.org/taskbreaker-project-management/
-    - conclusion: ✓ ok
+        - https://plugins.svn.wordpress.org/taskbreaker-project-management/
+    - conclusion: ✓ `ok`
 - links
     - https://wordpress.org/plugins/taskbreaker-project-management/
     - https://github.com/codehaiku/taskbreaker-project-management
@@ -407,9 +446,68 @@ General Information about Privacy Policy for WordPress plugins:
     - last checked: `13.01.2022, winterb`
     - version: `2.18.0`
     - privacy checked: ✓ `ok`
-      - no explicit information found, seems to run locally only
+        - no explicit information found, seems to run locally only
     - terms checked: ✓ `GPLv2 or later`
-      - https://plugins.svn.wordpress.org/email-subscribers/
-    - conclusion: ✓ ok
+        - https://plugins.svn.wordpress.org/email-subscribers/
+    - conclusion: ✓ `ok`
 - links
     - https://wordpress.org/plugins/mind-maps/
+
+### JoinUs4Health
+- description
+    - this plugin provides mainly functionality for Suggestions, Tasks and Topics and gives customization for installed plugins
+    - this plugin was developed in this project
+- details
+    - adding Suggestion post type
+    - adding Topic post type
+    - adding Task post type
+    - adding Slide post type (for carousel on home page)
+    - adding routing for 'New idea/suggestion'
+    - adding routing for home page of wordpress
+    - adding custom archive page for 'Suggestion' post type
+    - adding custom archive page for 'Topic' post type
+    - adding custom archive page for 'Task' post type
+    - implements functions for formatting/displaying time
+    - adds custom JavaScript scripts
+    - handles changing language of webpage firstly based on browser language and secondly if user choosed any custom language by yourself displaying webpage in language stored in cookie
+    - implements functions for displaying custom fields of posts based on selected current language
+    - handles redirecting to any child page based on its language. If invoked page has child page with selected current language page will be redirected to this child page
+    - rewrites username at sign up page to username from BuddyPress forum plugin, and does the same on profile update page
+    - hides profile page from BuddyPress (only visible for owner and administrator)
+    - hides members list from BuddyPress
+    - changes e-mail recipient to contact@joinus4health.eu
+    - changes e-mail content of notify about new comment for user and other users removing all of sensitive data like e-mail addresses and IP addresses
+    - turns off WordPress API and BuddyPress API
+    - removes IP and e-mail address from comment table list at WordPress panel
+
+### WPBruiser aka Goodbye-Captcha and WPBruiser BuddyPress Extension
+- description
+    - WPBruiser is a local running Captcha Plugin for human validation (stop bots).
+    - WPBruiser BuddyPress Extension integrates WPBruiser in the running BuddyPress system.
+- check
+    - WPBruiser
+        - last checked: `22.07.2022, winterb`
+        - version: `3.1.43`
+        - privacy checked: ✓ `ok`
+            - ⚠ current version is two years old!
+            - no explicit information found, seems to run locally only
+        - terms checked: ✓ `GPLv2 or later`
+            - https://plugins.svn.wordpress.org/goodbye-captcha
+        - other infos
+            - ❌ WordPress claims: "This plugin hasn’t been tested with the latest 3 major releases of WordPress. It may no longer be maintained or supported and may have compatibility issues when used with more recent versions of WordPress.""
+            - ❌ seems not to be maintained anymore: https://wordpress.org/plugins/goodbye-captcha/#reviews
+        - conclusion: ✓ `ok`
+    - WPBruiser BuddyPress Extension
+        - last checked: `22.07.2022, winterb`
+        - version: `3.1.39`
+            - ⚠ current version is two years old! last update May 4, 2020.
+        - privacy checked: ✓ `ok`
+          - no explicit information found, seems to run locally only
+        - terms checked: ❌ `proprietary`
+          - https://plugins.svn.wordpress.org/taskbreaker-project-management/
+        - conclusion: ✓ `ok`
+- links
+    - WPBruiser
+        - https://wordpress.org/plugins/goodbye-captcha/
+    - WPBruiser BuddyPress Extension
+        - https://wpbruiser.com/downloads/buddypress/

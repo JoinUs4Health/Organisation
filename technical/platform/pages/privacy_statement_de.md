@@ -2,7 +2,7 @@
 Diese Datenschutzerklärung gilt für die Nutzung unseres Online-Angebots `platform.joinus4health.eu`, im weiteren kurz "Plattform" genannt.
 Wir möchten Sie hier darüber aufklären, in welcher Weise wir Ihre personenbezogenen Daten (nachfolgend kurz "Daten") verarbeiten und Ihnen Zweck und Umfang darlegen.
 
-Version: 02.05.2022
+Version: 22.11.2023
 
 **Inhalt**
 
@@ -19,6 +19,7 @@ Version: 02.05.2022
         - [Weitere Funktionen und Angebote auf unserer Plattform](#weitere-funktionen-und-angebote-auf-unserer-plattform)
         - [Nutzung unseres Angebots zur Audio- und Videokonferenz](#nutzung-unseres-angebots-zur-audio--und-videokonferenz)
         - [Minderjährige](#minderjährige)
+    - [Einsatz von Matomo](#einsatz-von-matomo)
     - [Auftragsverarbeiter](#auftragsverarbeiter)
         - [unsere Auftragsverarbeiter](#unsere-auftragsverarbeiter)
     - [Rechte der betroffenen Personen](#rechte-der-betroffenen-personen)
@@ -163,6 +164,10 @@ Ebenso verhält es sich mit den Daten, die Sie im Rahmen der Teams beitragen (Ko
 Bitte geben Sie keine personenbezogenen Daten über sich oder andere in Kommentaren oder anderen beiträgen an.
 Sollte es dennoch vorkommen, dass Sie unzufrieden sind, kommen Sie gern über `contact@joinus4health.eu` mit uns ins Gespräch und wir finden eine Lösung.
 
+#### Übersetzung von Inhalten
+Um unser Angebot einem möglicht großen Spektrum von Besucher:innen nahezubringen, behalten wir uns vor, Inhalte automatisiert in andere Sprachen übersetzen zu lassen.
+Dies betrifft ausschließlich Inhalte von Beiträgen (Art. 6 Abs. 1 S. 1 lit. f. DSGVO).
+
 ### Cookies, Session Storage und Local Storage
 #### Cookies
 Cookies sind Textdateien, die maximal 4096 Bytes groß sein können.
@@ -242,12 +247,66 @@ Daten, die während einer Sitzung anfallen, werden nach der Beendigung umgehend 
 Unser Angebot richtet sich grundsätzlich an Personen, die mindestens 16 Jahre alt sind.
 Personen unter 16 Jahren sollten ohne Zustimmung der Eltern oder Erziehungsberechtigten keine personenbezogenen Daten an uns übermitteln. 
 
+## Einsatz von Matomo
+Wir nutzen Matomo auf dieser Plattform, um das Surfverhalten der Besucher dieser Website zu analysieren.
+Matomo ist eine freie, quelloffene Software, die ausschließlich auf unseren Servern betrieben wird.
+Beim Besuchen unserer Plafform, werden insbesondere die folgenden Daten gespeichert:
+
+- Ihre IP-Adresse
+- Eckdaten rund um die Nutzer (z.B. Herkunftsland, Gerätetyp, Betriebssystem, verwendeter Browser, Bildschirmauflösung, Hauptsprache des Web-Browsers)
+- Anzahl der Seitenabrufe
+- Unique Visits (wiederkehrende Besucher im Verlauf einer bestimmten Zeitspanne)
+- verbrachte Zeit auf der Website
+- Bounce Rate (Besucher einer Website, die nur einen einzigen Seitenaufruf erzeugen)
+- Datum und Uhrzeit der Zugriffe
+- Zugriffszeiten
+- am häufigsten besuchte Seiten
+- Eingangs- und Absprungseiten (z.B. Titel, URL)
+- ausgehende Verweise
+- Referrer (Direktzugriff, Suchmaschinen, Website)
+- verwendete Suchbegriffe
+- Dateien die angewählt und heruntergeladen wurden
+
+Wir setzen für die Auswertung keine Cookies ein, sondern analysieren Ihr Besucherverhalten anhand von Logfiles und anhand einer errechneten Besucher-ID (also dem Geräte-Fingerabdruck), die durch die oben genannten Informationen ermittelt wird.
+Matomo vergleicht dabei den technischen Fingerabdruck von Ihnen mit den zuvor von allen Besuchern gespeicherten Fingerabdrücken.
+Der Vergleich erfolgt jedoch nur für den Fingerabdruck aus den vergangenen 30 Minuten.
+Zusätzlich ändert sich die Berechnung des Fingerabdrucks alle 24 Stunden.
+
+Es findet keine Übermittlung dieser Daten an Dritte statt.
+
+Nach der Erhebung Ihrer IP-Adresse wird diese anonymisiert.
+Auf diese Weise kann die IP-Adresse ihnen nicht mehr zugeordnet werden.
+Die anderen personenbezogenen Daten werden aggregiert durch die Kompilierung in Berichten weiterverarbeitet.
+
+Rechtsgrundlage des Einsatzes von Matomo ist Art. 6 Abs. 1 lit. f DSGVO - die Verarbeitung aufgrund unseres berechtigten Interesses unsere Website benutzerfreundlicher zu gestalten und zu verbessern, indem wir die Besucherzahlen unserer Website beobachten.
+Insbesondere durch die Anonymisierung Ihrer IP-Adresse und dem Verzicht des Einsatzes von Cookies wird Ihren Interessen ausreichend Rechnung getragen.
+
+Wir löschen Ihre Daten, sobald wir diese nicht mehr zur Gestaltung und Verbesserung unserer Website benötigen.
+Dies ist in der Regel sofort nach Anonymisierung Ihrer IP-Adresse der Fall.
+Die weiteren Daten werden spätestens nach 14 Tagen kompiliert und verlieren dadurch den Personenbezug oder werden nach 30 Tagen gelöscht.
+
+Die Bereitstellung der personenbezogenen Daten ist weder gesetzlich noch vertraglich vorgeschrieben.
+Jedoch ist die Bereitstellung dieser Daten notwendig, um unsere Website zu besuchen.
+
+Wenn Sie mit der Speicherung und Auswertung dieser Daten aus Ihrem Besuch nicht einverstanden sind, dann können Sie der Speicherung und Nutzung nachfolgend per Mausklick jederzeit widersprechen oder die "Do Not Track"-Anforderung in Ihrem Browser aktivieren.
+Bei der Nutzung der "Do Not Track"-Voreinstellung erkennt unser System dies automatisch.
+Sie müssen nicht aktiv widersprechen.
+
+Falls Sie aktiv widersprechen, wird in Ihrem Browser ein sog. Opt-Out-Cookie (ein technisch notwendiger Cookie) abgelegt, was zur Folge hat, dass Matomo keinerlei Sitzungsdaten erhebt.
+Bitte beachten Sie, dass die vollständige Löschung Ihrer Cookies zur Folge hat, dass auch das Opt-Out-Cookie gelöscht wird und ggf. von Ihnen erneut aktiviert werden muss.
+Ihnen entstehen aus der Nichtbereitstellung keine rechtlichen Nachteile.
+
+<div id="matomo-opt-out"></div>
+<script src="https://stats.joinus4health.eu/matomo/index.php?module=CoreAdminHome&action=optOutJS&divId=matomo-opt-out&language=de&showIntro=1&backgroundColor=efe733"></script>
+
 ## Auftragsverarbeiter
 Wir bedienen uns externer Dienstleister (Auftragsverarbeiter).
 Mit dem Dienstleister wurde eine separate Auftragsdatenverarbeitung geschlossen, um den Schutz Ihrer personenbezogenen Daten zu gewährleisten. 
 
 ### unsere Auftragsverarbeiter
 Das Hosting von der Domains [https://platform.joinus4health.eu](https://platform.joinus4health.eu) und [https://joinus4health.eu](https://joinus4health.eu), mit allen dazugehörigen Komponenten (z.B. Platform, E-Mail, Webseite) wird von der netcup GmbH, Daimlerstraße 25, D-76185 Karlsruhe für uns durchgeführt.
+
+Die Übersetzungsfunktion für Inhalte wird von DeepL SE; Maarweg 165; D-50825 Köln für uns durchgeführt.
 
 Das Hosting des Kommunikationssystems BigBlueButton wird von der werk21 GmbH; Krausnickstraße 3; D-10115 Berlin für uns durchgeführt.
 

@@ -2,7 +2,7 @@
 This privacy statement applies to the use of our online offer `platform.joinus4health.eu`, in the following referred to as "platform".
 We would like to inform you here about the way in which we process your personal data (hereinafter referred to as "data") and explain the purpose and scope.
 
-Version: 12.04.2022
+Version: 22.11.2023
 
 **Table of Content**
 
@@ -18,6 +18,7 @@ Version: 12.04.2022
         - [Cookies, session storage and local storage](#cookies-session-storage-and-local-storage)
         - [More features and offerings on our platform](#more-features-and-offerings-on-our-platform)
         - [Minors](#minors)
+    - [Use of Matomo](#use-of-matomo)
     - [Order processors](#order-processors)
         - [Our processors](#our-processors)
     - [Rights of data subjects](#rights-of-data-subjects)
@@ -161,6 +162,10 @@ The legal basis is Article 6 (1) (a) GDPR.
 The same applies to the data that you contribute in the context of the teams (comments, suggestions,...).
 If it still happens that you are dissatisfied, please feel free to contact us via `contact@joinus4health.eu` and we will find a solution.
 
+#### Translation of content
+In order to make our offer accessible to as wide a range of visitors as possible, we reserve the right to have content automatically translated into other languages.
+This exclusively concerns content of contributions (Art. 6 (1) (f) GDPR).
+
 ### Cookies, session storage and local storage
 #### Cookies
 Cookies are text files that can be a maximum of 4096 bytes in size.
@@ -218,12 +223,66 @@ Insofar as our service providers or partners are based in a country outside the 
 Our offer is basically aimed at people who have reached the age of 16.
 Persons under the age of 16 should not submit any personal information to us without the consent of their parent or legal guardian.
 
+## Use of Matomo
+We use Matomo on this platform to analyze the surfing behavior of visitors to this website.
+Matomo is a free, open-source software that is operated exclusively on our own servers.
+When you visit our website, the following data in particular is stored:
+
+- your IP address
+- key user data (e.g. country of origin, device type, operating system, browser used, screen resolution, main Language of the browser being used)
+- number of page views
+- unique visits (returning visitors over a certain period of time)
+- time spent on the website
+- bounce rate (visitors to a website who only generate a single page view)
+- date and time of the requests
+- access times
+- most frequently visited pages
+- entry and exit pages (e.g. title, url)
+- outgoing referrals
+- referrer (direct access, search engines, website)
+- search terms used
+- files that were clicked and downloaded
+
+We do not use cookies for the evaluation, but analyze your visitor behavior using log files and a calculated visitor ID (i.e. the device fingerprint), which is determined by the above-mentioned information.
+Matomo compares your technical fingerprint with the fingerprints previously saved by all visitors.
+However, the comparison is only made for the fingerprint from the last 30 minutes.
+In addition, the calculation of the fingerprint changes every 24 hours.
+
+This data is not transmitted to third parties.
+
+After the collection of your IP address, it is anonymised.
+In this way, the IP address can no longer be assigned to you.
+The other personal data is further processed in aggregated form by compiling it into reports.
+
+The legal basis for the use of Matomo is Art. 6 para. 1 lit. f GDPR - processing based on our legitimate interest in making our website more user-friendly and improving it by monitoring the number of visitors to our website.
+In particular, your interests are sufficiently taken into account by anonymising your IP address and not using cookies.
+
+We delete your data as soon as we no longer need it to design and improve our website.
+This is usually the case immediately after your IP address has been anonymised.
+The other data is compiled after 14 days at the latest and thus loses its personal reference or is deleted after 30 days.
+
+The provision of personal data is neither legally nor contractually required.
+However, the provision of this data is necessary in order to visit our website.
+
+If you do not agree to the storage and analysis of this data from your visit, you can object to the storage and use of this data at any time by clicking below or by activating the "Do Not Track" request in your browser.
+Our system automatically recognises this when you use the "Do Not Track" default setting.
+You do not have to actively object.
+
+If you actively object, a so-called opt-out cookie (a technically necessary cookie) will be stored in your browser, which means that Matomo will not collect any session data.
+Please note that the complete deletion of your cookies means that the opt-out cookie will also be deleted and may have to be reactivated by you.
+You will not suffer any legal disadvantages from the non-provision.
+
+<div id="matomo-opt-out"></div>
+<script src="https://stats.joinus4health.eu/matomo/index.php?module=CoreAdminHome&action=optOutJS&divId=matomo-opt-out&language=en&showIntro=1&backgroundColor=efe733"></script>
+
 ## Order processors
 We use external service providers (order processors).
 A separate order data processing agreement has been concluded with the service provider to ensure the protection of your personal data.
 
 ### Our processors
 The hosting of the domains [https://platform.joinus4health.eu](https://platform.joinus4health.eu) and [https://joinus4health.eu](https://joinus4health.eu), with all associated components (e.g. platform, e-mail, website) is carried out for us by netcup GmbH, Daimlerstraße 25, D-76185 Karlsruhe.
+
+The content translation function is performed for us by DeepL SE; Maarweg 165; D-50825 Cologne.
 
 ## Rights of data subjects
 According to the GDPR, you are entitled to various rights, which result in particular from Art. 15 to 21 GDPR:

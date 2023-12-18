@@ -11,9 +11,7 @@
         - [WordPress-Plugin-Configuration](#wordpress-plugin-configuration)
             - [Configuration Elementor and Elementor Pro](#configuration-elementor-and-elementor-pro)
             - [Configuration TranslatePress](#configuration-translatepress)
-            - [Configuration Email Subscribers & Newsletters](#configuration-email-subscribers--newsletters)
-            - [Configuration Polylang](#configuration-polylang)
-            - [Configuration WP Event Manager](#configuration-wp-event-manager)
+            - [Configuration Icegram Express Pro](#configuration-icegram-express-pro)
             - [Configuration Yoast SEO](#configuration-yoast-seo)
 - [Attachments](#attachments)
     - [Attachment: WordPress-Plugins-Checks](#attachment-wordpress-plugins-checks)
@@ -22,8 +20,9 @@
             - [Elementor](#elementor)
             - [Elementor Pro](#elementor-pro)
             - [Elementor Addon Elements](#elementor-addon-elements)
-        - [Email Subscribers & Newsletters](#email-subscribers--newsletters)
         - [GDPR Cookie Consent](#gdpr-cookie-consent)
+        - [Icegram Express Pro](#icegram-express-pro)
+        - [JoinUs4Health newsletter consents](#joinus4health-newsletter-consents)
         - [Matomo Analytics Ethical Stats](#matomo-analytics-ethical-stats)
         - [Newsletter](#newsletter)
         - [One Click Accessibility](#one-click-accessibility)
@@ -37,7 +36,10 @@
 
 | date       | editor  | changes                                                             |
 | ---------- | ------- | ------------------------------------------------------------------- |
-| 09.11.2021 | winterb | TranslatePress added and configured DeepL-Addon                     | 
+| 16.01.2023 | winterb | renamed Newsletter-Plugin to "Icegram Express Pro"; added settings  |
+| 07.10.2022 | winterb | added "JoinUs4Health newsletter" plugin description consents        | 
+| 20.07.2022 | winterb | Newsletter documentation                                            |
+| 09.11.2021 | winterb | TranslatePress added and configured DeepL-Addon                     |
 | 22.10.2021 | winterb | TranslatePress configuration                                        |
 | 30.09.2021 | winterb | checked Yoast SEO Plugin                                            |
 | 23.09.2021 | winterb | checked TranslatePress-Base-Plugin, rechecked Polylang              |
@@ -71,7 +73,8 @@ This is a list of checked and approved plugins used within our website:
 - Elementor-Plugins
     - Elementor
     - Elementor Pro
-- *Planned: Email Subscribers & Newsletters*
+- Icegram Express Pro
+- JoinUs4Health newsletter consents
 - One Click Accessibility
 - TranslatePress
 - Yoast SEO
@@ -151,15 +154,50 @@ This is a list of checked and approved plugins used within our website:
     - Block Crawlers: Yes
     - Limit machine translation per day: 100'000
 
-#### Configuration Email Subscribers & Newsletters
-- TODO with double-opt-in
-- TODO without any third-party service
-
-#### Configuration Polylang
-- TODO no auto-translate used
-
-#### Configuration WP Event Manager
-- TODO not synced to any third-party-service
+#### Configuration Icegram Express Pro
+- requirements overview
+    - data needed: E-Mail-Address only
+    - sign up with double-opt-in (validate E-Mail-Address)
+    - no tracking
+    - no third-party service
+- Icegram Express → Settings
+    - General
+        - Opt-in type: `Double Opt In`
+        - Track opens: `disabled`
+        - Track clicks: `disabled`
+        - Google Analytics UTM tracking: `disabled`
+        - Plugin usage tracking: `disabled`
+        - Nudge people to subscribe while leaving a comment or placing an order?: `disabled`
+    - Email Sending
+        - *update cron configuraion to our need and the e-mail limits of the provider*
+        - Send emails at most every: `15 minutes`
+        - Maximum emails to send in an hour: `18`
+        - Maximum emails to send at once: `18`
+        - Select a mailer to send mail: *use SMTP with the corect settings; check SPF, DMARC, DKIM configuration*
+    - Security
+        - Track IP address: `disabled`
+        - Block known attackers: `enabled`
+        - Block temporary / fake emails: `enabled`
+    - API
+        - Enable API: `disabled`
+    - Access Control
+        - *update access configuraion to our need and privcy concept*
+- Icegram Express → Campaigns
+    - add legal part to all newsletter templates
+- Icegram Express → Forms
+    - require E-Mail-Address
+    - Name is not required
+    - require consent in subscribe-form
+- Icegram Express → Workflows
+    - add Workflows for the following topics
+        - Send confirmation email
+            - E-Mail with the activation token for new subscribers
+        - Send welcome email when someone subscribes
+            - E-Mail with Hello-Message for validated E-Mail-Addresses
+        - Delete personal data if somebody unsubscribes
+            - if a user unsubscribes, the personal data must be deleted
+        - Notify admin when campaign is sent
+            - Information to tech. Admin on sent newsletter, add count of recipients 
 
 #### Configuration Yoast SEO
 - SEO
@@ -276,25 +314,6 @@ General Information about Privacy Policy for WordPress plugins:
     - https://www.elementoraddons.com/elements-addon-elements/
     - [Issue in Jira](https://join-us-4-health.atlassian.net/browse/HP-62)
 
-### Email Subscribers & Newsletters
-- description
-    - provides a simple locally hosted newsletter plugin without data transfer
-- check
-    - last checked: `26.05.2021, winterb`
-    - version: `4.7.3`
-    - privacy checked: ✓ ok
-        - [all data is stored locally on our server in database-tables](https://www.icegram.com/documentation/es-gdpr-what-data-email-subscribers-stores-on-your-end/)
-        - [enable the consent-checkbox](https://www.icegram.com/documentation/es-gdpr-how-to-enable-consent-checkbox-in-the-subscription-form/)
-        - users can unsubscribe via link in the newsletter
-        - [provides double-opt-in](https://www.icegram.com/documentation/opt-in-types/)
-    - terms checked: ✓ `GPLv3`
-        - https://plugins.svn.wordpress.org/email-subscribers/
-    - conclusion: ✓ ok
-- links
-    - https://wordpress.org/plugins/email-subscribers/
-    - https://www.icegram.com/knowledgebase_category/email-subscribers
-    - [Issue in Jira](https://join-us-4-health.atlassian.net/browse/HP-100)
-
 ### GDPR Cookie Consent
 - description
     - display a cookie banner and automatically block all scripts, not chosen by the user
@@ -314,6 +333,31 @@ General Information about Privacy Policy for WordPress plugins:
     - https://wordpress.org/plugins/cookie-law-info/
     - https://www.webtoffee.com/product/gdpr-cookie-consent/
     - [Issue in Jira](https://join-us-4-health.atlassian.net/browse/HP-64)
+
+### Icegram Express Pro
+- description
+    - provides a simple locally hosted newsletter plugin without data transfer
+    - was renamed from "Email Subscribers & Newsletters"
+- check
+    - last checked: `26.05.2021, winterb`
+    - version: `4.7.3`
+    - privacy checked: ✓ ok
+        - [all data is stored locally on our server in database-tables](https://www.icegram.com/documentation/es-gdpr-what-data-email-subscribers-stores-on-your-end/)
+        - [enable the consent-checkbox](https://www.icegram.com/documentation/es-gdpr-how-to-enable-consent-checkbox-in-the-subscription-form/)
+        - users can unsubscribe via link in the newsletter
+        - [provides double-opt-in](https://www.icegram.com/documentation/opt-in-types/)
+    - terms checked: ✓ `GPLv3`
+        - https://plugins.svn.wordpress.org/email-subscribers/
+    - conclusion: ✓ ok
+- links
+    - https://wordpress.org/plugins/email-subscribers/
+    - https://www.icegram.com/knowledgebase_category/email-subscribers
+    - [Issue in Jira](https://join-us-4-health.atlassian.net/browse/HP-100)
+
+### JoinUs4Health newsletter consents
+- description
+    - this plugin provides consent-saving, what is legally necessary for the newsletter-plugin
+    - this plugin was developed in this project
 
 ### Matomo Analytics Ethical Stats
 - description

@@ -12,6 +12,7 @@ skinparam rectangleBackgroundColor<<Partner>> #cccccc
 skinparam rectangleBackgroundColor<<Provider>> #ddbbaa
 skinparam componentBackgroundColor #fefece
 skinparam databaseBackgroundColor #fefece
+skinparam cloudBackgroundColor #eeeeee
 
 legend
 **Legend**
@@ -25,6 +26,7 @@ actor "User" as user
 rectangle "UMG\ncoordinator" as umg #ffcccc {
     rectangle "ICM SHIP-KEF" {
         actor "SHIP-IT" as ship
+        note "SHIP-IT has full\nAdministration rights\non all systems" as shipit #ffffaa
         actor "JoinUs4Health\nProject Manage-\nment Team" as umg_team
     }
 }
@@ -34,16 +36,15 @@ rectangle "science4people.eu" <<Partner>> as s4p {
     actor "science4people\nPartner" as s4p_partner
 }
 
+umg -[hidden]- s4p
+
 cloud "Internet" {
     rectangle "netcup" <<Provider>> as netcup {
         DPA(dpa_netcup)
         node "Managed Private Server" <<Server>> as mps {
             node "Platform-Server" <<Server>> as platform_server {
                 component "WordPress" <<Web-Framework>> as wp {
-                    component "bbPress"
-                    component "BuddyPress*"
-                    component "TaskBreaker"
-                    component "own Development"
+                    component "WP-Plugins"
                 }
                 folder "WordPress-Files" as wpfolder
                 database "DBMS MariaDB" as dbms {
@@ -53,14 +54,13 @@ cloud "Internet" {
                 wp --> dbms     #black
                 wp --> wpfolder #black
             }
-'            node "Questionnaire-Server" <<Server>> as lime_server {
-'                component "LimeSurvey" <<Web-Framework>> as lime
-'                database "MariaDB" <<database>> as lime_db
-'                
-'                lime    -->     lime_db #black
-'            }
-'            
-'            wp      =(0=    lime    #00aa00
+        }
+        node "Virtual Private Server, Debian" <<Server>> as vps {
+            component "Matomo" as matomo
+            database "DBMS MariaDB" as dbms_m {
+                database "matomo db" <<database>> as db_matomo
+            }
+            matomo  -> db_matomo
         }
     }
     rectangle "werk21" <<Provider>> as bbb_provider {
@@ -72,32 +72,29 @@ cloud "Internet" {
     }
     wp     =(0=     bbb #00aa00
 
-    interface "Conference" as i_bbb
-    interface "Platform" as i_web
-'    interface "Questionnaire" as i_lime
-
-    i_web   .u.     wp
-'    i_lime  .u.     lime
-    i_bbb   .u.     bbb
-
     node "deepl.com" as deepl #ddbbaa {
         DPA(dpa_deepl)
         component "Translator" as deepl_trans
     }
-    wp     =(0==     deepl_trans #00aa00
+    wp     =(0=     deepl_trans #00aa00
+
+    interface "Conference" as i_bbb
+    interface "Platform" as i_web
+
+    i_web   .u.     wp
+    i_bbb   .u.     bbb
 }
 
-ship        -->     mps         : Adminis-\ntration
-ship        -->     bbb_server  : Adminis-\ntration
-ship        -->     deepl       : Adminis-\ntration
+'ship        -->     mps         : Adminis-\ntration
+'ship        -->     vps         : Adminis-\ntration
+'ship        -->     deepl       : Adminis-\ntration
+'ship        -->     bbb_server  : Adminis-\ntration
+
 s4p_partner -->     wp          : Adminis-\ntration
-'s4p_partner -->     lime        : Adminis-\ntration
 
 i_web   -[hidden]-  i_bbb
-'i_bbb   -[hidden]-  i_lime
 
 user    --> i_web
 user    --> i_bbb
-'user    -u->  i_lime
 
 @enduml
