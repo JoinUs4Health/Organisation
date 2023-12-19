@@ -2,58 +2,27 @@
 This document describes the process of deleting personal user data on request.
 
 ## Process - Overview
-1. User requests deletion.
-1. UMG creates an Issue for S4P containing all information, what data must be deleted.
-1. S4P deletes the data.
+1. User request deletion of account by hovering over his nickname in right upper corner of website. In dropdown menu which appears, user clicks "Settings" option.
+2. On page which appears for user in general tab "Settings", and sub tabs for this settings user should choose tab "Delete account" by clicking on it.
+3. On page will appear box with information ```Deleting your account will delete all of your personal data associated with your account. It will be completely irrecoverable.``` and checkbox which user should check before deleting ```I understand the consequences.```.
+4. On page user for proceed deleting account should check checkbox and click ```Delete Account```.
+5. The page should reload and homepage should appear. During this time hook is invoked which anonymizes comment data. More about hook which was written for anonymizing data of comments is described in chapter: *Hook for anonymizing comments written by user*.
 
-## Possible deletions
-### Personal Data
-- i.e. name, e-mail-address, nick-name, year of birth,…
-- personal data *must* be deleted on request every time
-
-### Content Data
-- i.e. comments, ideas, topics,…
-- *whether* and *which* content data are deleted must be decided by UMG
-
-## Deleting the Data
-To simplify the process of deleting data, the following scripts were created.
-
-
-### Delete Personal Data
-- to run this script you need to enter the user name in the second statement
-
-```sql
--- set table prefix
-SET @table_prefix := '5IDksda0';
-
--- get user id
-SELECT @user_id := `ID`
-    FROM CONCAT(@table_prefix, '_users')
-    WHERE `user_login` = '[ENTER LOGIN NAME HERE]';
-
--- removes all personal data from SIGNUPS table
--- only deletes something, if the user registered several times with the same e-mail-address
-DELETE FROM CONCAT(@table_prefix, '_signups')
-    WHERE CONCAT(@table_prefix, '_signups').`user_email` = (SELECT `user_email`
-        FROM CONCAT(@table_prefix, '_users')
-        WHERE `ID` = @user_id);
-
--- removes all personal data from USERS table
--- status = 1 = spam
-UPDATE CONCAT(@table_prefix, '_users')
-    SET `user_login` = CONCAT('deleted_user_',@user_id)
-        , `user_pass` = ''
-        , `user_nicename` = CONCAT('deleted_user_',@user_id)
-        , `user_email` = ''
-        , `user_url` = ''
-        , `user_activation_key` = ''
-        , `user_status` = 1
-        , `display_name` = CONCAT('deleted_user_',@user_id)
-    WHERE `ID` = @user_id;
-
--- removes all personal data from USERMETA table
-UPDATE CONCAT(@table_prefix, '_usermeta')
-    SET `meta_value` = ''
-    WHERE `user_id` = @user_id
-        AND `meta_key` IN (`nickname`, `first_name`, `last_name`, `description`);
+## Hook for anonymizig comments written by user
+```php
+function ju4h_deleted_user($user_id, $reassign, $user) {
+    $comments = get_comments(array(
+        'author__in' => $user_id
+    ));
+    $newname = 'anonymous'.time();
+    foreach ($comments as $comment) {
+        $update_comment = array();
+        $update_comment['comment_author'] = $newname;
+        $update_comment['comment_ID'] = $comment->comment_ID;
+        $update_comment['comment_author_email'] = $newname.'@platform.joinus4health.eu';
+        wp_update_comment($update_comment);
+    }
+}
+add_filter('deleted_user', 'ju4h_deleted_user', 10, 3);
 ```
+Hook written above gets all comments written by user which deletes his account. It generates comment author name *anonymous + time in format of unix timestamp* and comment e-mail *generatednamewithtimestamp@platform.joinus4health.eu*.
