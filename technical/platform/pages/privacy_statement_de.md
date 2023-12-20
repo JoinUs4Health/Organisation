@@ -161,7 +161,6 @@ Wir verwenden die Daten ausschließlich anonym bzw. in der Zusammenfassung über
 Die Rechtsgrundlage ist Art. 6 Abs. 1 S. 1 lit. a DSGVO.
 
 Ebenso verhält es sich mit den Daten, die Sie im Rahmen der Teams beitragen (Kommentare, Vorschläge,…).
-Bitte geben Sie keine personenbezogenen Daten über sich oder andere in Kommentaren oder anderen beiträgen an.
 Sollte es dennoch vorkommen, dass Sie unzufrieden sind, kommen Sie gern über `contact@joinus4health.eu` mit uns ins Gespräch und wir finden eine Lösung.
 
 #### Übersetzung von Inhalten
@@ -222,21 +221,21 @@ Diese wurden von uns sorgfältig ausgewählt und beauftragt, sind an unsere Weis
 Soweit unsere Dienstleister oder Partner ihren Sitz in einem Staat außerhalb des Europäischen Wirtschaftsraums (EWR) haben, werden wir Sie in der Beschreibung des Angebotes über die Folgen informieren.
 
 ### Nutzung unseres Angebots zur Audio- und Videokonferenz
-Im Rahmen der Nutzung unserer Plattform haben Sie die Möglichkeit, synchon in INteraktion zu treten.
+Im Rahmen der Nutzung unserer Plattform haben Sie die Möglichkeit, synchon in Interaktion zu treten.
 Nutzen Sie hierzu das von uns bereitgestellte BigBlueButton-System.
 
-Wir möchten daraf hinweisen, dass die Nutzung der Videofunktion unter allen Umständen rein optional ist.
+Wir möchten darauf hinweisen, dass die Nutzung der Videofunktion unter allen Umständen rein optional ist.
 Eine Übertragung von Ihnen und ggf. Teilen Ihrer Räumlichkeiten kann von anderen Teilnehmenden missbräuchlich verwendet werden, auch wenn dies streng verboten ist.
 Bitte machen auch Sie keine Bildschirmfotos oder leiten andere Daten widerrechtlich aus Videokonferenzen.
 
 Bei der Nutzung des Konferenzsystems fallen die gleichen technischen Daten an, wie sie auch unter "Nutzung ohne Registrierung und Login" beschrieben sind.
-Diese Daten werden von uns weder überwacht noch mit anderen Daten kombiniert, sie werden allein für die Behebung technischer Schwierigkeiten aufgenommen.
+Diese Daten werden von uns weder überwacht noch mit anderen Daten kombiniert; sie werden allein für die Behebung technischer Schwierigkeiten aufgenommen.
 
 Inhaltlich können Sie optional folgende Daten in der Konferenz angeben:
 
 - Nutzername
 - Audio-Daten Ihrer Stimme bei Mikrophonnutzung
-- Bild-Daten Kameranutzung
+- Bild-Daten bei Kameranutzung
 - Chat-Inhalte
 - Pad-Inhalte
 - Präsentationsfolien

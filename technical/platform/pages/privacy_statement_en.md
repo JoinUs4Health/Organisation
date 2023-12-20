@@ -17,6 +17,7 @@ Version: 22.11.2023
         - [Use of our platform](#use-of-our-platform)
         - [Cookies, session storage and local storage](#cookies-session-storage-and-local-storage)
         - [More features and offerings on our platform](#more-features-and-offerings-on-our-platform)
+        - [Use of our audio and video conferencing services](#use-of-our-audio-and-video-conferencing-services)
         - [Minors](#minors)
     - [Use of Matomo](#use-of-matomo)
     - [Order processors](#order-processors)
@@ -140,7 +141,7 @@ you can optionally provide further information on the following topics in your p
 - Experience
 - Specific interests
 
-A linkage of the anonymous usage data (browser type,...) with the data of your account, does not take place.
+A linkage of the anonymous usage data (browser type,…) with the data of your account, does not take place.
 Your personal data (password, e-mail address) will only be used to ensure the technical function for the use of our platform and will not be passed tho third-parties in any way.  
 Your username is displayed publicly and can be seen by all other visitors of our platform.
 
@@ -154,12 +155,12 @@ This ensures that even in the event of a successful attack, no passwords can fal
 In general, however, please do not use a password that you use elsewhere.
 
 ##### Optional data and content
-If you provide optional data in your profile (country, postal code, gender...), you support us to use this scientifically within the JoinUs4Health project.
+If you provide optional data in your profile (country, postal code, gender…), you support us to use this scientifically within the JoinUs4Health project.
 When we use this data, we will prevent it from being traced back to you, i.e., it will only be made available separately when used, e.g., summary statistics on the first three digits of the zip codes used or on the overall gender ratio, but never statistics on a combination of more than three such pieces of information.
 We only use the data anonymously or in summary across multiple users (aggregated).
 The legal basis is Article 6 (1) (a) GDPR.
 
-The same applies to the data that you contribute in the context of the teams (comments, suggestions,...).
+The same applies to the data that you contribute in the context of the teams (comments, suggestions,…).
 If it still happens that you are dissatisfied, please feel free to contact us via `contact@joinus4health.eu` and we will find a solution.
 
 #### Translation of content
@@ -218,6 +219,28 @@ In part, we use external service providers to process your data.
 These have been carefully selected and commissioned by us, are bound by our instructions, and are regularly inspected.
 
 Insofar as our service providers or partners are based in a country outside the European Economic Area (EEA), we will inform you of the consequences of this in the description of the offer.
+
+### Use of our audio and video conferencing services
+When using our platform, you have the option of interacting synchronously.
+Use the BigBlueButton system provided by us for this purpose.
+
+We would like to point out that the use of the video function is purely optional under all circumstances.
+A transmission of you and possibly parts of your premises can be misused by other participants, even if this is strictly prohibited.
+Please do not take any screenshots or illegally transmit any other data from video conferences.
+
+When using the conference system, the same technical data is collected as described under "Use without registration and login".
+This data is neither monitored by us nor combined with other data; it is recorded solely for the purpose of resolving technical difficulties.
+
+You can optionally enter the following data in the conference:
+
+- User name
+- Audio data of your voice when using the microphone
+- Image data camera usage
+- Chat content
+- Pad content
+- Presentation slides
+
+Data that is generated during a session is deleted immediately after the end of the session.
 
 ### Minors
 Our offer is basically aimed at people who have reached the age of 16.
@@ -283,6 +306,8 @@ A separate order data processing agreement has been concluded with the service p
 The hosting of the domains [https://platform.joinus4health.eu](https://platform.joinus4health.eu) and [https://joinus4health.eu](https://joinus4health.eu), with all associated components (e.g. platform, e-mail, website) is carried out for us by netcup GmbH, Daimlerstraße 25, D-76185 Karlsruhe.
 
 The content translation function is performed for us by DeepL SE; Maarweg 165; D-50825 Cologne.
+
+The hosting of the audio and video conferencing service is performed for us by werk21 GmbH; Krausnickstraße 3; D-10115 Berlin.
 
 ## Rights of data subjects
 According to the GDPR, you are entitled to various rights, which result in particular from Art. 15 to 21 GDPR:
